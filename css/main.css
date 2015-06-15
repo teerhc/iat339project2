@@ -1,0 +1,91 @@
+header{
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index: 10;
+	background-color: white;
+	height:3em;
+}
+
+.logo{
+	width: auto;
+	float: left;
+}
+
+nav {
+	display: inline;
+	float:right;
+}
+
+nav a {
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight:700;
+	font-size: 1em;
+	letter-spacing: 2px;
+	color:black;
+	margin: 1em;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #00ADEF;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.banner{
+/*	no repeat = no tiling for background
+	background: url(css/img/banner-place.png) no-repeat 50% 0 fixed; 
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	position: fixed;*/
+	margin-top: 3em;
+}
+
+.banner img{
+	width: 100%;
+}
+
+/*MOBILE*/
+@media (max-width: 480px){
+
+	header{
+		text-align: center;
+	}
+
+	.logo img {
+		clear: both;
+		float:none;
+	}
+
+	.logo {
+		width: 100%
+		text-align: center;
+		float: none;
+
+	}
+
+	nav a{
+		width: 50%;
+		margin: 0;
+		float: left;
+		margin: 0.5em auto;
+		background-color: yellow;
+	}
+
+	nav {
+		float:none;
+	}
+
+	.banner{
+		margin-top: 9em;
+	}
+	}
+
+}
