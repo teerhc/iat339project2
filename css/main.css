@@ -123,51 +123,49 @@ float:right;
   width: 100%;
   height: 100px;
   font-size: 14px;
-  background-color: yellow;
+/*  background-color: yellow;*/
+  border-top: 1px solid #ccc;
   z-index: 1;
   position: relative;
   color: white;
   display: inline-block;
-  text-align: left;
+  text-align: center;
   margin-top: 3em
 }
 
-.footer img{
+.footer-icons{
 	text-align: center;
 	float: none;
-	display: inline-block;
-}
-
-/*PRODUCTS*/
-
-.product-nav{
-	float:left;
-	margin-top: 6em;
-	margin-left: 2em;
-
-}
-
-.product-nav a{
 	display: block;
+}
+
+.footer-img{
+	text-align: center;
+	float: none;
+}
+
+.comments{
+  font-family: PT Sans;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 10rem;
+  height: 1rem;
+  margin-top: 1px;
+  line-height: 17px;
+  padding: 0.30rem;
 
 }
 
-.product-nav p {
-	font-family: PT Sans;
-	text-transform: uppercase;
-	font-weight: 700;
-	border-bottom: 1px solid #ccc;
-	width:125%;
-	padding-bottom: 0.5em;
-	letter-spacing: 2px;
+input:focus {
+  outline:none;
 }
 
-.nav-button{
+.email-button{
   text-decoration: none;
   list-style: none;
   border: 1px solid #E6E7E8;
-  width: 100%;
-  padding: 0.75em 1em;
+  width: 10%;
+  padding: 0.5em 1em;
   text-align: center;
   margin: 1em 0;
   font-family: PT Sans;
@@ -179,6 +177,67 @@ float:right;
   color: white;
   transition:0.3s;
   color:black;
+  display: inline;
+}
+
+.email-button:hover{
+	background-color: #00ADEF;
+	border:none;
+	color:white;
+}
+
+/*PRODUCTS*/
+
+.product-nav{
+  float: left;
+  margin-top: 6em;
+  width: 25%;
+  display: inline-block;
+  /*margin:0;*/
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.product-nav p {
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-bottom: 1px solid #ccc;
+	width:60%;
+	padding-bottom: 0.5em;
+	letter-spacing: 2px;
+	width:100%;
+}
+
+.product-nav .nav-button{
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #E6E7E8;
+  width: 100%;
+  padding: 0.75em 0;
+  text-align: center;
+  margin: 1em 0;
+  font-family: PT Sans;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 12px;
+  background-color:  #E6E7E8;
+  color: white;
+  transition:0.3s;
+  color:black;
+  display:inline-block;
+}
+.product-list{
+	display: inline-block;
+	float:left;
+	width: 60%;
+	margin-right: 5%;
+	margin-top: 6rem;
+}
+
+.category-banner {
+	width:100%;
 }
 
 
@@ -216,5 +275,26 @@ float:right;
 	.banner{
 		margin-top: 9em;
 	}
+
+	.email {
+		margin-bottom:1em;
+	}
+
+	.email-button{
+		display:block;
+		float: none;
+		width: 15%;
+		margin: auto;
+	}
+
+	.comments{
+	  font-family: PT Sans;
+	  padding: 0.25rem;
+	  text-transform: uppercase;
+	  letter-spacing: 2px;
+	  width: 50%;
+	  margin: 0.25rem;
+}
+
 
 }
