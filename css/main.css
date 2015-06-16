@@ -39,6 +39,12 @@ body{
 	padding: 0;
 }
 
+.breadcrumbs a{
+	margin: 0;
+	padding:0;
+	font-size: 0.75rem;
+}
+
 .banner{
 /*	no repeat = no tiling for background
 	background: url(css/img/banner-place.png) no-repeat 50% 0 fixed; 
@@ -189,7 +195,7 @@ input:focus {
   font-size: 12px;
   background-color:  #E6E7E8;
   color: white;
-  transition:0.3s;
+  transition:0.5s;
   color:black;
   display: inline;
 }
@@ -198,14 +204,17 @@ input:focus {
 	background-color: #00ADEF;
 	border:none;
 	color:white;
-	transition:0.3s;
+	transition:0.5s;
 }
 
 /*PRODUCTS*/
+.multi-all{
+	margin-top:4em;
+}
 
 .product-nav{
   float: left;
-  margin-top: 6em;
+  margin-top: 1em;
   width: 25%;
   height:50rem;
   display: inline-block;
@@ -256,7 +265,6 @@ input:focus {
 	float:left;
 	width: 64%;
 	margin-right: 5%;
-	margin-top: 6rem;
 }
 
 .category-banner {
@@ -298,6 +306,46 @@ input:focus {
 	display: inline-block;
 	margin-right: 3.5%
 }
+
+/*BREADCRUMB*/
+
+.breadcrumbs{
+	display: inline;
+	float:left;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+.bc-home, .bc-products{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	display: inline;
+	font-weight: 400;
+	margin-right: 2em;
+	color: #919191;
+}
+
+.bc-home:hover, .bc-products:hover{
+	color: #00ADEF;
+	transition:0.5s;
+	border-bottom: 1px solid #00ADEF;
+}
+
+.bc-break{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	display: inline;
+	font-weight: 400;
+	margin: 0 0.5em;
+	color: #919191;
+}
+
+/*DROP-DOWN MENU*/
+.drop-down{
+	position: relative;
+}
+
+
 
 
 /*MOBILE*/
