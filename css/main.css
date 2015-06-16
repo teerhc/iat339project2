@@ -226,6 +226,7 @@ input:focus {
   color:black;
   display:inline-block;
 }
+
 .product-list{
 	display: inline-block;
 	float:left;
@@ -236,6 +237,42 @@ input:focus {
 
 .category-banner {
 	width:100%;
+}
+
+.multi-item{
+	float:left;
+/*	margin-right:%;*/
+	margin-top: 2rem;
+	display: block;
+	margin-bottom: 0.25rem;
+}
+
+.multi-item:hover{
+  background-color: white;
+  opacity: 0.5;
+  transition:0.3s;
+}
+
+.item-name{
+  font-family: PT Sans;
+  font-size: 1rem; 
+  display: block;
+  text-align: center;
+  margin:0;
+}
+
+.item-number{
+  font-family: PT Sans;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.item-box{
+	display: inline-block;
+	margin-right: 3.5%
 }
 
 
