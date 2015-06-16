@@ -65,7 +65,6 @@ body{
 	text-decoration: none;
 	border-bottom: 1px solid #00ADEF;
 	padding-bottom: 0.25rem;
-
 }
 
 /*FEATURES SECTION*/
@@ -178,7 +177,7 @@ input:focus {
 .email-button{
   text-decoration: none;
   list-style: none;
-  border: 1px solid #E6E7E8;
+  border: none;
   width: 10%;
   padding: 0.5em 1em;
   text-align: center;
@@ -199,6 +198,7 @@ input:focus {
 	background-color: #00ADEF;
 	border:none;
 	color:white;
+	transition:0.3s;
 }
 
 /*PRODUCTS*/
@@ -226,7 +226,7 @@ input:focus {
 .product-nav .nav-button{
   text-decoration: none;
   list-style: none;
-  border: 1px solid #E6E7E8;
+  border: none;
   width: 50%;
   padding: 0.75em 0;
   text-align: center;
@@ -241,6 +241,14 @@ input:focus {
   transition:0.3s;
   color:black;
   display:inline-block;
+}
+
+.nav-button:hover{
+	background-color: #00ADEF;
+	border:none;
+	color:white;
+	transition:0.3s;
+
 }
 
 .product-list{
