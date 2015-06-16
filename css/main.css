@@ -195,7 +195,6 @@ input:focus {
   display: inline-block;
   /*margin:0;*/
   margin-left: 5%;
-  margin-right: 5%;
 }
 
 .product-nav p {
@@ -230,7 +229,7 @@ input:focus {
 .product-list{
 	display: inline-block;
 	float:left;
-	width: 60%;
+	width: 64%;
 	margin-right: 5%;
 	margin-top: 6rem;
 }
