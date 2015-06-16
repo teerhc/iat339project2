@@ -103,3 +103,10 @@
 		</section>
 
 	</body>
+
+<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>
