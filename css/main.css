@@ -53,6 +53,21 @@ body{
 	width: 100%;
 }
 
+.current{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight:700;
+	font-size: 1em;
+	letter-spacing: 2px;
+	color:#00ADEF;
+	margin: 1.5em;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px solid #00ADEF;
+	padding-bottom: 0.25rem;
+
+}
+
 /*FEATURES SECTION*/
 .features {
 	width: 100%
@@ -192,6 +207,7 @@ input:focus {
   float: left;
   margin-top: 6em;
   width: 25%;
+  height:50rem;
   display: inline-block;
   /*margin:0;*/
   margin-left: 5%;
