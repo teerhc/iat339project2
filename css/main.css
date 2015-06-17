@@ -11,6 +11,7 @@ header{
 	width: auto;
 	float: left;
 	margin-top: 0.25em;
+	margin-left: 3.5em;
 }
 
 nav {
@@ -39,11 +40,6 @@ body{
 	padding: 0;
 }
 
-.breadcrumbs a{
-	margin: 0;
-	padding:0;
-	font-size: 0.75rem;
-}
 
 .banner{
 /*	no repeat = no tiling for background
@@ -157,21 +153,23 @@ float:right;
 	text-align: center;
 	float: none;
 	display: block;
+	margin: 1em 1.5em;
 }
 
 .footer-img{
 	text-align: center;
 	float: none;
+	margin: 1em 0;
 }
 
 .comments{
   font-family: PT Sans;
   text-transform: uppercase;
   letter-spacing: 2px;
-  width: 10rem;
+  width: 12rem;
   height: 1rem;
   margin-top: 1px;
-  line-height: 17px;
+  line-height: 15px;
   padding: 0.30rem;
 
 }
@@ -185,7 +183,7 @@ input:focus {
   list-style: none;
   border: none;
   width: 10%;
-  padding: 0.5em 1em;
+  padding: 0.63em 1em;
   text-align: center;
   margin: 1em 0;
   font-family: PT Sans;
@@ -305,7 +303,8 @@ input:focus {
 
 .item-box{
 	display: inline-block;
-	margin-right: 3.5%
+	margin-right: 3.5%;
+	text-align:center;
 }
 
 /*BREADCRUMB*/
@@ -315,6 +314,12 @@ input:focus {
 	float:left;
 	margin-top: 2rem;
 	margin-bottom: 0;
+}
+
+.breadcrumbs a{
+	margin: 0;
+	padding:0;
+	font-size: 0.75rem;
 }
 
 .bc-home, .bc-products{
@@ -339,6 +344,30 @@ input:focus {
 	font-weight: 400;
 	margin: 0 0.5em;
 	color: #919191;
+}
+
+.bc-current{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	display: inline;
+	font-weight: 400;
+	margin: 0 0.5em;
+	color: #00ADEF;
+}
+
+.item-breadcrumbs{
+	display: inline;
+	float:left;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	width:100%;
+	margin-left: 4em;
+}
+
+.item-breadcrumbs a{
+	margin: 0;
+	padding:0;
+	font-size: 0.75rem;
 }
 
 /*DROP-DOWN MENU*/
@@ -375,16 +404,21 @@ select:focus {
 /*VIEW ITEM*/
 
 .item-all {
-	margin-top:4em;
+	margin-top: 4em;
 	height:auto;
+	width: 100%;
+	display: block;
 }
 
 .view-item{
 	display: block;
+	margin-bottom: 3em;
+	width:100%;
+	float: left;w
 }
 
 .item-picture{
-	margin: 3em;
+	margin-top: 1.5em;
 	margin-left: 4em;
 	float:left;
 }
@@ -404,7 +438,7 @@ select:focus {
   padding-bottom: 0.25em;
   letter-spacing: 5px;
   display: block;
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-bottom: 0;
 }
 
@@ -431,7 +465,7 @@ select:focus {
 .item-description{
 	font-family: Crimson Text;
 	line-height: 2em;
-	width: 80%;
+	width: 60%;
 	font-size: 0.75em;
 	margin: 3em 0;
 }
@@ -478,7 +512,6 @@ select:focus {
 	 display: block;
 }
 
-
 .recommendations{
 	border-top: 1px solid #ccc;
 	padding-top: 3em;
@@ -494,6 +527,14 @@ select:focus {
 	width: 100%
 }
 
+.recommend-item-box{
+	display: inline-block;
+	margin-right: 3.5%;
+	text-align:center;
+	width: 10%;
+	min-width:125px;
+}
+
 .small-header{
   font-size: 0.75rem;
   margin: 0;
@@ -501,6 +542,7 @@ select:focus {
   letter-spacing: 3px;
   text-align: center;
 }
+
 
 /*MOBILE*/
 @media (max-width: 480px){
