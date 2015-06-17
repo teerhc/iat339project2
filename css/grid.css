@@ -38,14 +38,27 @@
 	}
 
 
+/*not necessary...for now*/
+#staff-grid{
+	margin-top: 2rem;
+}
+
+
+/*event*/
+
+.grid-col-event{
+	width:auto;
+	margin: 1rem;
+}
+
+@media (max-width: 30em) {
+	.grid-col-event{
+	width:100%;
+	}
+}
+
 .grid:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-
-/*not necessary*/
-#staff-grid{
-	margin-top: 2rem;
-}
-
