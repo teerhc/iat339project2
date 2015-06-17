@@ -155,32 +155,31 @@ float:right;
 }
 
 /* Denise @*#&$(!*/
-.crimson-text {
-	font-family: Crimson;
-}
+	.crimson-text {
+		font-family: Crimson;
+		margin:0;
+		padding: 2rem;
+		
+	}
 
-p{
-	display:block;
-	margin-right: 60%;
-}
 
-.information-header {
-  font-size: 1.25rem;
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
+	.information-header {
+  		font-size: 1.25rem;
+  		text-transform: uppercase;
+  		letter-spacing: 3px;
+  		margin: 0;
+	
+	}
 
-h4{
-	font size: 2rem;
+	h4{
+		font-family: PT Sans;
+	}
 
-}
+	.picture-place{
+		max-width: 90%;
+		max-height: auto;
+	}
 
-.about-header{
-	float: right;
-	display: inline;
-	margin-top: 1rem;
-
-}
-
+	
+	
 
