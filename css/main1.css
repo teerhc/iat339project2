@@ -155,6 +155,7 @@ float:right;
 }
 
 /* Denise @*#&$(!*/
+	/*about page*/
 	.crimson-text {
 		font-family: Crimson;
 		margin:0;
@@ -175,11 +176,28 @@ float:right;
 		font-family: PT Sans;
 	}
 
+	#meet-team{
+		height: 2em;
+  		background-color: lightgray;
+  		text-align: center;
+  		padding: 0.5rem;
+  		margin-top: 3rem;
+	}
+
 	.picture-place{
 		max-width: 90%;
 		max-height: auto;
 	}
 
+	#staff-name{
+		margin-top: 0.5rem;
+		margin-bottom: 0;
+	}
+
+	#staff-intro{
+		padding: 1rem;
+
+	}
 	
 	
 
