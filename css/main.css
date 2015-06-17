@@ -487,6 +487,21 @@ select:focus {
 	width:100%;
 }
 
+.recommendation-box{
+	display: inline;
+	text-align: center;
+	float: left;
+	width: 100%
+}
+
+.small-header{
+  font-size: 0.75rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
 /*MOBILE*/
 @media (max-width: 480px){
 
