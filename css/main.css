@@ -208,7 +208,7 @@ input:focus {
 }
 
 /*PRODUCTS*/
-.multi-all, .item-all{
+.multi-all {
 	margin-top:4em;
 	height:auto;
 }
@@ -373,8 +373,14 @@ select:focus {
 }
 
 /*VIEW ITEM*/
+
+.item-all {
+	margin-top:4em;
+	height:auto;
+}
+
 .view-item{
-	display: inline;
+	display: block;
 }
 
 .item-picture{
@@ -470,6 +476,15 @@ select:focus {
 	 width: 50%;
 	 margin-bottom: 2em;
 	 display: block;
+}
+
+
+.recommendations{
+	border-top: 1px solid #ccc;
+	padding-top: 3em;
+	display: block;
+	float: left;
+	width:100%;
 }
 
 /*MOBILE*/
