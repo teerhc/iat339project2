@@ -379,7 +379,7 @@ select:focus {
 
 .item-picture{
 	margin: 3em;
-	margin-left: 5em;
+	margin-left: 4em;
 	float:left;
 }
 
@@ -431,7 +431,7 @@ select:focus {
 }
 
 .button{
-  width: 50%;
+  width: 48%;
   float:left;
   text-decoration: none;
   list-style: none;
