@@ -1,0 +1,59 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+	text-align: center; /* center the content in this block */
+}
+
+.grid-col-5of10 {
+	width: 50%;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+
+@media (max-width: 50em) {
+
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}
+
+.grid-col-intro{
+	width: 50%;
+	margin-top: 2rem;
+	
+	}
+
+.grid-col-introp{
+	width: 50%;
+	margin-top: 2rem;
+
+
+	}
+
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#staff-grid{
+	margin-top: 3rem;
+}
+
+#staff-name{
+		margin-top: 0.5rem;
+		margin-bottom: 0;
+	}
+
+#staff-intro{
+		padding: 1rem;
+
+	}
