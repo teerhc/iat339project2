@@ -357,6 +357,7 @@ select:focus {
 /*	background-color: yellow;*/
 	padding:1em;
 	border: 1px solid black;
+	height:auto;
 }
 
 .item-wrapper{
@@ -393,6 +394,19 @@ select:focus {
 
 .cart-number {
 	text-align: right;
+}
+
+.cart-button {
+	position:absolute;
+	display:block;
+}
+
+.purchase-btn{
+	float:left;
+	display: block;
+	position: relative;
+	margin-left:5.5em;
+	margin-top:0.5em;
 }
 
 .information-header{
