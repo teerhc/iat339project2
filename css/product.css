@@ -354,7 +354,7 @@ select:focus {
 	right:1em;
 	margin: 4em;
 	display: block;
-	background-color: yellow;
+/*	background-color: yellow;*/
 	padding:1em;
 	border: 1px solid black;
 }
@@ -366,6 +366,7 @@ select:focus {
 	float: left;
 	width: 100%;
 	text-align: center;
+	background-color: white
 }
 
 .cart-details{
@@ -373,15 +374,25 @@ select:focus {
 	display: inline;
 	float:left;
 	width: 100%;
-	text-align: center;
 }
 
 .cart-item{
 	font-family: PT Sans;
 	text-transform: uppercase;
 	font-weight: 700;
-	display: inline;
-	margin-right:7em;;
+	display: inline-block;
+	position: relative;
+	width: 32%;
+}
+
+.cart-label {
+	font-size: 0.75em;
+	opacity:0.8;
+	font-weight: 400;
+}
+
+.cart-number {
+	text-align: right;
 }
 
 .information-header{
