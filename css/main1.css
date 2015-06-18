@@ -241,6 +241,11 @@ float:right;
 		display: block;
 	}
 
+	#map{
+		margin:0;
+		padding-bottom: 1rem;
+	}
+
 	p a {
 		font-family: PT Sans;
 		text-transform: uppercase;
