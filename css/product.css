@@ -335,3 +335,140 @@ select:focus {
   letter-spacing: 3px;
   text-align: center;
 }
+
+/*PURCHASE ITEM*/
+.information{
+  float: left;
+  width: 50%;
+  height:60rem;
+  margin-top: 4em;
+  margin-left: 5%;
+}
+
+.information-header{
+	margin-top: 1em;
+	margin-left: 2em;
+}
+
+.detail-header{
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: PT Sans;
+  margin-left: 4em;
+}
+
+.detail{
+	margin-left: 6em;
+	width:50%;
+	margin-top: 0.25em;
+	float:left;
+}
+
+.detail-line{
+	display: block;
+	width:100%;
+	float: left;
+	margin:0;
+}
+
+#input-detail{
+	margin-left: 6em;
+	width:50%;
+	margin-top: 0.25em;
+	float:left;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	height: 1rem;
+	padding: 0.30rem;
+	color: #B5B5B5;
+	 
+}
+
+#medium-detail{
+	margin-left: 6em;
+	margin-top: 0.25em;
+	width:30%;
+	display:inline;
+	float:left;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	height: 1rem;
+	padding: 0.30rem;
+	color: #B5B5B5;
+}
+
+#small-detail{
+	margin-left: 0.5em;
+	margin-top: 0.25em;
+	width:17%;
+	display: inline;
+	float:left;
+		font-family: PT Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	height: 1rem;
+	padding: 0.30rem;
+	color: #B5B5B5;
+}
+
+#half-detail{
+	margin-left: 0.5em;
+	margin-top: 0.3em;
+	width:23.5%;
+	display: inline;
+	float:left;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	height: 1rem;
+	line-height: 15px;
+	padding: 0.30rem;
+	color: #B5B5B5;
+}
+
+.half-detail2{
+	margin-left: 0.5em;
+	margin-top: 0.25em;
+	width:23.5%;
+	display: inline;
+	float:left;
+}
+
+.detail-country{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-size: 0.75em;
+	letter-spacing: 3px;
+	text-align: center;
+	background-color: white;
+	border:0;
+	border-radius: 0;
+/*	margin-left: 6em;*/
+	transition: 0.5s;
+	width:90%;
+	height:0.5em;
+	float:left;
+	display: inline;
+	margin: 0.25;
+	margin-left:0;
+	color: #B5B5B5;
+}
+
+select:focus {
+  outline:none;
+}
+
+.drop-down-details{
+	margin-top: 0.2em;	
+	border-radius: 0;
+	width: 25.5%;
+  	overflow: hidden;
+  	border: 1px solid #ccc;
+  	float:left;
+  	margin-left: 4.1em;
+}
+
+
