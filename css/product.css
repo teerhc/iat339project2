@@ -329,20 +329,59 @@ select:focus {
 }
 
 .small-header{
-  font-size: 0.75rem;
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
+	font-size: 0.75rem;
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
 }
 
 /*PURCHASE ITEM*/
 .information{
-  float: left;
-  width: 50%;
-  margin-top: 4em;
-  margin-left: 5%;
-  display: block;
+	float: left;
+	position: absolute;
+	top:5em;
+	width: 40%;
+	margin-left: 5%;
+	display: inline;
+}
+
+.cart{
+	float: right;
+	width: 40%;
+	position: absolute;
+	top:4em;
+	right:1em;
+	margin: 4em;
+	display: block;
+	background-color: yellow;
+	padding:1em;
+	border: 1px solid black;
+}
+
+.item-wrapper{
+	padding-bottom: 3em;
+	border-bottom: 1px solid black;
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.cart-details{
+	margin:1em auto;
+	display: inline;
+	float:left;
+	width: 100%;
+	text-align: center;
+}
+
+.cart-item{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline;
+	margin-right:7em;;
 }
 
 .information-header{
@@ -355,6 +394,17 @@ select:focus {
 	float: left;
 	width:100%;
 }
+
+.review-item{
+  float: left;
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  margin-bottom: 0.25rem;
+  width: 50%;
+  margin: 2rem 25% 0.25rem 25%;
+}
+
 
 .shipping{
 	float:left;
