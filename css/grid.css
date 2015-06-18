@@ -10,7 +10,7 @@
 	text-align: center; /* center the content in this block */
 }
 
-.grid-col-5of10 {
+.grid-col-half {
 	width: 50%;
 	margin-top: 2rem;
 	margin-bottom: 0;
@@ -18,7 +18,7 @@
 
 @media (max-width: 50em) {
 
-	.grid-col-5of10 {
+	.grid-col-half {
 		width: 100%;
 	}
 
@@ -62,3 +62,4 @@
 	display: block;
 	clear: both;
 }
+
