@@ -7,7 +7,7 @@
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
-	text-align: center; /* center the content in this block */
+	text-align: center; 
 }
 
 .grid-col-half {
@@ -28,15 +28,7 @@
 	width: 50%;
 	margin-top: 2rem;
 	
-	}
-
-.grid-col-introp{
-	width: 50%;
-	margin-top: 2rem;
-
-
-	}
-
+}
 
 /*not necessary...for now*/
 #staff-grid{
@@ -57,9 +49,17 @@
 	}
 }
 
+/*contact*/
+
+.grid-col-30{
+	width:30%;
+	text-align: left;
+}
+
+
+
 .grid:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-

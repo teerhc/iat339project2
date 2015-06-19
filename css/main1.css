@@ -160,7 +160,7 @@ float:right;
 		font-family: Crimson;
 		margin:0;
 		padding: 2rem;
-		
+		text-align: left;
 	}
 
 
@@ -195,7 +195,6 @@ float:right;
 
 	.picture-place{
 		max-width: 90%;
-		max-height: auto;
 	}
 
 	#staff-name{
@@ -259,3 +258,24 @@ float:right;
 		color: #00ADEF;
 	}
 
+	/*contact page*/
+
+	.big-header{
+		font-family: PT Sans;
+  		font-weight: 700;
+  		text-transform: uppercase;
+  		color: black;
+  		font-size: 2rem;
+  		margin-top: 0;
+  		padding-bottom: 0.25em;
+  		letter-spacing: 5px;
+  		margin: 0;
+  		padding: 1rem;
+  		display:inline;
+	}
+
+
+	#contact-info{
+		margin:0;
+		padding: 1rem;
+	}
