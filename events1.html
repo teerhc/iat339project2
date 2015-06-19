@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset= "utf-8">
-		<title>Funko! Pop Event Detail</title>
+		<title>Funko! Pop Event</title>
 
 		<link rel="stylesheet" href="css/main1.css">
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -15,13 +15,13 @@
 	<body>
 		<header>
 			<div class = "logo">
-				<img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
+				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
 			</div>
 			<nav>
-				<a href = "#"> Products </a>
-				<a href = "#"> About </a>
-				<a href = "#"> Contact </a>
-				<a href = "#"> Events </a> 
+				<a class ="head-nav" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "about.html"> About </a>
+				<a class ="head-nav" href = "contact.html"> Contact </a>
+				<a class ="head-nav" href = "events.html"> Events </a> 
 			</nav>
 		</header>
 
@@ -29,6 +29,7 @@
 			<img src="img/banner-place.png" alt="banner image">
 		</section>
 
+<!--EVENT IMG/DETAIL-->
 		<div class="grid">
 			<div class="grid-col-half">
 
@@ -38,9 +39,10 @@
 					<p class="crimson-text" id="event-p"> The whistle tears? The under riot motors the economics across the forty anecdote. The creative customer mutters beneath an expensive equilibrium. A convict exists near the boss. The shelter orientates the torn salesman next to the mathematics."</p>
 
 					<p class="sub-heading" id="event-time">Time: Jun 19 15:00pm</p>
-					<p id="event-time"><a href="#">More Info</a></p>
+					<p id="event-time"><a href="#">More Info</a></p><!--MORE-BUTTON-->
 			</div>
 
+<!--LOCATION-->
 			<div class="grid-col-half">
 
 				<p class="sub-heading" id="map">Location</p>
@@ -48,7 +50,23 @@
 			</div>
 
 		<section>
-			<h4 class="event-time"
+
+	<!--FOOTER-->
+		<section class = "footer">
+		<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
+		  <div class = "email">
+		   <form id="comments" method="post" action="#">
+          <input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+          </form>
+      </div>
+		
+		<div class ="footer-icons">
+			<img src="img/facebook.png" height ="30" width="30" alt="funko logo">
+			<img src="img/twitter.png" height ="30" width="30"alt="funko logo">
+			<img src="img/instagram.png" height ="30" width="30" alt="funko logo">
+		</div>
+		</section>
+<!--end of footer-->
 
 	</body>
 </html>
