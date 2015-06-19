@@ -386,7 +386,7 @@ select:focus {
 .shipping{
 	float:left;
 	width: 100%;
-	height:20em;
+	height:18em;
 /*	background-color: yellow;*/
 }
 
@@ -549,19 +549,19 @@ input {
 	color: black;
 }
 
-::-webkit-input-placeholder {
+::-webkit-input-value {
    color: #ccc;
 }
 
-:-moz-placeholder { / Firefox 18- /
+:-moz-value { / Firefox 18- /
    color: #ccc;  
 }
 
-::-moz-placeholder {  / Firefox 19+ /
+::-moz-value {  / Firefox 19+ /
    color: #ccc;  
 }
 
-:-ms-input-placeholder {  
+:-ms-input-value {  
    color: #ccc;  
 }
 /*END OF INFORMATION SECTION*/
@@ -627,7 +627,7 @@ input {
 	display: block;
 	position: relative;
 	margin-left:5.5em;
-	margin-top:0.5em;
+	margin-top:3em;
 }
 
 .review-item{
@@ -751,7 +751,29 @@ input {
 	.drop-down{
 		width:auto;	
 	}
+	/*END OF PRODUCT LIST SECTION*/
 
+
+	/*PURCHASE PRODUCT SECTION*/
+	.information{
+		width:100%;
+		position:relative;
+		top:0;	
+	}
+
+	.review{
+		display: block;
+		width: 100%;
+		float: left;
+		margin-top: 6em;
+	}
+
+	.cart{
+		width:auto;
+		position:relative;
+		top:0;
+	}
+	/*END OF PRODUCT LIST SECTION*/
 }
 
 
