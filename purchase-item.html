@@ -6,24 +6,50 @@
 
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/product.css">
+		
+<!-- script Makes the input clear, but "placeholder" has to be replaced with "value" -->
 		<script type="text/javascript" src="js/util-functions.js"></script>
 		<script type="text/javascript" src="js/clear-default-text.js"></script>
+		
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<header>
 			<div class = "logo">
-				<img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
+				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
-				<a href = "products.html" class="current"> Products </a>
-				<a href = "#"> About </a>
-				<a href = "#"> Contact </a>
-				<a href = "#"> Events </a> 
+				<a class ="head-nav current" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "#"> About </a>
+				<a class ="head-nav" href = "#"> Contact </a>
+				<a class ="head-nav" href = "#"> Events </a> 
 			</nav>
 		</header>
 
+	<section class ="review">
+			<div class= "cart-all">
+				<div class= "cart">
+					<div class="item-wrapper">
+						<img class="review-item" src = "img/item-place.png" height "125" width="125" alt= "recommendation item">
+					</div>
+
+					<div class="cart-details">
+						<div class="cart-item">	
+							<p>Item Name</p>
+						</div>
+						<div class="cart-item cart-number">
+							<p class="cart-label">Qty</p>
+							<p>1</p>
+						</div>
+						<div class="cart-item cart-number">
+							<p class="cart-label">Price</p>
+							<p>11.95</p>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</section>
 
 		<section class="information">
 			<h3 class= "information-header item-header">Checkout</h3>
@@ -93,33 +119,7 @@
       </div>
 	</div>
 </div>
-<a href ="#" class="purchase-btn button load"> Add to Cart Button</a>
-		</section>
-
-		<section class ="review">
-			<div class= "cart-all">
-				<div class= "cart">
-					<div class="item-wrapper">
-						<img class="review-item" src = "img/item-place.png" height "125" width="125" alt= "recommendation item">
-					</div>
-
-					<div class="cart-details">
-						<div class="cart-item">	
-							<p>Item Name</p>
-						</div>
-						<div class="cart-item cart-number">
-							<p class="cart-label">Qty</p>
-							<p>1</p>
-						</div>
-						<div class="cart-item cart-number">
-							<p class="cart-label">Price</p>
-							<p>11.95</p>
-						</div>
-					</div>
-				</div>
-
-				
-			</div>
+		<a href ="#" class="purchase-btn button load"> Purchase</a>
 		</section>
 
 

@@ -28,7 +28,7 @@ function knackerEvent(eventObject) {
         eventObject.preventDefault();
     }
     if (window.event) {
-        window.event.returnValue = false;
+        window.event.returnPlaceholder = false;
     }
 }
 
@@ -50,7 +50,7 @@ function getElementStyle(elementID, CssStyleProperty) {
         return element.currentStyle[toCamelCase(CssStyleProperty)];
     } else if (window.getComputedStyle) {
         var compStyle = window.getComputedStyle(element, '');
-        return compStyle.getPropertyValue(CssStyleProperty);
+        return compStyle.getPropertyPlaceholder(CssStyleProperty);
     } else {
         return '';
     }
@@ -90,14 +90,14 @@ function disableTestLinks() {
 /* 
  * Cookie functions
  */
-function createCookie(name, value, days) {
+function createCookie(name, placeholder, days) {
     var expires = '';
     if (days) {
         var date = new Date();
         date.setTime(date.getTime() + (days*24*60*60*1000));
         var expires = '; expires=' + date.toGMTString();
     }
-    document.cookie = name + '=' + value + expires + '; path=/';
+    document.cookie = name + '=' + placeholder + expires + '; path=/';
 }
 
 function readCookie(name) {
