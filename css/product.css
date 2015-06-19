@@ -8,13 +8,13 @@
 
 /*PRODUCT NAVIGATION SECTION*/
 .product-nav{
-  float: left;
-  margin-top: 1em;
-  width: 25%;
-  height:60rem;
-  display: inline-block;
-  /*margin:0;*/
-  margin-left: 5%;
+	float: left;
+	margin-top: 1em;
+	width: 25%;
+	height:60rem;
+	display: inline-block;
+	/*margin:0;*/
+	margin-left: 5%;
 }
 
 .product-nav p {
@@ -28,24 +28,24 @@
 }
 
 .nav-button{
-  text-decoration: none;
-  list-style: none;
-  border: none;
-  width: 50%;
-  padding: 0.75em 0;
-  text-align: center;
-  margin: 1em 0;
-  font-family: PT Sans;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 12px;
-  background-color:  #E6E7E8;
-  color: white;
-  transition:0.3s;
-  color:black;
-  display:inline-block;
-}
+	text-decoration: none;
+	list-style: none;
+	border: none;
+	width: 50%;
+	padding: 0.75em 0;
+	text-align: center;
+	margin: 1em 0;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 12px;
+	background-color:  #E6E7E8;
+	color: white;
+	transition:0.3s;
+	color:black;
+	display:inline-block;
+	}
 
 .nav-button:hover{
 	background-color: #00ADEF;
@@ -146,7 +146,7 @@ select{
 }
 
 select:focus {
-  outline:none;
+	outline:none;
 }
 /*END OF PRODUCT LIST SECTION*/
 
@@ -161,26 +161,26 @@ select:focus {
 }
 
 .multi-item:hover{
-  background-color: white;
-  opacity: 0.5;
-  transition:0.3s;
+	background-color: white;
+	opacity: 0.5;
+	transition:0.3s;
 }
 
 .item-name{
-  font-family: PT Sans;
-  font-size: 1rem; 
-  display: block;
-  text-align: center;
-  margin:0;
+	font-family: PT Sans;
+	font-size: 1rem; 
+	display: block;
+	text-align: center;
+	margin:0;
 }
 
 .item-number{
-  font-family: PT Sans;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 0.25rem;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 0.25rem;
 }
 
 .item-box{
@@ -254,23 +254,23 @@ select:focus {
 }
 
 .item-price{
-  font-family: PT Sans;
-  font-weight: 700;
-  text-transform: uppercase;
-  color:black;
-  font-size: 1.5rem;
-  padding-bottom: 0.25em;
-  letter-spacing: 5px;
-  display: block;
-  margin-top: 1em 0;
+	font-family: PT Sans;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:black;
+	font-size: 1.5rem;
+	padding-bottom: 0.25em;
+	letter-spacing: 5px;
+	display: block;
+	margin-top: 1em 0;
 }
 
 .item-subheader{
-  font-family: PT Sans;
-  text-decoration: uppercase;
-  text-transform: uppercase;
-  display: block;
-  margin:0;
+	font-family: PT Sans;
+	text-decoration: uppercase;
+	text-transform: uppercase;
+	display: block;
+	margin:0;
 }
 
 .item-description{
@@ -300,28 +300,28 @@ select:focus {
 
 /*--- Add cart button ---*/
 .button{
-  width: 48%;
-  float:left;
-  text-decoration: none;
-  list-style: none;
-  border: 1px solid #000000;
-  padding: 0.75em 1em;
-  text-align: center;
-  font-family: PT Sans;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-  font-size: 12px;
-  background-color: black;
-  color: white;
-  transition:0.3s;
-  display: block;
+	width: 48%;
+	float:left;
+	text-decoration: none;
+	list-style: none;
+	border: 1px solid #000000;
+	padding: 0.75em 1em;
+	text-align: center;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 12px;
+	background-color: black;
+	color: white;
+	transition:0.3s;
+	display: block;
 }
 
 .button:hover{
-  background-color: #00ADEF;
-  border:1px solid #00ADEF;
-  transition:0.3s;
+	background-color: #00ADEF;
+	border:1px solid #00ADEF;
+	transition:0.3s;
 }
 /*END OF VIEW ITEM SECTION*/
 
@@ -391,11 +391,11 @@ select:focus {
 }
 
 .detail-header{
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: PT Sans;
-  margin-left: 4em;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: PT Sans;
+	margin-left: 4em;
 }
 
 .detail{
@@ -631,14 +631,58 @@ input {
 }
 
 .review-item{
-  float: left;
-  margin: auto;
-  margin-top: 2rem;
-  display: block;
-  margin-bottom: 0.25rem;
-  width: 50%;
-  margin: 2rem 25% 0.25rem 25%;
+	float: left;
+	margin: auto;
+	margin-top: 2rem;
+	display: block;
+	margin-bottom: 0.25rem;
+	width: 50%;
+	margin: 2rem 25% 0.25rem 25%;
 }
 /*END OF REVIEW SECTION*/
+
+/*MOBILE*/
+@media (max-width: 480px){
+
+
+	/*PRODUCTS.HTML DIV*/
+	.multi-all{
+		margin-top:9em;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+
+	/*PRODUCT NAVIGATION SECTION*/
+	.product-nav {
+		width:100%;
+		height:auto;
+		display:block;
+	}
+
+	.nav-button {
+		width:40%;
+		margin:2.5%;
+	}
+
+	.product-nav p {
+		width:85%;
+		text-align: center;
+		margin: 1em 2.5%;
+	}
+
+	.product-list{
+		width:100%;
+	}
+	/*END OF PRODUCT NAVIGATION SECTION*/
+
+
+	/*PRODUCT LIST SECTION*/
+	.drop-down{
+		width:auto;	
+	}
+
+}
+
 
 
