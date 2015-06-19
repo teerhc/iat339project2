@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset= "utf-8">
+		<title>Funko! Pop</title>
+
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/product.css">
+		
+<!-- script Makes the input clear, but "placeholder" has to be replaced with "value" -->
+		<script type="text/javascript" src="js/util-functions.js"></script>
+		<script type="text/javascript" src="js/clear-default-text.js"></script>
+		
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header>
+			<div class = "logo">
+				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
+			</div>
+			<nav>
+				<a class ="head-nav current" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "#"> About </a>
+				<a class ="head-nav" href = "#"> Contact </a>
+				<a class ="head-nav" href = "#"> Events </a> 
+			</nav>
+		</header>
+
+	<section class ="review">
+			<div class= "cart-all">
+				<div class= "cart">
+					<div class="item-wrapper">
+						<img class="review-item" src = "img/item-place.png" height "125" width="125" alt= "recommendation item">
+					</div>
+
+					<div class="cart-details">
+						<div class="cart-item">	
+							<p>Item Name</p>
+						</div>
+						<div class="cart-item cart-number">
+							<p class="cart-label">Qty</p>
+							<p>1</p>
+						</div>
+						<div class="cart-item cart-number">
+							<p class="cart-label">Price</p>
+							<p>11.95</p>
+						</div>
+					</div>
+				</div>		
+			</div>
+		</section>
+
+		<section class="information">
+			<h3 class= "information-header item-header">Checkout</h3>
+			
+			<div class = "checkout-information">
+			<div = class="shipping">
+				<h4 class= "detail-header">Shipping Information</h4>
+				<form id="detail comments" method="post" action="#">
+	          		<input id ="input-detail" type="text" name="name" placeholder="Name"  class="cleardefault">
+	         	</form>
+				<form id="detail comments" method="post" action="#">
+	          		<input id ="input-detail" type="text" name="address" placeholder="Address"  class="cleardefault">
+	        	</form>
+	          	
+			<div class ="detail-line">
+	          <form id="detail comments" method="post" action="#">
+	          		<input id ="medium-detail" type="text" name="city" placeholder="City" class="cleardefault">
+	          </form>
+
+	          <form id="detail comments" method="post" action="#">
+	          		<input id ="small-detail" type="text" name="PC" placeholder="Postal Code" class="cleardefault">
+	          </form>
+	      </div>
+
+	      <div class ="detail-line">
+	         <div class ="drop-down-details">
+	         <select class = "detail-country">
+					<option class "detail-opt" value="country">Country</option>	
+		  			<option value="name">Australia</option>
+		  			<option>Canada</option>
+		  			<option>United Kingdom</option>
+		  			<option>United States</option>
+				</select>
+			</div>
+
+	          <form id="detail comments" method="post" action="#">
+	          		<input id ="half-detail" type="text" name="phone" placeholder="Phone Number" class="cleardefault">
+	          </form>
+	      </div>
+	  </div>
+	  
+	  <div class ="payment">
+	  	<h4 class= "detail-header">Payment Information</h4>
+		    <div class ="drop-down-details  drop-down-card">
+		     <select class = "detail-card">
+					<option class "detail-opt" value="country">Card Type</option>	
+		  			<option value="name">Mastercard</option>
+		  			<option>Visa</option>
+				</select>
+			</div>
+
+        <div class ="detail-line">
+        <form id="detail comments" method="post" action="#">
+          <input id ="input-detail" type="text" name="PC" placeholder="Name on Card" class="cleardefault">
+          </form>
+		<form id="detail comments" method="post" action="#">
+			<input id ="input-detail" type="text" name="PC" placeholder="Card Number" class="cleardefault">
+		</form>
+      </div>
+      <div class ="detail-line">
+        <form id="detail comments" method="post" action="#">
+          <input id ="first-half-detail" type="text" name="PC" placeholder="Expiry Date: MM/YY" class="cleardefault">
+          </form>
+		<form id="detail comments" method="post" action="#">
+			<input id ="half-detail" type="text" name="PC" placeholder="Security Code" class="cleardefault">
+		</form>
+      </div>
+	</div>
+</div>
+		<a href ="#" class="purchase-btn button load"> Purchase</a>
+		</section>
+
+
+	</body>
+
+	<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>

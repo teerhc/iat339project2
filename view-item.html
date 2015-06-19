@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset= "utf-8">
+		<title>Funko! Pop</title>
+
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/product.css">
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+	</head>	
+
+	<body>
+		<header>
+			<div class = "logo">
+				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
+			</div>
+			<nav>
+				<a class ="head-nav current" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "#"> About </a>
+				<a class ="head-nav" href = "#"> Contact </a>
+				<a class ="head-nav" href = "#"> Events </a> 
+			</nav>
+		</header>
+
+		<nav class = "item-breadcrumbs">
+				<a href ="index.html" class= "bc-home">Home</a> 
+				<p class = "bc-break"> // </p>
+				<a href = "products.html" class = "bc-products">Products</a>
+				<p class = "bc-break"> // </p>
+				<a href = "#" class = "bc-products">Pop! Heroes</a><p class = "bc-break"> // </p>
+				<a href = "#" class = "bc-current">Pop! Heroes: Batman</a>
+		</nav>
+		
+		<div class = "item-all">
+			<section class = "view-item">
+				<img class = "item-picture" src = "img/view-item.png" height ="400" width="400" alt "item view">
+				<div class ="item-heading">
+					<h3 class= "item-header">Pop! Heroes: Batman</h3>
+         		 	
+         		 	<h5 class= "item-subheader">Item #2201</h5>
+         		 	
+         		 	<p class = "item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed sem sit amet velit commodo placerat a a metus. Suspendisse mattis lectus ante, eu placerat turpis accumsan non. Suspendisse sed est ac quam eleifend finibus at eget nulla. Morbi at posuere lacus, ac scelerisque lectus. Integer felis nisl, porta ut nulla eget, volutpat vulputate est. Nulla ante nisl, pellentesque eu fringilla eget, sollicitudin ut ligula. Sed vulputate quis ligula vel facilisis. Integer in vehicula mauris, et egestas lorem. Praesent sed volutpat leo.<p>
+         		 	<h3 class= "item-price">$11.95</h3>
+         		 	
+         		 	<form id="item-quantity" method="post" action="#">
+          			<p class = "quantity">Enter Quantity</p>
+          			<input class="item-quantity" type="text" id="form-name" value="1"> 
+          			</form>
+         		 	
+         		 	<a href ="purchase-item.html" class="button load"> Add to Cart Button</a>
+         		</div>
+			</section>
+
+			<section class = "recommendations">
+				<h6 class= "small-header">We Also Recommend For You</h6>
+
+				<div class = "recommendation-box">	
+					<div class = "recommend-item-box">
+						<img class="multi-item" src = "img/item-place.png" height "200" width="125" alt= "recommendation item">
+						<p class ="item-name">Pop! Heroes: Batman</p>
+		       			<p class ="item-number">Item: #2201</p>
+		       		</div>
+
+		       		<div class = "recommend-item-box">
+						<img class="multi-item" src = "img/item-place.png" height "125" width="125" alt= "recommendation item">
+						<p class ="item-name">Pop! Heroes: Batman</p>
+		       			<p class ="item-number">Item: #2201</p>
+		       		</div>
+
+					<div class = "recommend-item-box">
+						<img class="multi-item" src = "img/item-place.png" height "125" width="125" alt= "recommendation item">
+						<p class ="item-name">Pop! Heroes: Batman</p>
+		       			<p class ="item-number">Item: #2201</p>
+		       		</div>
+		       </div>
+
+			</section>
+		</div>
+
+		<section class = "footer">
+			<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
+			  <div class = "email">
+			   <form id="comments" method="post" action="#">
+	          <input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+	          </form>
+	      </div>
+			
+			<div class ="footer-icons">
+				<img src="img/facebook.png" height ="30" width="30" alt="funko logo">
+				<img src="img/twitter.png" height ="30" width="30"alt="funko logo">
+				<img src="img/instagram.png" height ="30" width="30" alt="funko logo">
+			</div>
+		</section>
+	</body>
+
+
+
+<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>
