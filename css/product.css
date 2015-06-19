@@ -1,9 +1,12 @@
-/*PRODUCTS*/
+/*------------------PRODUCTS.HTML------------------*/
+
+/*PRODUCTS.HTML DIV*/
 .multi-all {
 	margin-top:4em;
 	height:auto;
 }
 
+/*PRODUCT NAVIGATION SECTION*/
 .product-nav{
   float: left;
   margin-top: 1em;
@@ -24,7 +27,7 @@
 	letter-spacing: 2px;
 }
 
-.product-nav .nav-button{
+.nav-button{
   text-decoration: none;
   list-style: none;
   border: none;
@@ -51,57 +54,10 @@
 	transition:0.3s;
 
 }
+/*END OF PRODUCT NAVIGATION SECTION*/
 
-.product-list{
-	display: inline-block;
-	float:left;
-	width: 64%;
-	margin-right: 5%;
-}
 
-.category-banner {
-	width:100%;
-}
-
-.multi-item{
-	float:left;
-/*	margin-right:%;*/
-	margin-top: 2rem;
-	display: block;
-	margin-bottom: 0.25rem;
-}
-
-.multi-item:hover{
-  background-color: white;
-  opacity: 0.5;
-  transition:0.3s;
-}
-
-.item-name{
-  font-family: PT Sans;
-  font-size: 1rem; 
-  display: block;
-  text-align: center;
-  margin:0;
-}
-
-.item-number{
-  font-family: PT Sans;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-align: center;
-  margin-top: 0.25rem;
-}
-
-.item-box{
-	display: inline-block;
-	margin-right: 3.5%;
-	text-align:center;
-}
-
-/*BREADCRUMB*/
-
+/*BREADCRUMBS*/
 .breadcrumbs{
 	display: inline;
 	float:left;
@@ -147,23 +103,22 @@
 	margin: 0 0.5em;
 	color: #00ADEF;
 }
+/*END OF BREADCRUMBS*/
 
-.item-breadcrumbs{
-	display: inline;
+
+/*PRODUCT LIST SECTION*/
+.product-list{
+	display: inline-block;
 	float:left;
-	margin-top: 2rem;
-	margin-bottom: 0;
+	width: 64%;
+	margin-right: 5%;
+}
+
+.category-banner {
 	width:100%;
-	margin-left: 4em;
 }
 
-.item-breadcrumbs a{
-	margin: 0;
-	padding:0;
-	font-size: 0.75rem;
-}
-
-/*DROP-DOWN MENU*/
+/*---drop down sort by bar---*/
 .drop-down{
 	position: relative;	
 	border: 1 solid #ccc;
@@ -193,9 +148,71 @@ select{
 select:focus {
   outline:none;
 }
+/*END OF PRODUCT LIST SECTION*/
 
-/*VIEW ITEM*/
 
+/*MULTI-ITEM SECTION*/
+.multi-item{
+	float:left;
+/*	margin-right:%;*/
+	margin-top: 2rem;
+	display: block;
+	margin-bottom: 0.25rem;
+}
+
+.multi-item:hover{
+  background-color: white;
+  opacity: 0.5;
+  transition:0.3s;
+}
+
+.item-name{
+  font-family: PT Sans;
+  font-size: 1rem; 
+  display: block;
+  text-align: center;
+  margin:0;
+}
+
+.item-number{
+  font-family: PT Sans;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0.25rem;
+}
+
+.item-box{
+	display: inline-block;
+	margin-right: 3.5%;
+	text-align:center;
+}
+/*END OF MULTI-ITEM SECTION*/
+
+
+/*------------------VIEW ITEM HTML------------------*/
+
+/*VIEW ITEM BREADCRUMBS*/
+.item-breadcrumbs{
+	display: inline;
+	float:left;
+	margin-top: 2rem;
+	margin-bottom: 0;
+	width:100%;
+	margin-left: 4em;
+}
+
+.item-breadcrumbs a{
+	margin: 0;
+	padding:0;
+	font-size: 0.75rem;
+}
+/*END OF VIEW ITEM BREADCRUMBS*/
+
+
+
+/*ITEM DIV - includes details of the items and recommendaton*/
 .item-all {
 	margin-top: 4em;
 	height:auto;
@@ -203,6 +220,7 @@ select:focus {
 	display: block;
 }
 
+/*VIEW ITEM SECTION*/
 .view-item{
 	display: block;
 	margin-bottom: 3em;
@@ -218,21 +236,21 @@ select:focus {
 
 .item-heading{
 	width: 60%;
-  height: auto;
-  float: right;
+	height: auto;
+	float: right;
 }
 
 .item-header{
-  font-family: PT Sans;
-  font-weight: 700;
-  text-transform: uppercase;
-  color:black;
-  font-size: 2rem;
-  padding-bottom: 0.25em;
-  letter-spacing: 5px;
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0;
+	font-family: PT Sans;
+	font-weight: 700;
+	text-transform: uppercase;
+	color:black;
+	font-size: 2rem;
+	padding-bottom: 0.25em;
+	letter-spacing: 5px;
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0;
 }
 
 .item-price{
@@ -263,6 +281,24 @@ select:focus {
 	margin: 3em 0;
 }
 
+.quantity{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 0.75em;
+	margin: 0;
+}
+.item-quantity {
+	font-family: PT Sans;
+	 padding: 0.25rem;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 width: 50%;
+	 margin-bottom: 2em;
+	 display: block;
+}
+
+/*--- Add cart button ---*/
 .button{
   width: 48%;
   float:left;
@@ -287,24 +323,10 @@ select:focus {
   border:1px solid #00ADEF;
   transition:0.3s;
 }
+/*END OF VIEW ITEM SECTION*/
 
-.quantity{
-	font-family: PT Sans;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size: 0.75em;
-	margin: 0;
-}
-.item-quantity {
-	font-family: PT Sans;
-	 padding: 0.25rem;
-	 text-transform: uppercase;
-	 letter-spacing: 2px;
-	 width: 50%;
-	 margin-bottom: 2em;
-	 display: block;
-}
 
+/*RECOMMENDATION SECTION*/
 .recommendations{
 	border-top: 1px solid #ccc;
 	padding-top: 3em;
@@ -335,8 +357,11 @@ select:focus {
 	letter-spacing: 3px;
 	text-align: center;
 }
+/*END OF RECOMMENDATION SECTION*/
 
-/*PURCHASE ITEM*/
+
+/*------------------VIEW ITEM HTML------------------*/
+/*INFORMATION SECTION*/
 .information{
 	float: left;
 	position: absolute;
@@ -344,69 +369,6 @@ select:focus {
 	width: 40%;
 	margin-left: 5%;
 	display: inline;
-}
-
-.cart{
-	float: right;
-	width: 40%;
-	position: absolute;
-	top:4em;
-	right:1em;
-	margin: 4em;
-	display: block;
-/*	background-color: yellow;*/
-	padding:1em;
-	border: 1px solid black;
-	height:auto;
-}
-
-.item-wrapper{
-	padding-bottom: 3em;
-	border-bottom: 1px solid black;
-	display: block;
-	float: left;
-	width: 100%;
-	text-align: center;
-	background-color: white
-}
-
-.cart-details{
-	margin:1em auto;
-	display: inline;
-	float:left;
-	width: 100%;
-}
-
-.cart-item{
-	font-family: PT Sans;
-	text-transform: uppercase;
-	font-weight: 700;
-	display: inline-block;
-	position: relative;
-	width: 32%;
-}
-
-.cart-label {
-	font-size: 0.75em;
-	opacity:0.8;
-	font-weight: 400;
-}
-
-.cart-number {
-	text-align: right;
-}
-
-.cart-button {
-	position:absolute;
-	display:block;
-}
-
-.purchase-btn{
-	float:left;
-	display: block;
-	position: relative;
-	margin-left:5.5em;
-	margin-top:0.5em;
 }
 
 .information-header{
@@ -420,28 +382,12 @@ select:focus {
 	width:100%;
 }
 
-.review-item{
-  float: left;
-  margin: auto;
-  margin-top: 2rem;
-  display: block;
-  margin-bottom: 0.25rem;
-  width: 50%;
-  margin: 2rem 25% 0.25rem 25%;
-}
-
-
+/*---shipping information---*/
 .shipping{
 	float:left;
 	width: 100%;
 	height:20em;
 /*	background-color: yellow;*/
-
-}
-
-.payment{
-	float:left;
-	width: 100%;
 }
 
 .detail-header{
@@ -459,11 +405,8 @@ select:focus {
 	float:left;
 }
 
-.detail-line{
-	display: block;
-	width:100%;
-	float: left;
-	margin:0;
+select:focus {
+  outline:none;
 }
 
 #input-detail{
@@ -477,8 +420,7 @@ select:focus {
 	letter-spacing: 2px;
 	height: 1rem;
 	padding: 0.30rem;
-	color: black;
-	 
+	color: black; 
 }
 
 #medium-detail{
@@ -556,6 +498,19 @@ select:focus {
 	margin-left:0;
 }
 
+/*---payment information---*/
+.payment{
+	float:left;
+	width: 100%;
+}
+
+.detail-line{
+	display: block;
+	width:100%;
+	float: left;
+	margin:0;
+}
+
 .detail-card{
 	font-family: PT Sans;
 	text-transform: uppercase;
@@ -573,10 +528,6 @@ select:focus {
 	display: block;
 	margin: 0.25;
 	margin-left:0;
-}
-
-select:focus {
-  outline:none;
 }
 
 .drop-down-details{
@@ -613,5 +564,81 @@ input {
 :-ms-input-placeholder {  
    color: #ccc;  
 }
+/*END OF INFORMATION SECTION*/
+
+/*REVIEW SECTION*/
+.cart{
+	float: right;
+	width: 40%;
+	position: absolute;
+	top:4em;
+	right:1em;
+	margin: 4em;
+	display: block;
+/*	background-color: yellow;*/
+	padding:1em;
+	border: 1px solid black;
+	height:auto;
+}
+
+.item-wrapper{
+	padding-bottom: 3em;
+	border-bottom: 1px solid black;
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: white
+}
+
+.cart-details{
+	margin:1em auto;
+	display: inline;
+	float:left;
+	width: 100%;
+}
+
+.cart-item{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: inline-block;
+	position: relative;
+	width: 32%;
+}
+
+.cart-label {
+	font-size: 0.75em;
+	opacity:0.8;
+	font-weight: 400;
+}
+
+.cart-number {
+	text-align: right;
+}
+
+.cart-button {
+	position:absolute;
+	display:block;
+}
+
+.purchase-btn{
+	float:left;
+	display: block;
+	position: relative;
+	margin-left:5.5em;
+	margin-top:0.5em;
+}
+
+.review-item{
+  float: left;
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  margin-bottom: 0.25rem;
+  width: 50%;
+  margin: 2rem 25% 0.25rem 25%;
+}
+/*END OF REVIEW SECTION*/
 
 
