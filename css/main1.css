@@ -19,7 +19,7 @@ nav {
 	float:right;
 }
 
-nav a {
+.head-nav {
 	font-family: PT Sans;
 	text-transform: uppercase;
 	font-weight:700;
@@ -123,6 +123,7 @@ float:right;
 
 	header{
 		text-align: center;
+		height:9em;
 	}
 
 	.logo img {
@@ -137,7 +138,7 @@ float:right;
 
 	}
 
-	nav a{
+	.head-nav{
 		width: 50%;
 		margin: 0;
 		float: left;
