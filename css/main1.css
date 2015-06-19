@@ -155,7 +155,7 @@ float:right;
 }
 
 
-/* Denise */
+/* ABOUT PAGE*/
 	
 	.crimson-text {
 		font-family: Crimson;
@@ -164,28 +164,24 @@ float:right;
 		text-align: left;
 	}
 
-
 	.information-header {
 		font-family: PT Sans;
   		font-size: 1.25rem;
   		text-transform: uppercase;
   		letter-spacing: 3px;
   		margin: 0;
-	
 	}
 
 	h4 h6{
 		font-family: PT Sans;
 	}
 
-
-/*about page*/
-
 	.sub-heading{
 		font-family: PT Sans;
   		font-size: 1.25rem;
   		display: block;
 	}
+
 	#meet-team{
 		height: 2em;
   		background-color: lightgray;
@@ -209,7 +205,8 @@ float:right;
 
 	}
 
-/*event page*/
+
+/*EVENT PAGE*/
 
 	#upcoming-e{
 		text-align: center;
@@ -259,7 +256,8 @@ float:right;
 		color: #00ADEF;
 	}
 
-	/*contact page*/
+	
+	/*CONTACT PAGE*/
 
 	.big-header{
 		font-family: PT Sans;
@@ -340,6 +338,7 @@ float:right;
   		background-color: #00ADEF;
   	}
 
+
 /*FOOTER*/
 .footer{
   width: 100%;
@@ -411,4 +410,3 @@ input:focus {
 }
 
 	/*END OF FOOTER*/
-/*END OF FOOTER SECTION*/

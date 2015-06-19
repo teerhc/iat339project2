@@ -10,6 +10,7 @@
 	text-align: center; 
 }
 
+/*MULTI*/
 .grid-col-half {
 	width: 50%;
 	margin-top: 2rem;
@@ -24,6 +25,9 @@
 
 }
 
+
+/*ABOUT PAGE*/
+
 .grid-col-intro{
 	width: 50%;
 	margin-top: 2rem;
@@ -36,7 +40,7 @@
 }
 
 
-/*event*/
+/*EVENT PAGE*/
 
 .grid-col-event{
 	width:auto;
@@ -49,7 +53,7 @@
 	}
 }
 
-/*contact*/
+/*CONTACT PAGE*/
 
 .grid-col-30{
 	width:50%;
@@ -72,7 +76,6 @@
 		margin-right:auto;
 		margin-left:auto;
 	}
-
 }
 
 .center{
