@@ -52,11 +52,32 @@
 /*contact*/
 
 .grid-col-30{
-	width:30%;
+	width:50%;
 	text-align: left;
+	margin-top:2rem;
 }
 
+.grid-col-form{
+	width:50%;
+	margin-top:1rem;
+}
 
+@media (max-width: 50em) {
+	.grid-col-30{
+		width: 100%;
+		text-align: center;
+	}
+	#grid-col-form{
+		width:100%;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+}
+
+.center{
+	text-align: center;
+}
 
 .grid:after {
 	content: "";

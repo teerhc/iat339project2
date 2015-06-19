@@ -173,7 +173,7 @@ float:right;
 	
 	}
 
-	h4{
+	h4 h6{
 		font-family: PT Sans;
 	}
 
@@ -279,3 +279,62 @@ float:right;
 		margin:0;
 		padding: 1rem;
 	}
+
+	hr {
+		margin: 2rem;
+		color: grey;
+		border-top: none;
+	
+	}
+
+	.small-header{
+		font-family: PT Sans;
+		font-size: 0.75rem;
+  		margin: 1rem;
+  		text-transform: uppercase;
+  		letter-spacing: 3px;
+  		text-align: center;
+	}
+
+	.comments {
+  		font-family: PT Sans;
+  		padding: 0.25rem;
+  		text-transform: uppercase;
+  		letter-spacing: 2px;
+  		width: 80%;
+  		display: block;
+  		margin: auto;
+	}
+
+	#form-comment{
+		margin: 1rem 5%;
+		width: 90%;
+		height: 10em;
+
+	}
+
+	.nav-button{
+		text-decoration: none;
+  		list-style: none;
+  		border: 1px solid #E6E7E8;
+  		width: 20%;
+  		padding: 0.5em 1em;
+  		text-align: center;
+  		margin: 0.5em 0;
+  		font-family: PT Sans;
+  		text-transform: uppercase;
+  		font-weight: 700;
+  		letter-spacing: 2px;
+  		font-size: 12px;
+  		background-color: #E6E7E8;
+  		color: white;
+  		transition: 0.3s;
+  		color: black;
+  		
+	}
+
+	a:hover {
+  		text-decoration: none;
+  		color: white;
+  		background-color: #00ADEF;
+  	}
