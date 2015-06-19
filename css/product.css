@@ -376,7 +376,7 @@ select:focus {
 
 .information-header{
 	margin-top: 1em;
-	margin-left: 2em;
+	margin-left: 1.5em;
 }
 
 .checkout-information{
@@ -398,7 +398,8 @@ select:focus {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-family: PT Sans;
-	margin-left: 4em;
+	margin-left: 3em;
+	margin-bottom: 1em;
 }
 
 .detail{
@@ -412,10 +413,45 @@ select:focus {
   outline:none;
 }
 
-#input-detail{
-	margin-left: 6em;
+.input-label{
+	font-family: PT Sans;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	color:#00ADEF;
+	display: block;
+	float:left;
+	width: 100%;
+	margin: 0;
+}
+
+
+.medium-input-label{
+	width: 55%;
+}
+
+.small-input-label{
+	width: 25%;
+	margin-left: 1.5em;
+}
+
+.half-input-label{
+	width:32.5%;
+	margin-left: 1em
+}
+
+.country-input-label{
 	width:50%;
-	margin-top: 0.25em;
+}
+
+.input-box{
+	margin-left: 3em;
+	display: block;
+	}
+
+#input-detail{
+/*	margin-left: 6em;*/
+	width:100%;
+	margin-top: 0em;
 	margin-bottom: 1.5em;
 	float:left;
 	font-family: PT Sans;
@@ -427,10 +463,10 @@ select:focus {
 }
 
 #medium-detail{
-	margin-left: 6em;
+/*	margin-left: 6em;*/
 	margin-top: 0.25em;
 	margin-bottom: 1.5em;
-	width:30%;
+	width:55%;
 	display:inline;
 	float:left;
 	font-family: PT Sans;
@@ -444,7 +480,7 @@ select:focus {
 	margin-left: 0.5em;
 	margin-top: 0.25em;
 	margin-bottom: 1.5em;
-	width:17%;
+	width:25%;
 	display: inline;
 	float:left;
 	font-family: PT Sans;
@@ -458,7 +494,7 @@ select:focus {
 	margin-left: 0.5em;
 	margin-top: 0.3em;
 	margin-bottom: 1.5em;
-	width:23.5%;
+	width:32.5%;
 	display: block;
 	float:left;
 	font-family: PT Sans;
@@ -468,18 +504,25 @@ select:focus {
 	padding: 0.30rem;
 }
 
-#first-half-detail{
+.first-half-detail{
 	margin-left: 6em;
 	margin-top: 0.3em;
 	margin-bottom: 1.5em;
-	width:23.5%;
-	display: block;
+	width:40%;
+	display: inline-block;
 	float:left;
 	font-family: PT Sans;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	height: 1rem;
 	padding: 0.30rem;
+}
+
+.second-half-detail{
+	width: 39%;
+	display: inline-block;
+	margin-left: 1em;
+
 }
 
 .detail-country{
@@ -536,16 +579,16 @@ select:focus {
 .drop-down-details{
 	margin-top: 0.2em;	
 	border-radius: 0;
-	width: 25.5%;
+	width: 50%;
   	overflow: hidden;
   	border: 1px solid #ccc;
   	float:left;
-  	margin-left: 4.1em;
-  		margin-bottom: 1em;
+  	margin-bottom: 1em;
 }
 
 .drop-down-card{
-	width: 52%;
+	width: 50%;
+	margin-left: 3em;
 }
 
 input {
@@ -572,11 +615,12 @@ input {
 /*REVIEW SECTION*/
 .cart{
 	float: right;
-	width: 40%;
+	width: 30%;
 	position: absolute;
 	top:4em;
 	right:1em;
 	margin: 4em;
+	margin-right:6em;
 	display: block;
 /*	background-color: yellow;*/
 	padding:1em;
@@ -626,10 +670,11 @@ input {
 }
 
 .purchase-btn{
+	width:90%;
 	float:left;
 	display: block;
 	position: relative;
-	margin-left:5.5em;
+	margin-left:4em;
 	margin-top:3em;
 }
 
@@ -654,8 +699,6 @@ input {
 		margin-left: 1em;
 		margin-right: 1em;
 	}
-@media (max-width: 480px){
-
 
 	/*PRODUCTS.HTML DIV*/
 	.multi-all{
@@ -724,7 +767,6 @@ input {
 	.footer {
 		margin-top:5em;
 	}
-}
 
 	/*PRODUCT NAVIGATION SECTION*/
 	.product-nav {
