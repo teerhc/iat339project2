@@ -155,15 +155,17 @@ float:right;
 }
 
 /* Denise @*#&$(!*/
+	
 	.crimson-text {
 		font-family: Crimson;
 		margin:0;
 		padding: 2rem;
-		
+		text-align: left;
 	}
 
 
 	.information-header {
+		font-family: PT Sans;
   		font-size: 1.25rem;
   		text-transform: uppercase;
   		letter-spacing: 3px;
@@ -175,11 +177,105 @@ float:right;
 		font-family: PT Sans;
 	}
 
-	.picture-place{
-		max-width: 90%;
-		max-height: auto;
+
+/*about page*/
+
+	.sub-heading{
+		font-family: PT Sans;
+  		font-size: 1.25rem;
+  		display: block;
+	}
+	#meet-team{
+		height: 2em;
+  		background-color: lightgray;
+  		text-align: center;
+  		padding: 0.5rem;
+  		margin-top: 3rem;
 	}
 
-	
-	
+	.picture-place{
+		max-width: 90%;
+	}
 
+	#staff-name{
+  		padding-top: 0.5rem;
+  		margin: 0;
+  		letter-spacing: 2px
+	}
+
+	#staff-intro{
+		padding: 0.5rem 2rem;
+
+	}
+
+/*event page*/
+
+	#upcoming-e{
+		text-align: center;
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	#event-place{
+		padding:0.5rem;
+	}
+	
+	#event-name {
+  		padding-top: 0.5rem;
+  		padding-bottom: 0.5rem;
+  		margin: 0;
+  		letter-spacing: 1px;
+	}
+
+	#event-p{
+		padding-top: 1rem;
+		padding-bottom: 0;
+	}
+
+	#event-time{
+		text-align: center;
+		padding: 1rem 10% 0 10%;
+		text-transform: uppercase;
+		margin: 0;
+		display: block;
+	}
+
+	#map{
+		margin:0;
+		padding-bottom: 1rem;
+	}
+
+	p a {
+		font-family: PT Sans;
+		text-transform: uppercase;
+		font-size: 1.25rem;
+		color:black;
+		text-decoration: underline;
+		margin:0;
+	}
+
+	p a:hover{
+		color: #00ADEF;
+	}
+
+	/*contact page*/
+
+	.big-header{
+		font-family: PT Sans;
+  		font-weight: 700;
+  		text-transform: uppercase;
+  		color: black;
+  		font-size: 2rem;
+  		margin-top: 0;
+  		padding-bottom: 0.25em;
+  		letter-spacing: 5px;
+  		margin: 0;
+  		padding: 1rem;
+  		display:inline;
+	}
+
+
+	#contact-info{
+		margin:0;
+		padding: 1rem;
+	}
