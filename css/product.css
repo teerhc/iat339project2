@@ -69,6 +69,7 @@
 	margin: 0;
 	padding:0;
 	font-size: 0.75rem;
+	text-decoration: none;
 }
 
 .bc-home, .bc-products{
@@ -78,12 +79,14 @@
 	font-weight: 400;
 	margin-right: 2em;
 	color: #919191;
+	text-decoration: none;
 }
 
 .bc-home:hover, .bc-products:hover{
 	color: #00ADEF;
 	transition:0.5s;
 	border-bottom: 1px solid #00ADEF;
+	text-decoration: none;
 }
 
 .bc-break{
@@ -550,19 +553,19 @@ input {
 }
 
 ::-webkit-input-value {
-   color: #ccc;
+   color: black;
 }
 
 :-moz-value { / Firefox 18- /
-   color: #ccc;  
+   color: black;  
 }
 
 ::-moz-value {  / Firefox 19+ /
-   color: #ccc;  
+   color: black;  
 }
 
 :-ms-input-value {  
-   color: #ccc;  
+   color: black;  
 }
 /*END OF INFORMATION SECTION*/
 
@@ -754,6 +757,69 @@ input {
 	/*END OF PRODUCT LIST SECTION*/
 
 
+	/*VIEW-ITEM SECTION*/
+	.view-item {
+		text-align: center;
+	}
+
+	.view-item img{
+	  width: 90%;
+	  margin: 1em auto;
+	  float: none;
+	  height: auto;
+	  margin-top: 2em;
+	}
+
+	.item-heading {
+		width:90%;
+		float:none;
+		margin:auto;
+	}
+
+	.item-header {
+		margin-top: auto;
+		width:100%;
+	}
+
+	.item-description {
+		width: 100%;
+		text-align: left;
+		margin-top: 1em;
+	}
+
+	.item-price {
+		margin-bottom: 0.5em;
+	}
+
+	.item-breadcrumbs{
+		margin-top: 7em;
+		margin-left: 2em;
+	}
+
+	.item-quantity {
+		float:none;
+		margin:auto;
+		width:80%;
+	}
+
+	#item-quantity {
+		margin: auto;
+		width:100%;
+		margin-bottom: 2em;
+	}
+
+	.button {
+		float:none;
+		margin:auto;
+	}
+
+	/*footer*/
+	.footer {
+		margin-top:5em;
+	}
+	/*END OF VIEW-ITEM SECTION*/
+
+
 	/*PURCHASE PRODUCT SECTION*/
 	.information{
 		width:100%;
@@ -773,7 +839,7 @@ input {
 		position:relative;
 		top:0;
 	}
-	/*END OF PRODUCT LIST SECTION*/
+	/*PURCHASE PRODUCT SECTION*/
 }
 
 
