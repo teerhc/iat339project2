@@ -14,7 +14,7 @@
 				<img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
 			</div>
 			<nav>
-				<a href = "#"> Products </a>
+				<a href = "products.html"> Products </a>
 				<a href = "#"> About </a>
 				<a href = "#"> Contact </a>
 				<a href = "#"> Events </a> 
@@ -44,4 +44,30 @@
 			<img class="events-grid" src="img/events-place.png">
 		</section>
 
+	<section class = "footer">
+		<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
+		  <div class = "email">
+		   <form id="comments" method="post" action="#">
+          <input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+          </form>
+      </div>
+		
+		<div class ="footer-icons">
+			<img src="img/facebook.png" height ="30" width="30" alt="funko logo">
+			<img src="img/twitter.png" height ="30" width="30"alt="funko logo">
+			<img src="img/instagram.png" height ="30" width="30" alt="funko logo">
+		</div>
+		</section>
+
 	</body>
+
+
+
+
+	<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
+<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>
