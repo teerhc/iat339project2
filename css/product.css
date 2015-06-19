@@ -414,7 +414,7 @@ select:focus {
 
 #input-detail{
 	margin-left: 6em;
-	width:50%;
+	width:84%;
 	margin-top: 0.25em;
 	margin-bottom: 1.5em;
 	float:left;
@@ -430,7 +430,7 @@ select:focus {
 	margin-left: 6em;
 	margin-top: 0.25em;
 	margin-bottom: 1.5em;
-	width:30%;
+	width:55%;
 	display:inline;
 	float:left;
 	font-family: PT Sans;
@@ -444,7 +444,7 @@ select:focus {
 	margin-left: 0.5em;
 	margin-top: 0.25em;
 	margin-bottom: 1.5em;
-	width:17%;
+	width:25%;
 	display: inline;
 	float:left;
 	font-family: PT Sans;
@@ -572,7 +572,7 @@ input {
 /*REVIEW SECTION*/
 .cart{
 	float: right;
-	width: 40%;
+	width: 25%;
 	position: absolute;
 	top:4em;
 	right:1em;
@@ -654,8 +654,6 @@ input {
 		margin-left: 1em;
 		margin-right: 1em;
 	}
-@media (max-width: 480px){
-
 
 	/*PRODUCTS.HTML DIV*/
 	.multi-all{
@@ -724,7 +722,6 @@ input {
 	.footer {
 		margin-top:5em;
 	}
-}
 
 	/*PRODUCT NAVIGATION SECTION*/
 	.product-nav {

@@ -188,9 +188,12 @@ float:right;
   letter-spacing: 2px;
   width: 12rem;
   height: 1rem;
-  margin-top: 0.25em;
+  margin-top: 0em;
 /*  line-height: 1em;*/
   padding: 0.3rem;
+  -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
 
 }
 
@@ -214,7 +217,7 @@ input:focus {
   color: white;
   transition:0.5s;
   color:black;
-  display: inline;
+  display: inline-block;
 }
 
 .email-button:hover{
@@ -227,7 +230,7 @@ input:focus {
 
 
 /*MOBILE*/
-@media (max-width: 480px){
+@media (max-width: 30em){
 
 	/*HEADER*/
 	header{
