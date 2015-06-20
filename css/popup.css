@@ -1,0 +1,70 @@
+/*Popup*/
+
+#popup_box {
+  opacity: 1;
+  position: fixed;
+  /*height: 50%;*/
+  width: 60%;
+  height:8em;
+  /* float: left; */
+  background: rgb(0,173,279);
+  vertical-align: middle;
+  text-align: center;
+  z-index: 9999;
+  top: 110px;
+  margin: 4em 25%;
+  margin: 0;
+  right: 20%%;
+  top: 4em;
+  /*border: 1px solid lightgrey;*/
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+#popup_box h1 {
+	font-family:PT Sans;
+	font-size: 24pt;
+	color:white;
+}
+
+
+#popupBoxClose {
+    font-size:20px;  
+    line-height:15px;  
+/*    right:5px;  
+    top:5px;  */
+    position: relative;
+    bottom:0.75;  
+    /*color:#6fa5e2;  */
+    color:white;
+    font-weight:500;    
+}
+
+#popupBoxClose:hover{
+  border-bottom: 1px solid white;
+}
+
+#popup_box a {
+	font-family:PT Sans;
+    font-size: 1em;
+}
+
+.popup-nav{
+  width:100%;
+  text-align:center;
+  display:inline-block;
+
+}
+
+.popup-nav a{
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-right: 5em;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.popup-nav a:hover{
+  border-bottom: 1px solid white;
+}
