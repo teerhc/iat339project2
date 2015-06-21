@@ -35,10 +35,10 @@
 	text-decoration: none;
 	list-style: none;
 	border: none;
-	width: 50%;
+	width: 12em;
 	padding: 0.75em 0;
 	text-align: center;
-	margin: 1em 0;
+	margin: 2em 0;
 	font-family: PT Sans;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -48,7 +48,7 @@
 	color: white;
 	transition:0.3s;
 	color:black;
-	display:inline-block;
+	display:block;
 	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
 	}
 
@@ -75,6 +75,8 @@
 	padding:0;
 	font-size: 0.75rem;
 	text-decoration: none;
+	display: inline-block;
+	float:left;
 }
 
 .bc-home, .bc-products{
@@ -99,8 +101,11 @@
 	text-transform: uppercase;
 	display: inline;
 	font-weight: 400;
-	margin: 0 0.5em;
+	margin: 0 1em;
 	color: #919191;
+	float:left;
+	line-height: 1em;
+	font-size:0.75em;
 }
 
 .bc-current{
@@ -121,6 +126,7 @@
 	float:left;
 	width: 64%;
 	margin-right: 5%;
+	position:relative;
 }
 
 .over-banner{
@@ -148,6 +154,7 @@
 .category-banner {
 	width:100%;
 	margin-bottom: 1em;
+	margin-top: 5em;
 }
 
 .refine{
@@ -203,12 +210,12 @@ select{
 	font-size: 0.75em;
 	letter-spacing: 3px;
 	text-align: center;
-	background-color: white;
 	border:0;
 	border-radius: 0;
 	margin: 0.5em;
 	transition: 0.5s;
 	width:100%;
+	background-color: #FAFAFA;
 }
 
 select:focus {
@@ -218,12 +225,20 @@ select:focus {
 
 
 /*MULTI-ITEM SECTION*/
+.multi-list{
+	width: 64%;
+	position: relative;
+	float: left;
+	}
+
+
 .multi-item{
 	float:left;
 /*	margin-right:%;*/
 	margin-top: 2rem;
 	display: block;
 	margin-bottom: 0.25rem;
+		box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
 }
 
 .multi-item:hover{
@@ -235,9 +250,11 @@ select:focus {
 .item-name{
 	font-family: PT Sans;
 	font-size: 1rem; 
-	display: block;
+	display: inline-block;
 	text-align: center;
 	margin:0;
+	width:100%;
+	height:auto;
 }
 
 .item-number{
@@ -253,6 +270,20 @@ select:focus {
 	display: inline-block;
 	margin-right: 3.5%;
 	text-align:center;
+	width:22%;
+	  vertical-align: top;
+}
+
+
+.item-box img {
+	width:100%;
+}
+
+.item-box-last{
+	float:right;
+	width:22%;
+	margin-right: 0;
+
 }
 /*END OF MULTI-ITEM SECTION*/
 
@@ -414,14 +445,6 @@ select:focus {
 	text-align:center;
 	width: 11%;
 	min-width:125px;
-}
-
-.small-header{
-	font-size: 0.75rem;
-	margin: 0;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	text-align: center;
 }
 /*END OF RECOMMENDATION SECTION*/
 
@@ -763,7 +786,7 @@ input {
 /*END OF REVIEW SECTION*/
 
 /*MOBILE*/
-@media (max-width: 480px){
+@media (max-width: 40em){
 
 
 	/*PRODUCTS.HTML DIV*/
@@ -796,6 +819,7 @@ input {
 	.nav-button {
 		width:40%;
 		margin:2.5%;
+		display: inline-block;
 	}
 
 	.product-nav p {
