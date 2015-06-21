@@ -106,6 +106,7 @@
 	font-weight: 400;
 	margin: 0 0.5em;
 	color: #00ADEF;
+	text-decoration: none;
 }
 /*END OF BREADCRUMBS*/
 
@@ -116,6 +117,28 @@
 	float:left;
 	width: 64%;
 	margin-right: 5%;
+}
+
+.over-banner{
+	position: relative;
+}
+
+.over-banner-label{
+	width: 100%;
+	font-family: PT Sans;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 700;
+	color: black;
+	background: rgba(255,255,255,0.8);
+	padding: 0.75em 0em;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	float: none;
+	margin: .5em 0;
+	text-align: center;
 }
 
 .category-banner {
@@ -385,7 +408,7 @@ select:focus {
 	display: inline-block;
 	margin-right: 3.5%;
 	text-align:center;
-	width: 10%;
+	width: 11%;
 	min-width:125px;
 }
 
@@ -770,6 +793,7 @@ input {
 	.product-list{
 		width:100%;
 	}
+
 
 	.item-box {
 		width:45%;
