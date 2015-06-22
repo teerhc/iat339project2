@@ -16,7 +16,7 @@ header{
 	margin-left: 3.5em;
 }
 
-nav {
+header nav {
 	display: block;
 	float: right;
 	width: 100%;
@@ -353,8 +353,8 @@ input:focus {
 		float: left;
 		margin: 0.5em auto;
 	}
-
-	nav {
+	
+	header nav {
 		float:none;
 		text-align: center;
 	}

@@ -22,7 +22,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	border-bottom: 1px solid #ccc;
-	width:50%;
+	width: 9em;
 	padding-bottom: 0.5em;
 	letter-spacing: 2px;
 }
@@ -154,7 +154,7 @@
 .category-banner {
 	width:100%;
 	margin-bottom: 1em;
-	margin-top: 5em;
+	margin-top: 1em;
 }
 
 .refine{
@@ -184,7 +184,7 @@
 
 .search-line{
 	display: inline-block;
-	width:30%;
+	width:40%;
 	float:right;
 }
 
@@ -192,7 +192,7 @@
 .drop-down{
 	position: relative;	
 	border-radius: 0;
-	width: 45%;
+	width: 40%;
   	height: 2.5rem;
   	line-height: 2.5rem;
   	overflow: hidden;
@@ -270,7 +270,7 @@ select:focus {
 	display: inline-block;
 	margin-right: 3.5%;
 	text-align:center;
-	width:22%;
+	width:21.8%;
 	  vertical-align: top;
 }
 
@@ -281,7 +281,7 @@ select:focus {
 
 .item-box-last{
 	float:right;
-	width:22%;
+	/*width:21%;*/
 	margin-right: 0;
 
 }
@@ -785,6 +785,37 @@ input {
 }
 /*END OF REVIEW SECTION*/
 
+/*Tablet*/
+@media (max-width: 50em){
+	.multi-list {
+	width: 68.5%;
+
+	}
+
+	.item-box {
+		width: 45%;
+  float: left;
+  margin-right: 4%;
+	}
+
+	.item-box-tab-last{
+/*		float: right;
+  		margin-right: 0;*/
+	}
+
+	.item-box-last {
+		margin-right:3.5%;
+		/*float:left;	*/
+	}
+
+	.search-line {
+	  display: inline-block;
+	  width: 45%;
+	  float: right;
+	}
+}
+
+
 /*MOBILE*/
 @media (max-width: 40em){
 
@@ -807,6 +838,7 @@ input {
 	float: left;
   	display: block;
  	margin-bottom: 1em;
+ 	width:100%;
 	}
 
 	/*PRODUCT NAVIGATION SECTION*/
