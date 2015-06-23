@@ -280,15 +280,15 @@ float:right;
 }
 
 .comments{
-  font-family: PT Sans;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  width: 12rem;
-  height: 1rem;
-  margin-top: 0em;
-/*  line-height: 1em;*/
-  padding: 0.3rem;
-  -webkit-box-sizing: content-box;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	width: 12rem;
+	height: 1rem;
+	margin-top: 0em;
+	/*  line-height: 1em;*/
+	padding: 0.3rem;
+	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 
@@ -353,7 +353,7 @@ input:focus {
 		float: left;
 		margin: 0.5em auto;
 	}
-	
+
 	header nav {
 		float:none;
 		text-align: center;
