@@ -4,7 +4,7 @@
   opacity: 1;
   position: fixed;
   /*height: 50%;*/
-  width: 30%;
+  width: 24em;
   height:11em;
   /* float: left; */
 /*  background: rgb(0,173,279);*/
@@ -86,11 +86,13 @@
 }
 
 .pop-up-header{
-  width:50%;
+  width:11em;
   display: inline-block;
   float:left;
   margin-top: 2em;
-  margin-left: 1em;
+  /*margin-left: 1em;*/
+  position:absolute;
+  left:7em;
 }
 
 .popup-checkout{
@@ -108,4 +110,36 @@
 .popup-checkout:hover{
     background-color: #00AEDF;
     color:white;
-  ;
+  }
+
+@media (max-width: 50em){
+
+  #popup_box {
+    width:100%;  
+    margin:auto;
+    left:0;
+    z-index:1;
+
+  }
+
+  .pop-up-header {
+      width: 11em;
+  display: block;
+  float: left;
+  margin-top: 2em;
+  /* margin-left: 1em; */
+  position: relative;
+   left: 0; 
+  }
+
+  .popup-item {
+    padding:0 30%;
+  }
+}
+
+
+@media (max-width: 40em){
+  #popup_box{
+      top: 9em;
+  }
+}
