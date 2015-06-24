@@ -533,17 +533,6 @@ font-family: Crimson Text;
 	width:100%;
 }
 
-.review{
-	float: left;
-	/* position: absolute; */
-	/* top: 5em; */
-	width: 45%;
-	height: 50em;
-	margin-left: 0;
-	display: inline-block;
-	float: right;
-}
-
 /*---shipping information---*/
 .shipping{
 	float:left;
@@ -753,21 +742,41 @@ input {
 /*END OF INFORMATION SECTION*/
 
 /*REVIEW SECTION*/
-.cart{
-	float: right;
-	width: 31%;
-	position: absolute;
-	top:4em;
-	right:1em;
-	margin: 4em;
-	margin-right:6em;
+.review{
+	float: left;
+	/* position: absolute; */
+	/* top: 5em; */
+	width: 45%;
+	/*height: 50em;*/
+	margin-left: 0;
 	display: block;
-/*	background-color: yellow;*/
-	padding:1em;
-/*	border: 1px solid black;*/
-	height:auto;
-	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
-	background-color: white;
+	float: left;
+}
+
+.cart-all{
+	display: inline-block;
+	float: left;
+	width: 70%;
+	/*min-width: 25em;*/
+	position: relative;
+	top:7em;
+}
+
+.cart{
+  float: right;
+  width: 100%;
+  position: absolute;
+  /* top: 4em; */
+/*  right: 1em;*/
+  /* margin: 4em; */
+  /* margin-right: 6em; */
+  display: block;
+  /* background-color: yellow; */
+  padding: 5%;
+  /* border: 1px solid black; */
+  height: 18em;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
+  background-color: white;
 }
 
 .item-wrapper{
@@ -812,7 +821,7 @@ input {
 }
 
 .purchase-btn{
-	width:83%;
+	width:87%;
 	float:left;
 	display: block;
 	position: relative;
@@ -885,6 +894,24 @@ input {
 
 	.item-description{
 		width:100%;
+	}
+		.cart{
+		width: 100%;
+		position: absolute;
+		top: 4em;
+		margin: 0 16%;
+		height:auto;
+	}
+
+	.cart-all{
+		  position: absolute;
+  top: 2em;
+	}
+
+	.information-input{
+		width:90%;
+		top:35em;
+		  margin: 0 11%;
 	}
 }
 
@@ -1126,6 +1153,10 @@ input {
 		top:0;	
 	}
 
+	.information-input{
+		display:inline-block;
+	}
+
 	.review{
 		display: block;
 		width: 100%;
@@ -1134,9 +1165,17 @@ input {
 	}
 
 	.cart{
-		width:auto;
-		position:relative;
-		top:0;
+  width: 100%;
+  min-width: 16em;
+  position: absolute;
+  top: 9em;
+  margin: 0 16%
+	}
+
+	.purchase-btn{
+		float:left;
+		width:89%;
+		margin-top: 3em;
 	}
 	/*PURCHASE PRODUCT SECTION*/
 }
