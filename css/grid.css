@@ -11,6 +11,12 @@
 }
 
 /*MULTI*/
+.grid-col-three {
+	width: 33%;
+	margin-top: 2rem;
+	margin-bottom: 0;;
+}
+
 .grid-col-half {
 	width: 50%;
 	margin-top: 2rem;
