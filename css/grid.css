@@ -17,7 +17,7 @@
 	margin-bottom: 0;
 }
 
-@media (max-width: 50em) {
+@media (max-width: 780px) {
 
 	.grid-col-half {
 		width: 100%;
@@ -43,13 +43,37 @@
 /*EVENT PAGE*/
 
 .grid-col-event{
-	width:auto;
-	margin: 1rem;
+	width: 20%;	
+	margin-top: 2rem;
 }
 
-@media (max-width: 30em) {
+@media (max-width: 1180px) {
 	.grid-col-event{
-	width:100%;
+		width: 25%;
+
+	}
+}
+
+@media (max-width: 960px) {
+	.grid-col-event{
+		width: 30%;
+		margin-left: 1.2rem;
+		
+	}
+}
+
+@media (max-width: 740px) {
+	.grid-col-event{
+		width: 40%;
+		margin-left: 7%;
+		
+	}
+}
+
+@media (max-width: 470px) {
+	.grid-col-event{
+		width: 100%;
+		margin: 0;
 	}
 }
 
@@ -66,7 +90,7 @@
 	margin-top:1rem;
 }
 
-@media (max-width: 50em) {
+@media (max-width: 780px) {
 	.grid-col-30{
 		width: 100%;
 		text-align: center;
