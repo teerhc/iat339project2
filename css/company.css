@@ -157,7 +157,6 @@
 	}
 
 	#event-detail{
-		text-transform: uppercase;
 		margin-top: 1em;
 		display: inline-block;
 	}
@@ -173,6 +172,10 @@
 		margin:0;
 		padding:0;
 		text-decoration: none;
+	}
+
+	.address{
+		display:inline;
 	}
 
 	#map{
