@@ -41,17 +41,20 @@
 
 
 /* ABOUT PAGE*/
-	.company-text {
-		font-family: PT Sans;
-		font-size: 0.8rem;
-		margin:0;
-		padding: 0.25rem 2rem;
-		margin-left: 2em;
-		text-align: left;
-		width: 95%;
-		letter-spacing:0.05em;
-		line-height: 1.5em;
+
+		.history-text {
+	  font-family: PT Sans;
+	  font-size: 0.8rem;
+	  margin: 0;
+	  padding: 0.25rem 10%;
+	  padding-left: 0;
+	  /* margin-left: 2em; */
+	  text-align: left;
+	  width: 100%;
+	  letter-spacing: 0.05em;
+	  line-height: 1.5em;
 	}
+
 
 	.information-header {
 		font-family: PT Sans;
@@ -72,7 +75,6 @@
 	}
 
 	.about{
-		text-align: center;
 		margin: 2rem;
 		padding-bottom: 4rem;
 		border-bottom: 1px solid #ccc;
@@ -81,8 +83,7 @@
 
 	#meet-team{
 		height: 2em;
-  		background-color: #00ADEF;
-  		text-align: center;
+  		background-color: #00ADEF;	
   		padding: 0.5rem;
   		margin-top: 3rem;
   		color: white;
@@ -90,6 +91,10 @@
 
 	.picture-place{
 		max-width: 90%;
+	}
+
+	.staff-picture {
+		width:100%;
 	}
 
 	.staff-name{
@@ -103,14 +108,27 @@
   		font-size:0.75rem;
 	}
 
+		.staff-text {
+		font-family: PT Sans;
+		font-size: 0.8rem;
+		margin:0;
+		padding: 0.25rem 2rem;
+		margin-left: 2em;
+		text-align: left;
+		width: 95%;
+		letter-spacing:0.05em;
+		line-height: 1.5em;
+	}
+
 	.staff-description{
 		color: #00AEDF;
 	}
 
 	#staff-intro{
-		width: 90%;		
-		text-align: center;
-
+		width: 100%;		
+		text-align: left;
+		margin:auto;
+		padding:1em 10%;
 	}
 
 
@@ -138,18 +156,81 @@
 		padding-bottom: 0;
 	}
 
-	#event-time{
-		text-align: center;
-		padding: 1rem 10% 0 10%;
+	#event-detail{
 		text-transform: uppercase;
-		margin: 0;
-		display: block;
+		margin-top: 1em;
+		display: inline-block;
+	}
+
+	.event-head{
+		font-weight: 700;
+		color: #00AEDF;
+	}
+
+	.bold-color{
+		font-weight: 700;
+		color: #00AEDF;
+		margin:0;
+		padding:0;
+		text-decoration: none;
 	}
 
 	#map{
 		margin:0;
 		padding-bottom: 1rem;
 	}
+
+	.event-description{
+		margin-left: 5em;
+		width:80%;
+	}
+
+	.event-information{
+		margin: 2rem;
+  		padding-bottom: 4rem;
+	}
+
+	.event-question{
+		font-family:PT Sans;
+		display:inline;
+		margin:0;
+	}
+
+	.fan-expo-pics{
+		margin-top: 2em;
+		padding: 0 5%
+	}
+
+.fan-expo{
+  display: inline-block;
+  width: 33.3333%;
+  /* height: 10em; */
+  float: left;
+  text-align: center;
+}
+
+.fan-expo-first img {
+	width:90%;
+	margin-right:10%;
+	height:auto;
+}
+
+.fan-expo-mid img {
+	width:90%;
+	margin-right:5%;
+	margin-left:5%;
+		height:auto;
+	-webkit-backface-visibility: hidden;	
+}
+
+
+.fan-expo-last img {
+	width:90%;
+	margin-right:10%;
+	float:right;
+	margin-right:0;
+	height:auto;
+}
 
 	p a {
 		font-family: PT Sans;
@@ -240,9 +321,45 @@
   		
 	}
 
-/*	a:hover {
-  		text-decoration: none;
-  		color: white;
-  		background-color: #00ADEF;
-  	}*/
+/*Responsive*/
+
+@media (max-width: 50em) {
+	.banner img{
+	position: absolute;
+	height:100%;
+	width:auto;
+	right:0;
+}
+
+.banner{
+	position: relative;
+	height:14em;
+	margin-top:4em
+	}
+.banner-header {
+	width:80%;
+	margin:auto 10%;
+}
+}
+
+@media (max-width: 40em) {
+	.banner img{
+	position: absolute;
+	height:100%;
+	width:auto;
+	right:0;
+}
+
+.banner{
+	position: relative;
+	height:14em;
+	margin-top:9em;
+	z-index:0;
+	}
+.banner-header {
+	width:80%;
+	margin:auto 10%;
+	top:15%;
+}
+	}
 
