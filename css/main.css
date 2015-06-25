@@ -12,8 +12,10 @@ header{
 .logo{
 	width: auto;
 	float: left;
+	position:absolute;
 	margin-top: 0.25em;
 	margin-left: 3.5em;
+	z-index:99999;
 }
 
 header nav {
@@ -291,7 +293,6 @@ float:right;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-
 }
 
 input:focus {
@@ -323,6 +324,25 @@ input:focus {
 	color:white;
 	transition:0.5s;
 }
+
+.extras {
+	margin: 1em 1.5em;
+}
+
+.extra-content{
+	width: 50%;
+	display: inline;
+	margin: 0 2%;
+	font-family: PT Sans;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.extra-content:hover{
+	color: #00AEDF;
+}
+
 /*END OF FOOTER SECTION*/
 
 
@@ -341,10 +361,12 @@ input:focus {
 	}
 
 	.logo {
-		width: 100%
+		width: 100%;
 		text-align: center;
 		float: none;
 		margin: 0;
+		position:relative;
+
 	}
 
 	.head-nav{
