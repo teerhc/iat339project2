@@ -174,10 +174,6 @@
 		text-decoration: none;
 	}
 
-	.address{
-		display:inline;
-	}
-
 	#map{
 		margin:0;
 		padding-bottom: 1rem;
