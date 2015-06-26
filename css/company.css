@@ -156,10 +156,16 @@
 		padding-bottom: 0;
 	}
 
-	#event-detail{
+
+	.event-picture .info, .event-picture a {
+		width:100%;
+		text-align: center;
+	}
+
+/*	#event-detail{
 		margin-top: 1em;
 		display: inline-block;
-	}
+	}*/
 
 	.event-head{
 		font-weight: 700;
@@ -172,6 +178,11 @@
 		margin:0;
 		padding:0;
 		text-decoration: none;
+		display: inline-block;
+		width:100%;
+		position: relative;
+		font-size:1rem;
+
 	}
 
 	#map{
@@ -180,8 +191,37 @@
 	}
 
 	.event-description{
-		margin-left: 5em;
-		width:80%;
+  text-align: center;
+  float: none;
+  display: inline-block;
+  position: relative;
+  width: 70%;
+  /* padding: 1em; */
+	}
+
+	.event-description p, .event-picture p {
+	font-family: PT Sans;
+	  font-size: 1rem;
+	  margin: 0 0;
+	  /*padding: 0.25rem 10%;*/
+	  padding-left: 0;
+	  /* margin-left: 2em; */
+	  text-align: left;
+	  width: 100%;
+	  line-height: 1.5em;
+	}
+
+	.event-picture{
+width: 70%;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin: 1em auto;
+	}
+
+	.event-picture img{
+		width:100%;
+		margin:2em auto;
 	}
 
 	.event-information{
@@ -193,6 +233,24 @@
 		font-family:PT Sans;
 		display:inline;
 		margin:0;
+	}
+
+	.event-details{
+		width: 100%;
+		text-align: center;
+		display: block;
+		position:relative;
+		margin-top: 1.5rem;
+	}
+
+	.event-details p{
+		font-size: 1rem;
+	}
+
+	.event-details p, .event-details a {
+		text-align:center;
+		padding:0;
+		margin: 0;
 	}
 
 	.fan-expo-pics{
@@ -329,6 +387,9 @@
 	width:auto;
 	right:0;
 }
+.event-picture{
+	width:100%;
+}
 
 .banner{
 	position: relative;
@@ -359,6 +420,10 @@
 	width:80%;
 	margin:auto 10%;
 	top:15%;
+}
+
+.event-picture{
+	width:100%;
 }
 	}
 
