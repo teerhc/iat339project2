@@ -316,6 +316,7 @@ input:focus {
   transition:0.5s;
   color:black;
   display: inline-block;
+  box-sizing: content-box;
 }
 
 .email-button:hover{
