@@ -47,7 +47,7 @@
 	  font-size: 0.8rem;
 	  margin: 0;
 	  padding: 0.25rem 10%;
-	  padding-left: 0;
+
 	  /* margin-left: 2em; */
 	  text-align: left;
 	  width: 100%;
@@ -160,6 +160,12 @@
 	.event-picture .info, .event-picture a {
 		width:100%;
 		text-align: center;
+		margin: 0;
+		text-decoration: none;
+	}
+
+	.event-picture a:visited{
+		color:black;
 	}
 
 /*	#event-detail{
@@ -176,12 +182,12 @@
 		font-weight: 700;
 		color: #00AEDF;
 		margin:0;
-		padding:0;
 		text-decoration: none;
 		display: inline-block;
 		width:100%;
 		position: relative;
 		font-size:0.8rem;
+		text-transform: uppercase;
 
 	}
 
@@ -213,11 +219,10 @@
 	}
 
 	.event-picture{
-width: 70%;
+	width: 70%;
   display: inline-block;
   text-align: center;
   position: relative;
-  margin: 1em auto;
 	}
 
 	.event-picture img{
@@ -241,6 +246,7 @@ width: 70%;
 		text-align: center;
 		display: block;
 		position:relative;
+		margin-top:1.5em;
 	}
 
 	.event-details p, .event-details a {
@@ -257,12 +263,13 @@ width: 70%;
 	}
 
 .fan-expo{
-  display: inline-block;
-  width: 32%;
-  margin-bottom: 2em;
-  /* height: 10em; */
-vertical-align: top;
-  text-align: center;
+	display: inline-block;
+	width: 32%;
+	margin-bottom: 2em;
+	/* height: 10em; */
+	vertical-align: top;
+	text-align: center;
+	transition:0.5s;
 }
 
 .fan-expo:hover{
@@ -314,6 +321,25 @@ vertical-align: top;
 	
 	/*CONTACT PAGE*/
 
+	.contact{
+		width:100%;
+		height:auto;
+		display:inline-block;
+		position: relative;
+		margin-top: 2em;
+
+	}
+
+	.store-picture{
+		width:60%;
+		margin-bottom: 1em;
+	}
+
+	.store-picture img{
+		width:100%;
+	}
+
+
 	.big-header{
 		font-family: PT Sans;
   		font-weight: 700;
@@ -326,6 +352,29 @@ vertical-align: top;
   		margin: 0;
   		padding: 1rem;
   		display:inline;
+	}
+
+	.store-details{
+		width: 100%;
+		text-align: center;
+		display: block;
+		position:relative;
+		margin-bottom: 2em;
+	}
+
+	.store-details p, .store-details a {
+		text-align:center;
+		padding:0;
+		font-family: PT Sans;
+		font-size: 0.8em;
+		margin: 0.25em;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+
+	.store-details a{
+		font-size: 1.25em;
+		margin-bottom: 0.5em;
 	}
 
 
@@ -355,16 +404,32 @@ vertical-align: top;
   		padding: 0.25rem;
   		text-transform: uppercase;
   		letter-spacing: 2px;
-  		width: 80%;
+  		width: 60%;
   		display: block;
   		margin: auto;
+  		margin-bottom: 2em;
 	}
 
 	#form-comment{
 		margin: 1rem 5%;
-		width: 90%;
-		height: 10em;
+		width: 60%;
+		height: 50em;
 
+	}
+
+	textarea{
+		height:15em;
+	}
+
+	.contact-details{
+		border-bottom: 1px solid #ccc
+	}
+
+	.contact-us{
+		  width: 100%;
+  height: auto;
+  margin-bottom: 4em;
+  margin-top: 2em;
 	}
 
 	.nav-button{
@@ -410,6 +475,14 @@ vertical-align: top;
 .fan-expo{
 	width:47%;
 }
+.store-picture{
+	width:80%;
+}
+
+.con-comments{
+	width:80%;
+}
+
 }
 
 @media (max-width: 40em) {
