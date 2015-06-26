@@ -1,0 +1,145 @@
+/*Popup*/
+
+#popup_box {
+  opacity: 1;
+  position: fixed;
+  /*height: 50%;*/
+  width: 24em;
+  height:11em;
+  /* float: left; */
+/*  background: rgb(0,173,279);*/
+  background-color: white;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 9999;
+  top: 110px;
+  margin: 4em 25%;
+  margin: 0;
+  right: 35%;
+  top: 4em;
+  /*border: 1px solid lightgrey;*/
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+#popup_box h1 {
+	font-family:PT Sans;
+	font-size: 1.5em;
+	color:#00ADEF;
+  display:inline-block;
+  float: left;
+  margin-left: 1em;
+  margin:0;
+}
+
+.checkmark{
+  margin-top: 0.5em;
+  margin-right: 1em;
+}
+
+#popupBoxClose {
+  font-size:20px;  
+  line-height:15px;  
+  /*    right:5px;  
+  top:5px;  */
+  position: relative;
+  bottom:0.75;  
+  /*color:#6fa5e2;  */
+  color:#00ADEF;
+  font-weight:500;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-right: 5em;
+  text-decoration: none;
+  font-weight: 500;  
+  float:right;  
+}
+
+#popupBoxClose:hover{
+  border-bottom: 1px solid white;
+}
+
+#popup_box a {
+  font-family: PT Sans;
+  font-size: 0.75em;
+  font-weight: 700;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.popup-item{
+  width:100%;
+  display: inline-block;
+  float:left;
+}
+
+.popup-item img{
+  display: inline-block;
+  float:left;
+  margin-left:0.5em;
+}
+
+.popup-nav{
+  width:100%;
+  text-align:center;
+  display:inline-block;
+}
+
+.pop-up-header{
+  width:11em;
+  display: inline-block;
+  float:left;
+  margin-top: 2em;
+  /*margin-left: 1em;*/
+  position:absolute;
+  left:7em;
+}
+
+.popup-checkout{
+  padding: 0.75em 1.5em;
+  font-size: 0.75em;
+  color:black;
+  background-color: #ccc;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  float:none;
+  margin-bottom: 0.5em;
+}
+
+.popup-checkout:hover{
+    background-color: #00AEDF;
+    color:white;
+  }
+
+@media (max-width: 50em){
+
+  #popup_box {
+    width:100%;  
+    margin:auto;
+    left:0;
+    z-index:1;
+
+  }
+
+  .pop-up-header {
+      width: 11em;
+  display: block;
+  float: left;
+  margin-top: 2em;
+  /* margin-left: 1em; */
+  position: relative;
+   left: 0; 
+  }
+
+  .popup-item {
+    padding:0 30%;
+  }
+}
+
+
+@media (max-width: 40em){
+  #popup_box{
+      top: 9em;
+  }
+}
