@@ -27,10 +27,7 @@
 	margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-@media (max-width: 780px) {
-=======
-.grid-col-half {
+.grid-col-one {
 	width: 100%;
 	margin-top: 2rem;
 	margin-bottom: 0;
@@ -41,7 +38,6 @@
 }
 
 @media (max-width: 50em) {
->>>>>>> pictures
 
 	.grid-col-half {
 		width: 100%;
@@ -93,37 +89,13 @@
 /*EVENT PAGE*/
 
 .grid-col-event{
-	width: 20%;	
-	margin-top: 2rem;
+	width:auto;
+	margin: 1rem;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 30em) {
 	.grid-col-event{
-		width: 25%;
-
-	}
-}
-
-@media (max-width: 960px) {
-	.grid-col-event{
-		width: 30%;
-		margin-left: 1.2rem;
-		
-	}
-}
-
-@media (max-width: 740px) {
-	.grid-col-event{
-		width: 40%;
-		margin-left: 7%;
-		
-	}
-}
-
-@media (max-width: 470px) {
-	.grid-col-event{
-		width: 100%;
-		margin: 0;
+	width:100%;
 	}
 }
 
