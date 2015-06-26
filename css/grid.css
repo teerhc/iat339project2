@@ -122,10 +122,12 @@
 		margin-right:auto;
 		margin-left:auto;
 	}
+
 }
 
 .center{
 	text-align: center;
+	margin: 1.5rem;
 }
 
 .grid:after {
