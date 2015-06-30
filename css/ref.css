@@ -1,0 +1,299 @@
+/*HEADER SECTION*/
+header{
+	width:100%;
+	position:fixed;
+	top:0;
+	z-index: 10;
+	background-color: white;
+	height:4em;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
+}
+
+.logo{
+	width: auto;
+	float: left;
+	position:absolute;
+	margin-top: 0.25em;
+	margin-left: 3.5em;
+	z-index:99999;
+}
+
+header nav {
+	display: block;
+	float: right;
+	width: 100%;
+	text-align: right;
+	height: 4em;
+	position: absolute;
+	right: 0;
+}
+
+.head-nav {
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: 2px;
+	color: black;
+	margin: auto 2%;
+	display: inline-block;
+	text-decoration: none;
+	/* margin-left: 5%; */
+	margin-top: 1.4em;
+}
+
+nav a:hover{
+	color: #00ADEF;
+}
+
+/*END OF HEADER SECTION*/
+
+/*REF BODY*/
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #FAFAFA;
+}
+
+.small-header {
+	font-family: PT Sans;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin: 0 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+
+
+}
+
+.section-header{
+	font-family: PT Sans;
+	font-weight: 700;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-top: 2.5em;
+	margin-bottom: 0;
+	float: none;
+	text-align: center;
+	width: 100%;
+	color: #00AEDF;
+
+}
+
+h6{
+	font-family: PT Sans;
+}
+
+.index{
+  margin: 1.5rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #ccc;
+  float: left;
+  width: 100%;
+  float: left;
+ }
+
+.elements{
+	font-family: PT Sans;
+	font-size: 1rem;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0.5em 3.5em;
+	color: #00AEDF;
+	letter-spacing: 0.1em;
+}
+
+#sub-elements{
+	font-weight: 600;
+	padding-top: 1em;
+}
+
+.link{
+	text-transform: none;
+	font-family: PT Sans;
+	color: black;
+	text-decoration: none;
+}
+
+.hero-link{
+	text-decoration: none;
+
+}
+
+
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+#two-link{
+	padding-top:0;
+	padding-bottom: 0;
+}
+
+#last-section{
+	border-top: none;
+}
+
+/*END OF REF BODY*/
+
+/*FOOTER*/
+.footer{
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  /* background-color: yellow; */
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 -2px 9px 0 rgba(0,0,0,0.1);
+  display: inline-block;
+  text-align: center;
+  margin-top: 1em;
+  background-color: white;
+}
+
+.footer-icons{
+	text-align: center;
+	float: none;
+	display: block;
+	margin: 1em 1.5em;
+}
+
+.footer-img{
+	text-align: center;
+	float: none;
+	margin: 0.5em 0;
+}
+
+.comments{
+	font-family: PT Sans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	width: 12rem;
+	height: 1rem;
+	margin-top: 0em;
+	/*  line-height: 1em;*/
+	padding: 0.3rem;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+input:focus {
+  outline:none;
+}
+
+.email-button{
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  width: 5em;
+  padding: 0.75em 1em;
+  text-align: center;
+  font-family: PT Sans;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  background-color:  #E6E7E8;
+  color: white;
+  transition:0.5s;
+  color:black;
+  display: inline-block;
+  box-sizing: content-box;
+}
+
+.email-button:hover{
+	background-color: #00ADEF;
+	border:none;
+	color:white;
+	transition:0.5s;
+}
+
+.extras {
+	margin: 1em 1.5em;
+}
+
+.extra-content{
+	width: 50%;
+	display: inline;
+	margin: 0 2%;
+	font-family: PT Sans;
+	font-size: 0.75em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.extra-content:hover{
+	color: #00AEDF;
+}
+
+
+/*END OF FOOTER SECTION*/
+
+
+/*MOBILE*/
+@media (max-width: 40em){
+
+	/*HEADER*/
+	header{
+		text-align: center;
+		height:9em;
+	}
+
+	.logo img {
+		clear: both;
+		float:none;
+	}
+
+	.logo {
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 0;
+		position:relative;
+
+	}
+
+	.head-nav{
+		width: 50%;
+		margin: 0;
+		float: left;
+		margin: 0.5em auto;
+	}
+
+	header nav {
+		float:none;
+		text-align: center;
+	}
+	/* END OF HEADER*/
+
+
+	
+
+
+	/*FOOTER*/
+	.email {
+		margin-bottom:1em;
+	}
+
+	.email-button{
+		display:block;
+		float: none;
+		width: 15%;
+		margin: auto;
+	}
+
+	.comments{
+		font-family: PT Sans;
+		padding: 0.25rem;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		width: 50%;
+		margin: 0.25rem;
+	}
+	/*END OF FOOTER*/
+
+}
