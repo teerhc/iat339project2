@@ -125,6 +125,34 @@
 
 }
 
+/*REFERENCE PAGE*/
+
+.index{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/*!!!!!!!! reference covered by nav, link doesn't shrink*/
+@media (max-width: 780px){
+	.index{
+		width: 100%;
+	}
+}
+
+.ref-heroes-30{
+	width: 33%;
+	float: left;
+}
+
+@media (max-width: 650px){
+	.ref-heroes-30{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+}
+
 .center{
 	text-align: center;
 	margin: 1.5rem;
