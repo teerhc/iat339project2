@@ -63,8 +63,6 @@ body{
 	margin: 0 1em;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-
-
 }
 
 .section-header{
@@ -79,7 +77,6 @@ body{
 	text-align: center;
 	width: 100%;
 	color: #00AEDF;
-
 }
 
 h6{
@@ -119,7 +116,7 @@ h6{
 
 .hero-link{
 	text-decoration: none;
-
+	padding-left: 5em;
 }
 
 
