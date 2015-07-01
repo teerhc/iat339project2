@@ -79,7 +79,7 @@
 	float:left;
 }
 
-.bc-home, .bc-products{
+.bc-home {
 	font-family: PT Sans;
 	text-transform: uppercase;
 	display: inline;
@@ -89,7 +89,7 @@
 	text-decoration: none;
 }
 
-.bc-home:hover, .bc-products:hover{
+.bc-home:hover {
 	color: #00ADEF;
 	transition:0.5s;
 	border-bottom: 1px solid #00ADEF;
@@ -841,6 +841,11 @@ input {
 .review-item img{
 	width:100%
 }
+
+#mobile-menu {
+		display:none;
+	}
+
 /*END OF REVIEW SECTION*/
 
 /*Tablet*/
@@ -943,27 +948,31 @@ input {
 
 	/*PRODUCT NAVIGATION SECTION*/
 	.product-nav {
-		width:100%;
-		height:auto;
-		display:block;
-	}
-
-	.nav-button {
-		width:40%;
-		margin:2.5%;
-		display: inline-block;
+	  width: 90%;
+	  height: auto;
+	  display: block;
+	  margin: 1em 5%;
+	  position: relative;
 	}
 
 	.product-nav p {
-		width:85%;
-		text-align: center;
-		margin: 1em 2.5%;
+	  width: 90%;
+	  text-align: center;
+	  margin: 1em auto;
 	}
 
 	.product-list{
 		width:100%;
 	}
 
+	#mobile-menu {
+	  position: relative;
+	  width: 100%;
+	  /* height: 2em; */
+	  cursor: pointer;
+	  display: block;
+	  margin: 2em auto 0 auto;
+	}
 
 	.item-box {
 		width:45%;
@@ -1001,23 +1010,28 @@ input {
 	/*PRODUCT NAVIGATION SECTION*/
 	.product-nav {
 		width:100%;
-		height:auto;
+		/*height:auto;*/
+		display:none;
+		margin: 1em auto;
+		position:relative;
+	}
+
+	.active {
 		display:block;
 	}
 
 	.nav-button {
-		width:40%;
-		margin:2.5%;
-	}
-
-	.product-nav p {
-		width:85%;
-		text-align: center;
-		margin: 1em 2.5%;
+		  width: 40%;
+		  margin: 1em 5%;
+		  float: left;
 	}
 
 	.product-list{
 		width:100%;
+	}
+
+	#mobile-menu {
+
 	}
 	/*END OF PRODUCT NAVIGATION SECTION*/
 
@@ -1180,5 +1194,13 @@ input {
 	/*PURCHASE PRODUCT SECTION*/
 }
 
+@media (min-width: 40em){
+	.product-nav {
+		display:inline-block !important ;
+		/*Important tag Overwrites javascript inline-style for hidden menu*/
+	}
 
-
+	#mobile-menu {
+		display:none;
+	}
+	}
