@@ -1199,8 +1199,4 @@ input {
 		display:inline-block !important ;
 		/*Important tag Overwrites javascript inline-style for hidden menu*/
 	}
-
-	#mobile-menu {
-		display:none;
-	}
 	}
