@@ -105,10 +105,12 @@ header nav {
 	text-decoration: none;
 	/* margin-left: 5%; */
 	margin-top: 1.4em;
+	transition:0.25s;
 }
 
-nav a:hover{
+.head-nav:hover{
 	color: #00ADEF;
+	transition:0.25s;
 }
 
 .current{
@@ -123,6 +125,11 @@ nav a:hover{
 	margin-left: 3.5em;
 	z-index:99999;
 }
+
+#mobile-menu {
+	display: none;
+}
+
 /*END OF HEADER SECTION*/
 
 
@@ -145,6 +152,15 @@ body{
 	width: 100%;
 	position: relative;
 }
+
+.banner-title {
+	color: #00AEDF;
+}
+
+.banner-question {
+	color:black;
+}
+
 /*END OF BANNER SECTION*/
 
 
@@ -157,6 +173,7 @@ body{
 	padding-bottom: 2em;
 	padding-top: 2em;
 	margin: auto 10%;
+	text-align: center;
 }
 
 .feature-box{
@@ -169,6 +186,11 @@ body{
   	text-align: center;
 }
 
+.feature-box-pic {
+	overflow:hidden;
+	position:relative;
+}
+
 .feature-box img {
 	width: 100%;
 }
@@ -176,15 +198,16 @@ body{
 .label {
   position: absolute;
   top: 0;
-  width:100%;
+  width: 100%;
   text-align: center;
   color: white;
   background-color: rgba(0, 173, 239, 0.75);
   vertical-align: middle;
-  padding: 21.5% 0;
+  padding: 22% 0;
   opacity: 0;
-  margin:0;
-  transition:0.3s;
+  margin: 0;
+  transition: 0.3s;
+  height: 98.3%;
 }
 
 .feature-box:hover .label {
@@ -202,7 +225,8 @@ body{
 	/*text-transform: uppercase;*/
 	letter-spacing: 0.1em;
 	margin:0;
-	padding: 0 6em;
+	padding: 0 10%;
+	width:100%;
 }
 /*END OF FEATURES SECTION*/
 
@@ -359,19 +383,27 @@ input:focus {
 }
 /*END OF FOOTER SECTION*/
 
+/*Tablet*/
+@media (max-width: 50em) {
+	.new-description-paragraph{
+		width: 100%;
+		padding:0 10%;
+	}
+}
 
 /*MOBILE*/
 @media (max-width: 40em){
 
 	/*HEADER*/
-	header{
+/*	header{
 		text-align: center;
 		height:9em;
-	}
+	}*/
 
 	header nav {
 		float:none;
 		text-align: center;
+		height: 5em;
 	}
 
 	.head-nav{
@@ -393,6 +425,29 @@ input:focus {
 		margin: 0;
 		position:relative;
 	}
+
+	/*New Header*/
+
+	header {
+	  text-align: center;
+	  height: auto;
+	}
+
+	#mobile-menu {
+	display: block;
+	position:absolute;
+	float:right;
+	width:2em;
+	height:2em;
+	right:1em;
+	top:1em;
+	background: yellow;
+	z-index:999999;
+}
+
+header nav {
+	position:relative;
+}
 	/* END OF HEADER*/
 
 
@@ -454,3 +509,10 @@ input:focus {
 	/*END OF FOOTER*/
 
 }
+
+
+@media (min-width: 40em){
+	header nav {
+		display:block !important;
+		/*Overwrites Javascript inline style*/
+	}
