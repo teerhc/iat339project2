@@ -138,10 +138,12 @@ body{
 /*BANNER SECTION*/
 .banner{
 	margin-top: 2em;
+	position: relative;
 }
 
 .banner img{
 	width: 100%;
+	position: relative;
 }
 /*END OF BANNER SECTION*/
 
