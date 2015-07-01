@@ -1,0 +1,182 @@
+<section>
+        <h2>Footer</h2>
+        <h3>CSS Selector:</h3>
+          <p>.footer, .social-media</p>
+
+        <h3>Sample code:</h3>
+          <code>&lt;div class ="footer"&gt;</code>
+          <!-- this div is jsut to organize the code -->
+          <div class ="social-media-code">
+            <code>&lt;img src ="img/funko.png"&gt;</code>
+          </div>
+          <code>&lt;div class ="social-media"&gt;</code>
+          <div class ="social-media-code">
+            <code>&lt;img src ="img/facebook.png"&gt;</code>
+            <code>&lt;img src ="img/twitter.png"&gt;</code>
+            <code>&lt;img src ="img/instagram.png"&gt;</code>
+          </div>
+          <code>&lt;/div&gt;</code>
+          <code>&lt;/div&gt;</code>
+        <h3>Rendered element:</h3>
+          <div class ="footer">
+            <img src ="img/funko.png" alt="funkologo">
+              <div class ="social-media">
+                <img src ="img/facebook.png" alt="facebooklogo">
+                <img src ="img/twitter.png" alt="twitterlogo">
+                <img src ="img/instagram.png" alt="instalogo">
+            </div>
+          </div>
+      </section>
+
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <section>
+        <h2>Main Headings: About, Contact, Events pages </h2>
+        <h3>CSS Selector:</h3>
+        <p>.page-header, .description-header</p>
+          <h3>Sample code:</h3>
+          <code>&lt;h3 class= "page-header"&gt;Page Headers&lt;/h3&gt;</code>
+          <code>&lt;h3 class= "description-header"&gt;Who Are We?&lt;/h3&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h2 class= "page-header">About Us</h2>
+          <h3 class= "description-header">Who Are We?</h3>
+      </section>
+
+      <section>
+        <h2>Headings - Heading for Product Page, store name & address</h2>
+        <h3>CSS Selector:</h3>
+        <p>.item-header, .item-subheader</p>
+          <h3>Sample code:</h3>
+          <code>&lt;h3 class= "item-header"&gt;Pop! Superheroes: Batman&lt;/h3&gt;</code>
+          <code>&lt;h5 class= "item-subheader"&gt;Item #2201&lt;/h5&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h3 class= "item-header">Pop! Superheroes: Batman</h3>
+          <h5 class= "item-subheader">Item #2201</h5>
+      </section>
+
+      <section>
+        <h2>Sub Headings: Shipping Information and Payment Information</h2>
+        <h3>CSS Selector:</h3>
+        <p>.information-header</p>
+          <h3>Sample code:</h3>
+          <code>&lt;h4 class= "information-header"&gt;Shipping Information&lt;/h4&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h4 class= "information-header">Shipping Information</h4>
+      </section>
+
+      <section>
+        <h2>Small Headings (ie. Questions, Recommendations, Event Details, Product Filtering)</h2>
+          <h3>CSS Selector:</h3>
+          <p>.small-header</p>
+          
+          <h3>Sample code:</h3>
+          <code>&lt;h6 class= "small-header"&gt;Got a Question? Email Us!&lt;/h6&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h6 class= "small-header">Got a Question? Email Us!</h6>
+      </section>
+
+      <section>
+        <h2>Nav Bar: Selected & Unselected</h2>
+          <h3>CSS Selector:</h3>
+          <p>.nav-bar, nav-bar-clicked</p>
+          
+          <h3>Sample code:</h3>
+          <code>&lt;h6 class= "nav-bar"&gt;About&lt;/h6&gt;</code>
+          <code>&lt;h6 cclass= "nav-bar-clicked"&gt;About&lt;/h6&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h6 class= "nav-bar">About</h6> 
+          <h6 class= "nav-bar-clicked">About</h6>
+      </section>
+
+
+      <section>
+        <h2>Paragraphs: Products List Page</h2>
+
+        <h3>CSS Selector:</h3>
+          <p>.item-name</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p class ="item-name"&gt;Pop! Heroes: Batman&lt;/p&gt;</code>
+        <code>&lt;p class ="item-number"&gt;Item: #2201&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p class ="item-name">Pop! Heroes: Batman</p>
+        <p class ="item-number">Item: #2201</p>
+    </section>
+
+      <section>
+        <h2>Paragraphs: Descriptions</h2>
+
+        <h3>CSS Selector:</h3>
+          <p>.crimson-text</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p class ="crimson-text"&gt;Paragraphs will be written in Crimson Text.&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p class ="crimson-text">Paragraphs will be written in Crimson Text. These will include item descriptions and descritions found on the about/contact/event pages.</p>
+    </section>
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <section>
+        <h2>Browse Items</h2>
+          <h3>CSS Selector:</h3>
+            <p>.item-button</p>
+            
+           <h3>Sample code:</h3> 
+            <code>&lt;img class="item-button" src="img/batman.jpg" alt="batmanfunko"&gt;</code>
+
+            <h3>Rendered element:</h3>
+                <img class="item-button" src="img/batman.jpg" alt="batmanfunko">
+      </section>
+
+      <section>
+        <h2>Homepage Transitions</h2>
+          <h3>CSS Selector:</h3>
+            <p>.home-button, .label</p>
+            
+           <h3>Sample code:</h3> 
+            <code>&lt;div class="label-container"&gt;</code>
+            <code>&lt;img class="home-button" src="img/spongebob.jpg" alt="batmanfunko"&gt;</code>
+            <code>&lt;p class="label">New Additions&lt;/p&gt;&lt;/div&gt;</code>
+
+            <h3>Rendered element:</h3>
+            <div class="label-container">                
+                <img class="home-button" src="img/spongebob.jpg" alt="batmanfunko">                
+                <p class="label">New Additions</p>
+            </div>
+      </section>
+
+      <section>
+        <h2>Nav Menu</h2>
+          <h3>CSS Selector:</h3>
+          <p>.head-menu</p>
+          
+          <h3>Sample code:</h3>
+        
+
+
+          <h3>Rendered element:</h3>
+            <div class ="drop-down">
+              <select>
+              <option class "dd-opt" value="volvo">Sort By</option> 
+              <option value="name">Alphabetical</option>
+              <option>Newly Released</option>
+              <option>Price: Higher</option>
+              <option>Price: Lower</option>
+              </select>
+            </div>
+      </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
