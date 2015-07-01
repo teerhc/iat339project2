@@ -34,52 +34,45 @@
 			</div>
 		</section>
 
-<!--EVENT IMG/DETAIL-->
-		<section class = "event-information">
-		<div class="grid">
-			<h2>We're coming to the Vancouver Fan Expo!</h2>
-
-
-			<div class="grid-col-one">
-				<div class = "event-picture">
-					<img src="img/Events/fan-expo.png">
-				</div>
-				
-
-				<div class = "event-description">
-				<p>
-					Vancouver Fan Expo is a convention that highlights celebrities, shopping, panels and workshops, It is the place to be to find the newest and hottest in Anime, Manga, Comics, Sci-Fi, Gaming and Horror.  </p>
-					<p> Come join us on the west coast as we head to the Vancouver Fan Expo. At the convention, Funko is limiting customers to one of each figure that they want to purchase. Attendees are welcome to buy any selection of figures they want (depending on availability), but they will only receive one of each. Get your tickets now and come join us!</p>
-
-				<div class ="event-details">
-					<p><a class = "bold-color">Time:</a> April 3-5.</p> <p>10AM-5PM</p>
-				</div>
-
-					<div class ="event-details">
-					<p><a class = "bold-color">Location:</a> Vancouver Convention Center
-					<br>1055 Canada Place, <br>Vancouver, BC <br>V6C 0C3</p>
+		<section class = "contact-details">
+			<div class="contact">
+				<h2>We're Coming!</h2>
+				<div class="grid-col-one">		
+					<div class = "event-description">
+						<img src="img/Index/events-fanexpo.jpg" alt"Vancouver Fan expo picture"></a>
+						<p>
+							Vancouver Fan Expo is a convention that highlights celebrities, shopping, panels and workshops, It is the place to be to find the newest and hottest in Anime, Manga, Comics, Sci-Fi, Gaming and Horror.  </p>
+							<p> Come join us on the west coast as we head to the Vancouver Fan Expo. At the convention, Funko is limiting customers to one of each figure that they want to purchase. Attendees are welcome to buy any selection of figures they want (depending on availability), but they will only receive one of each. Get your tickets now and come join us!</p>
 					</div>
-			</div>
-					
-		<!--LOCATION-->
-			<div class="event-picture">
-				<img src="img/Events/map.png" alt="Map of vancouver showing the convention center where the event is being held">
-				<div class="info">
-					<a class = "bold-color history-text">More Information:</a>
-					<a href = "http://www.fanexpovancouver.com/"><p class="info">Vancouver Fan Expo Website </p></a>
-				</div>
 
-			</div>
-		</section>
+					<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.3207455715774!2d-123.11629459999999!3d49.2892669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671836a6e5787%3A0x24cec96c28a4a2bd!2sVancouver+Convention+Centre!5e0!3m2!1sen!2sca!4v1435784728178"></iframe>
+
+					<div class = "store-info">	
+						<div class ="store-details">
+							<p><a class = "bold-color">Location:</a>
+							<br>Vancouver Convention Center, <br>Vancouver, BC <br>V6P 5A4</p>
+						</div>
+
+						<div class ="store-details">
+							<p><a class = "bold-color">Email</a> info@fanexpohq.com</p>
+						</div>
+					<div class ="store-details">
+						<p>
+						<a class = "bold-color">Website</a>Vancouver Fan Expo</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
 			
 	<!--FOOTER-->
-		<section class = "footer">
-			<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
+	<section class = "footer">
+		<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
 		<div class = "email">
 			<form id="comments" method="post" action="#">
 			<input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
 			</form>
-     	</div>
+	 	</div>
 		
 		<div class ="footer-icons">
 			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
@@ -92,7 +85,13 @@
 			<p class = "extra-content"> Style Guide </p>
 		</div>
 	</section>
-<!--end of footer-->
 
 	</body>
 </html>
+
+<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>

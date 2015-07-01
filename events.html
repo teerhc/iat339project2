@@ -29,13 +29,13 @@
 		<section class = "banner">
 			<img src="img/Events/event-banner.png" alt="banner image">
 			<div class = "banner-header">
-				<h1 class = "banner-title"> Events</h1>
-				<h4 class = "banner-question"> Where are We Going?</h4>
+				<h1> Events</h1>
+				<h4> Where are We Going?</h4>
 			</div>
 		</section>
 
 		<section class = "fan-expo-pics"</section>
-			<h6 class= "section-header">Upcoming Events</h6>
+			<h2>Upcoming Events</h2>
 			<div class= "events-all">
 				<div class="fan-expo  fan-expo-first">
 					<a href = "events1.html"><img src="img/Index/events-fanexpo.jpg" height ="170" width ="238" alt"Vancouver Fan expo picture"></a><h5>Vancouver Fan Expo</h5>
@@ -85,3 +85,11 @@
 <!--end of footer-->
 	</body>
 </html>
+
+	<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
+<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>
