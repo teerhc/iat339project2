@@ -12,6 +12,7 @@ h1{
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
 	margin:0;
+	color:#00AEDF;
 }
 
 h2{
@@ -45,7 +46,7 @@ h4{
 	text-transform: uppercase;
 	letter-spacing: 0.7em;
 	margin:0;
-	border-top: 1px solid black;
+
 	padding-top: 0.5em;
 	width: 100%;
 }
@@ -378,7 +379,12 @@ input:focus {
 	letter-spacing: 0.2em;
 }
 
-.extra-content:hover{
+.extras a{
+	text-decoration: none;
+	color: black;
+}
+
+.extras a:hover{
 	color: #00AEDF;
 }
 /*END OF FOOTER SECTION*/
@@ -429,31 +435,32 @@ input:focus {
 	/*New Header*/
 
 	header {
-	  text-align: center;
-	  height: auto;
+		text-align: center;
+		height: auto;
 	}
 
 	#mobile-menu {
-	display: block;
-	position:absolute;
-	float:right;
-	width:2em;
-	height:2em;
-	right:1em;
-	top:1em;
-	background: yellow;
-	z-index:999999;
+		display: block;
+		position:absolute;
+		float:right;
+		width:2em;
+		height:2em;
+		right:1em;
+		top:1em;
+		background: yellow;
+		z-index:999999;
 }
 
-header nav {
-	position:relative;
-}
+	header nav {
+		position:relative;
+		display: none;
+	}
 	/* END OF HEADER*/
 
 
 	/*BANNER*/
 	.banner{
-		margin-top: 9em;
+		margin-top: 3em;
 	}
 	/*END OF BANNER*/
 
@@ -466,6 +473,23 @@ header nav {
 	.new-additions{
 		margin:0;
 	}
+
+	.label {
+	  position: absolute;
+	  top: auto;
+	  width: 100%;
+	  text-align: center;
+	  color: white;
+	  background-color: rgba(0, 173, 239, 0.75);
+	  vertical-align: middle;
+	  padding: 0 0;
+	  bottom:0;
+	  margin: 0;
+	  transition: 0.3s;
+	  height: 2em;
+	  opacity:1;
+	}
+
 	/*END OF FEATURES*/
 
 
