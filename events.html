@@ -10,13 +10,27 @@
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/company.css">
+
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+
+
+			<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
+		<script>
+		    window.addEventListener('load', function load() {
+		    window.removeEventListener('load', load, false);
+		    document.body.classList.remove('load');
+		  }, false);
+		</script>
+
+
 	</head>
 
 
 	<body>
 		<header>
 			<div class = "logo">
-				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
+				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
 				<a class ="head-nav" href = "products.html"> Products </a>
@@ -34,30 +48,30 @@
 			</div>
 		</section>
 
-		<section class = "fan-expo-pics"</section>
+		<section class = "fan-expo-pics">
 			<h2>Upcoming Events</h2>
 			<div class= "events-all">
 				<div class="fan-expo  fan-expo-first">
-					<a href = "events1.html"><img src="img/Index/events-fanexpo.jpg" height ="170" width ="238" alt"Vancouver Fan expo picture"></a><h5>Vancouver Fan Expo</h5>
+					<a href = "events1.html"><img src="img/Index/events-fanexpo.jpg" height ="170" width ="238" alt="Vancouver Fan expo picture"></a><h5>Vancouver Fan Expo</h5>
 				</div>
 				
 				<div class="fan-expo fan-expo-mid">
-					<a href = "events1.html"><img src="img/Index/events-comiccon.jpg" height ="170" width ="238" alt"Vancouver Fan expo picture"></a><h5> San Diego Comic Con</h5>
+					<a href = "events1.html"><img src="img/Index/events-comiccon.jpg" height ="170" width ="238" alt="Vancouver Fan expo picture"></a><h5> San Diego Comic Con</h5>
 				</div>
 				
 				<div class="fan-expo fan-expo-last">
-					<a href = "events1.html"><img src="img/Index/events-toyfair.jpg" height ="170" width ="238" alt"Vancouver Fan expo picture"></a><h5> Ney York Toy Fair</h5>
+					<a href = "events1.html"><img src="img/Index/events-toyfair.jpg" height ="170" width ="238" alt="Vancouver Fan expo picture"></a><h5> Ney York Toy Fair</h5>
 				</div>
 				<div class="fan-expo  fan-expo-first">
-					<a href = "events1.html"><img src="img/Events/megacon.png" height ="170" width ="238" alt"Vancouver Fan expo picture"></a><h5> MegaCon</h5>
+					<a href = "events1.html"><img src="img/Events/megacon.png" height ="170" width ="238" alt="Vancouver Fan expo picture"></a><h5> MegaCon</h5>
 				</div>
 				
 				<div class="fan-expo fan-expo-mid">
-					<a href = "events1.html"><img src="img/Events/emeraldcity.png" height ="170" width ="238" alt"Vancouver Fan expo picture"></a><h5> Emerald City Comic Con</h5>
+					<a href = "events1.html"><img src="img/Events/emeraldcity.png" height ="170" width ="238" alt="Vancouver Fan expo picture"></a><h5> Emerald City Comic Con</h5>
 				</div>
 				
 				<div class="fan-expo fan-expo-last">
-					<a href = "events1.html"><img src="img/Events/wondercon.png" height ="170" width ="238" alt"Vancouver Fan expo picture"></a><h5> Anaheim Wonder Con</h5>
+					<a href = "events1.html"><img src="img/Events/wondercon.png" height ="170" width ="238" alt="Vancouver Fan expo picture"></a><h5> Anaheim Wonder Con</h5>
 				</div>
 			</div>
 		</section>
@@ -73,7 +87,7 @@
 		
 			<div class ="footer-icons">
 				<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-				<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+				<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 				<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 			</div>
 
@@ -85,11 +99,3 @@
 <!--end of footer-->
 	</body>
 </html>
-
-	<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>

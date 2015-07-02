@@ -10,13 +10,24 @@
 		<link rel="stylesheet" href="css/grid.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/company.css">
+
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+
+		<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>
+
 	</head>
 
 
 	<body>
 		<header>
 			<div class = "logo">
-				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
+				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
 				<a class ="head-nav" href = "products.html"> Products </a>
@@ -39,7 +50,7 @@
 				<h2>We're Coming!</h2>
 				<div class="grid-col-one">		
 					<div class = "event-description">
-						<img src="img/Index/events-fanexpo.jpg" alt"Vancouver Fan expo picture"></a>
+						<img src="img/Index/events-fanexpo.jpg" alt="Vancouver Fan expo picture">
 						<p>
 							Vancouver Fan Expo is a convention that highlights celebrities, shopping, panels and workshops, It is the place to be to find the newest and hottest in Anime, Manga, Comics, Sci-Fi, Gaming and Horror.  </p>
 							<p> Come join us on the west coast as we head to the Vancouver Fan Expo. At the convention, Funko is limiting customers to one of each figure that they want to purchase. Attendees are welcome to buy any selection of figures they want (depending on availability), but they will only receive one of each. Get your tickets now and come join us!</p>
@@ -76,7 +87,7 @@
 		
 		<div class ="footer-icons">
 			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-			<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+			<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 			<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 		</div>
 
@@ -88,10 +99,3 @@
 
 	</body>
 </html>
-
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>

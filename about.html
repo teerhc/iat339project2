@@ -13,6 +13,18 @@
 		<link rel="stylesheet" href="css/company.css">
 		<link rel="stylesheet" href="css/product.css">
 
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+
+		
+		<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
+		<script type="text/javascript">
+		    window.addEventListener('load', function load() {
+		    window.removeEventListener('load', load, false);
+		    document.body.classList.remove('load');
+		  }, false);
+		</script>
+
 	</head>
 	
 	<body>
@@ -55,50 +67,51 @@
 		</section>
 
 <!--STAFF INTRO-->
-		<section class = "staff">
+		<section class="staff">
 			<div>
 			<h2>Meet the Team</h2>
 			</div>
 
 		<section class="meet-the-team">
 			<div class="grid">
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-1.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Melissa</p><p class= "staff-name staff-description">Production Corrdinator </p>
-					<p class="staff-text" id="staff-intro"> As the production corrdinator, Melissa ensures the scheduling and co-ordinating the communications and daily workings of the whole team. She maintains the purchase order log, makes sure the paperwork is completed and filed, and ensure that nothing is overlooked. </p>
+					<p class="staff-text staff-intro"> As the production corrdinator, Melissa ensures the scheduling and co-ordinating the communications and daily workings of the whole team. She maintains the purchase order log, makes sure the paperwork is completed and filed, and ensure that nothing is overlooked. </p>
 				</div>
 				
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-2.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Wendy</p><p class= "staff-name staff-description">Quality Assurance </p>
-					<p class="staff-text" id="staff-intro"> Each Funko is made with love. Wendy is the one that makes sure that all of our funkos are 100% perfect for our customers. If there is the slightest detail that is off, she will be the one to catch it. Just remember, all the Funkos you buy will have Wendy's 100% Quality approval. </p>
+					<p class="staff-text staff-intro"> Each Funko is made with love. Wendy is the one that makes sure that all of our funkos are 100% perfect for our customers. If there is the slightest detail that is off, she will be the one to catch it. Just remember, all the Funkos you buy will have Wendy's 100% Quality approval. </p>
 				</div>
 
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-3.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Sean</p><p class= "staff-name staff-description">Creative Director </p>
-					<p class="staff-text" id="staff-intro"> Sean is charged with determining the best ways for us to visually represent our company’s identity online which involves a development of high-level concepts for design projects. If you see anything inconsisten with the visual representation of our store, blame Sean. </p>
+					<p class="staff-text staff-intro"> Sean is charged with determining the best ways for us to visually represent our company’s identity online which involves a development of high-level concepts for design projects. If you see anything inconsisten with the visual representation of our store, blame Sean. </p>
 				</div>
 				
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-4.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Somaly</p><p class= "staff-name staff-description">Events Coordinator </p>
-					<p class="staff-text" id="staff-intro"> Ever wonder who decides how to set up our booth at Events? Well wonder no more, Somaly is the one who coordinates all of our events.  She Manages event processes, coordinating meetings, preparing, monitoring and distributing event budgets. </p>
+					<p class="staff-text staff-intro"> Ever wonder who decides how to set up our booth at Events? Well wonder no more, Somaly is the one who coordinates all of our events.  She Manages event processes, coordinating meetings, preparing, monitoring and distributing event budgets. </p>
 				</div>
 				
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-5.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Jim</p><p class= "staff-name staff-description">Designer </p>
-					<p class="staff-text" id="staff-intro"> Jim has the funnest job out of all of us. He gets to decide how these funkos look and how the packaging will fit these Funkos. From detail to consistency, he is our guy to ensure that all of our products look the same and nothing looks out of place. </p>
+					<p class="staff-text staff-intro"> Jim has the funnest job out of all of us. He gets to decide how these funkos look and how the packaging will fit these Funkos. From detail to consistency, he is our guy to ensure that all of our products look the same and nothing looks out of place. </p>
 				</div>
 
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-6.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Allison</p><p class= "staff-name staff-description">Social Media Coordinator </p>
-					<p class="staff-text" id="staff-intro"> Allison is the one who you all of a special conection with on our social media pages. She keeps everyone up to date about everything that is happening with our growing company. Got a quesiton you need answered, ask on our profiles and she will answer you right away! </p>
+					<p class="staff-text staff-intro"> Allison is the one who you all of a special conection with on our social media pages. She keeps everyone up to date about everything that is happening with our growing company. Got a quesiton you need answered, ask on our profiles and she will answer you right away! </p>
 				</div>
 			</div>
 		</section>
+	</section>
 <!--END OF STAFF INTRO-->
 
 <!--FOOTER-->
@@ -112,7 +125,7 @@
 		
 			<div class ="footer-icons">
 				<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-				<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+				<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 				<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 			</div>
 
@@ -125,12 +138,3 @@
 	
 	</body>
 </html>
-
-<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>
-
