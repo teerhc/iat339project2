@@ -11,20 +11,15 @@
 		
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
-		<script src="http://jqueryjs.googlecode.com/files/jquery-1.2.6.min.js" type="text/javascript"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
 
-
+			<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
 		<script>
-		jQuery(document).ready(function($){
-
-			$('header').append('<div id="mobile-menu">Menu</div>');
-
-			/* toggle nav */
-			$('#mobile-menu').click ( function() {
-				$('nav').slideToggle();
-				$(this).toggleClass('active');
-			});
-		});
+		    window.addEventListener('load', function load() {
+		    window.removeEventListener('load', load, false);
+		    document.body.classList.remove('load');
+		  }, false);
 		</script>
 
 	</head>
@@ -54,8 +49,8 @@
 				<a href ="products.html">
 				<div class="feature-box-pic">
 					<img src="img/Index/new-addition.jpg" alt = "A picure of the Big Hero 6 Funkos">
-					<h3 class = "label">Deals</h3></a>
-				</div>
+					<h3 class = "label">Deals</h3>
+				</div></a>
 				<h3>Inside Out</h3>
 				<p class= "new-description-paragraph"> Stylized versions of Pixar’s designs from the film — are capturing our emotions</p>
 			</div>
@@ -64,8 +59,8 @@
 				<a href = "products.html">
 					<div class="feature-box-pic">
 						<img src="img/Index/sales.jpg" alt = "A picure of the Big Hero 6 Funkos">
-						<h3 class = "label">Sales</h3></a>
-					</div>
+						<h3 class = "label">Sales</h3>
+					</div></a>
 				<h3>Before It's Too Late</h3>
 				<p class= "new-description-paragraph"> Sales on the six characters that were all created for the Big Hero Six team </p>
 			</div>
@@ -101,25 +96,15 @@
 		
 		<div class ="footer-icons">
 			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-			<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+			<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 			<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 		</div>
 
 		<div class = "extras">
 			<a href = "reference.html"><p class = "extra-content"> Content </p></a>
-			<a href ="#"<p class = "extra-content"> Style Guide </p></a>
+			<a href ="#"> <p class = "extra-content"> Style Guide </p></a>
+		</div>
 		</section>
 
 	</body>
 </html>
-
-
-
-
-	<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>
