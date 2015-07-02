@@ -125,37 +125,57 @@
 
 }
 
+.center{
+	text-align: center;
+	margin: 1.5rem;
+}
+
 /*REFERENCE PAGE*/
 
+.reference{
+	width: 100%;
+}
+
+@media (max-width: 40em){
+	.reference{
+		width: 100%;
+		height: auto;
+		margin-top: 5em;
+	}
+}
+
 .index{
+	position: relative;
+	float:left;
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
-/*!!!!!!!! reference covered by nav, link doesn't shrink*/
-@media (max-width: 780px){
+@media (max-width: 70em){
 	.index{
-		width: 100%;
+		width: 90%;
+		height: auto;
 	}
 }
 
-.ref-heroes-30{
+#ref-heroes-30{
 	width: 33%;
 	float: left;
 }
 
-@media (max-width: 650px){
-	.ref-heroes-30{
-		width: 100%;
-		text-align: center;
+@media (max-width: 65em){
+	#ref-heroes-30{
+		width: 32%;
 		padding: 0;
 	}
-}
 
-.center{
-	text-align: center;
-	margin: 1.5rem;
+}
+@media (max-width: 55em){
+	#ref-heroes-30{
+		width: 100%;
+		text-align: center;
+	}
 }
 
 .grid:after {

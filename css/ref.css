@@ -60,7 +60,7 @@ body{
 	font-family: PT Sans;
 	font-weight: 700;
 	font-size: 1.25rem;
-	margin: 0 1em;
+	margin: 0 1em 1em 1em;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
@@ -77,22 +77,36 @@ body{
 	text-align: center;
 	width: 100%;
 	color: #00AEDF;
+	position: relative;
 }
 
 h6{
 	font-family: PT Sans;
 }
 
+.reference{
+	position: relative;
+	display: inline-block;
+	float: left;
+	height: auto;
+	margin-top: 2em;
+}
+
 .index{
-  margin: 1.5rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid #ccc;
-  float: left;
-  width: 100%;
-  float: left;
+	position: relative;
+	display: inline-block;
+	height: auto;
+	float: left;
+  	margin: 2em 3em;
+  	padding-bottom: 3rem;
+  	border-bottom: 1px solid #ccc;
+  	float: left;
+  	
  }
 
 .elements{
+	display: inline-block;
+	float: left;
 	font-family: PT Sans;
 	font-size: 1rem;
 	text-transform: uppercase;
@@ -100,7 +114,9 @@ h6{
 	padding: 0.5em 3.5em;
 	color: #00AEDF;
 	letter-spacing: 0.1em;
+	width: 100%;
 }
+
 
 #sub-elements{
 	font-weight: 600;
@@ -116,7 +132,8 @@ h6{
 
 .hero-link{
 	text-decoration: none;
-	padding-left: 5em;
+	padding-left: 3em;
+	margin-left: 2em;
 }
 
 
@@ -131,7 +148,7 @@ a:hover{
 }
 
 #last-section{
-	border-top: none;
+	border-bottom: none;
 }
 
 /*END OF REF BODY*/
