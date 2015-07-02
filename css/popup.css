@@ -21,7 +21,7 @@
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
 }
 
-#popup_box h1 {
+.popup-added {
 	font-family:PT Sans;
 	font-size: 1.5em;
 	color:#00ADEF;
@@ -123,23 +123,40 @@
   }
 
   .pop-up-header {
-      width: 11em;
-  display: block;
-  float: left;
-  margin-top: 2em;
-  /* margin-left: 1em; */
-  position: relative;
-   left: 0; 
+    width: 11em;
+    display: inline-block;
+    float: none;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    bottom: 2em;
+    left: 0;
+  }
+
+  .popup-item img {
+    display: inline-block;
+    float: none;
+    margin-left: 0.5em;
+  }
+
+  .popup-added {
+    font-family: PT Sans;
+    font-size: 1.5em;
+    color: #00ADEF;
+    display: inline-block;
+    float: none;
+    margin-left: 1em;
+    margin: 0;
   }
 
   .popup-item {
-    padding:0 30%;
+    padding:0;
   }
 }
 
 
 @media (max-width: 40em){
   #popup_box{
-      top: 9em;
+      top: 3em;
   }
 }
