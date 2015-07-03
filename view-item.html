@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset= "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Funko! Pop</title>
 
 		<link rel="stylesheet" href="css/main.css">
@@ -49,6 +50,13 @@
     });
 </script>  
 
+<script>
+    window.addEventListener('load', function load() {
+    window.removeEventListener('load', load, false);
+    document.body.classList.remove('load');
+  }, false);
+</script>
+
 	</head>	
 
 	<body>
@@ -56,10 +64,10 @@
 	<!-- OUR PopupBox DIV-->
 			<a id="popupBoxClose">X</a>    
 	 		<div class = "popup-item">
-	 			<img src = "img/Products/Funko/joy.png" height ="100" width="100" alt"Joy funko with box">
+	 			<img src = "img/Products/Funko/joy.png" height="100" width="100" alt="Joy funko with box">
 	 			<div class ="pop-up-header">
-	 			<img class = "checkmark" src = "img/Products/checkmark.png" alt"checkmark vector">
-	 			<p class = "popup-added">Item Added!</h1> 
+	 			<img class = "checkmark" src = "img/Products/checkmark.png" alt="checkmark vector">
+	 			<p class = "popup-added">Item Added!</p> 
 	 			</div>   
 	 		</div>
 	 		<div class = "popup-nav">
@@ -96,7 +104,7 @@
 
 
 				<div class = "item-picture">
-					<img  src = "img/Products/Funko/joy.png" alt "item-view of joy funko with box">
+					<img src="img/Products/Funko/joy.png" alt="item-view of joy funko with box">
 				</div>
 				<div class ="item-heading">
 					<h3 class= "item-header desktop">Pop! Disney: Joy</h3>
@@ -131,7 +139,7 @@
 		       			<p class ="item-number">Item: #2207</p>
 		       		</div>
 
-					<div class = "recommend-item-box">
+					<div class = "recommend-item-box recommend-item-box-last">
 						<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/sadness.png" alt= "recommendation item of Sadness funko with box"></a>
 						<p class ="item-name">Pop! Disney: Sadness</p>
 		       			<p class ="item-number">Item: #2241</p>
@@ -145,27 +153,19 @@
 		<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
 		  <div class = "email">
 		   <form id="comments" method="post" action="#">
-          <input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+          <input class="comments" type="text" id="form-email" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
           </form>
       </div>
 		
 		<div class ="footer-icons">
 			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-			<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+			<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 			<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 		</div>
 
 		<div class = "extras">
 			<p class = "extra-content"> Content </p>
-			<p class = "extra-content"> Style Guide </p>
+			<p class = "extra-content"> Style Guide </p></div>
 		</section>
 	</body>
 </html>
-
-
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>
