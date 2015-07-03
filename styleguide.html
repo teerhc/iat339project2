@@ -15,9 +15,18 @@
     <script src="js/sg-mobile-menu.js"></script>
     <script src="js/scrolling.js"></script>
 
+    <!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
+    <script>
+        window.addEventListener('load', function load() {
+        window.removeEventListener('load', load, false);
+        document.body.classList.remove('load');
+      }, false);
+    </script>
+
   </head>
 
   <body>
+
     <h1 class="sg-h1">Funko Pop! Pattern Library</h1>
 
     <nav>
@@ -31,6 +40,10 @@
           </div></a>
 
           <a href="#combined_elements"><div class="sg-button">Combined Elements
+          </div></a>
+
+          <a href="index.html"><div class="sg-button">
+          Back to Funko Pop!
           </div></a>
       </div>
    </nav>
@@ -115,7 +128,7 @@
             <h3 class = "sg-h3">Rendered element:</h3>
                 <div class ="drop-down">
                   <select>
-                  <option class "dd-opt" value="sort-by">Sort By</option> 
+                  <option class="dd-opt" value="sort-by">Sort By</option> 
                   <option value="name">Alphabetical</option>
                   <option>Newly Released</option>
                   <option>Price: Higher</option>
@@ -146,7 +159,7 @@
                   <form id="search-bar" method="post" action="#">
                   <input class="search" type="text" id="form-name" placeholder="Search">
                   </form>
-                  <a href="products.html"><img class = "search-button" src = "img/Style-Guide/search.png"></a>
+                  <a href="products.html"><img class = "search-button" src = "img/Style-Guide/search.png" alt="Search Button"></a>
                 </div>
           </section>
         <!-- End of Search -->
@@ -267,8 +280,7 @@
           <code>&lt;h4&gt;Who Are We?&lt;/h4&gt;</code>
 
         <h3 class = "sg-h3">Rendered element:</h3>
-          <div class = "banner">
-            <img src="img/Style-Guide/about-banner.png" alt="A banner image that shows a picture of the Funko mascot in the head office">
+          <div class = "banner about-banner">
             <div class = "banner-header">
               <h1> About Us</h1>
               <h4> Who Are We?</h4>
@@ -403,7 +415,7 @@
               <img class="footer-img" src="img/Style-Guide/funko.png" height="50" width="100" alt="funko logo">
               <div class = "email">
                 <form id="comments" method="post" action="#">
-                <input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+                <input class="comments" type="text" id="form-submit" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
                 </form>
               </div>
 
@@ -412,6 +424,7 @@
                 <img src="img/Style-Guide/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
                 <img src="img/Style-Guide/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
               </div>
+            </div>
       </section>
     <!-- End of Footer  --> 
 
@@ -419,7 +432,12 @@
       <section>
         <h2 class = "sg-h2">Staff</h2>
           <h3 class = "sg-h3">CSS Selector:</h3>
-            <p>###</p>
+            <p class= "sg-css">.grid-col-three</p>
+            <p class= "sg-css">.sub-heading</p>
+            <p class= "sg-css">.staff-name</p>
+            <p class= "sg-css">.staff-description</p>
+            <p class= "sg-css">.staff-text</p>
+            <p class= "sg-css">.staff-info</p>
             
            <h3 class = "sg-h3">Sample code:</h3> 
             <code>&lt;div class="grid-col-three"&gt;</code>
@@ -454,34 +472,13 @@
             <code>&lt;a href = "events1.html"&gt;&lt;img src="img/events-comiccon.png" height ="170" width ="238" alt = "A picture of San Diego Comic Con's logo"&gt;&lt;/a&gt;</code>
             <code>&lt;p class= "events-label"&gt;San Diego Comic Con&lt;/p&gt;</code>
             <code>&lt;/div&gt;</code>
-
-            <code>&lt;div class="events-grid  events-grid-mid"&gt;</code>
-            <code>&lt;a href = "events1.html"&gt;&lt;img src="img/events-comiccon.png" height ="170" width ="238" alt = "A picture of San Diego Comic Con's logo"&gt;&lt;/a&gt;</code>
-            <code>&lt;p class= "events-label"&gt;San Diego Comic Con&lt;/p&gt;</code>
-            <code>&lt;/div&gt;</code>
-
-            <code>&lt;div class="events-grid  events-grid-last"&gt;</code>
-            <code>&lt;a href = "events1.html"&gt;&lt;img src="img/events-comiccon.png" height ="170" width ="238" alt = "A picture of San Diego Comic Con's logo"&gt;&lt;/a&gt;</code>
-            <code>&lt;p class= "events-label"&gt;San Diego Comic Con&lt;/p&gt;</code>
-            <code>&lt;/div&gt;</code>
-            
             <code>&lt;/div&gt;</code>
 
             <h3 class = "sg-h3">Rendered element:</h3>
-              <div clas = "events-all">
+              <div class = "events-all">
               <div class="events-grid  events-grid-first">
                 <a href = "events1.html"><img src="img/Style-Guide/events-comiccon.png" height ="170" width ="238" alt = "A picture of San Diego Comic Con's logo"></a>
                 <p class= "events-label"> San Diego Comic Con</p>
-              </div>
-
-              <div class="events-grid  events-grid-mid">
-                <a href = "events1.html"><img src="img/Style-Guide/events-fanexpo.png" height ="170" width ="238" alt = "A picure of Vancouver Fan Expo's logo on top a picutre with a big crowd"></a>
-                <p class= "events-label"> Vancouver Fan Expo</p>
-              </div>
-        
-              <div class="events-grid events-grid-last">
-                <a href = "events1.html"><img src="img/Style-Guide/events-toyfair.png" height ="170" width ="238" alt = "A display set up at New York Toy Fair"></a>
-                <p class= "events-label"> New York Toy Fair</p>
               </div>
             </div>
       </section>
@@ -602,10 +599,3 @@
 
   </body>
 </html>
-<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>
