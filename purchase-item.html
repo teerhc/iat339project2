@@ -3,16 +3,17 @@
 	<head>
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop</title>
+		<title>Funko! Pop - Purchase</title>
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/product.css">
-		
-<!-- script Makes the input clear, but "placeholder" has to be replaced with "value" -->
-		<script type="text/javascript" src="js/util-functions.js"></script>
-		<script type="text/javascript" src="js/clear-default-text.js"></script>
-		
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	
+
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+		<script src="js/load.js"></script>
 
 	</head>
 	<body>
@@ -21,115 +22,17 @@
 				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
-				<a class ="head-nav current" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "products.html"> Products </a>
 				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
-		<section class="information">
-			<div class ="information-input">
-				<h3 class= "information-header item-header">Checkout</h3>
-			
-				<div class = "checkout-information">
-					<div = class="shipping">
-						<h4 class= "detail-header">Shipping Information</h4>
-				
-					<div class="input-box">
-						<p class = "input-label">Name</P>
-						<form id="detail comments" method="post" action="#">
-		          		<input id ="input-detail" type="text" name="name" placeholder="">
-		         		</form>
-	         		</div>
-				
-				
-					<div class="input-box">
-						<p class = "input-label">Address</P>
-						<form id="detail comments" method="post" action="#">
-		          		<input id ="input-detail" type="text" name="address" placeholder="">
-		        		</form>
-		        	</div>
-	          	
-					<div class ="detail-line">
-						<div class="input-box">
-							<p class = "medium-input-label input-label">City</P>
-							<p class = "small-input-label input-label">Postal Code</P>
-							<form id="detail comments" method="post" action="#">
-							<input id ="medium-detail" type="text" name="city" placeholder="" class="cleardefault">
-							</form>
-
-	         				 <form id="detail comments" method="post" action="#">
-	          				<input id ="small-detail" type="text" name="PC" placeholder="X#X-#X#" class="cleardefault">
-	          				</form>
-	     				 </div>
-	 				 </div>
-
-	      			<div class ="detail-line">
-	      				<div class="input-box">	
-							<p class = "country-input-label input-label">Country</P>
-							<p class = "half-input-label input-label">Phone Number</P>
-	        			
-	        			 <div class ="drop-down-details">
-	        				 <select class = "detail-dropdown">
-								<option class "detail-opt" value="country">Choose One</option>	
-					  			<option value="name">Australia</option>
-					  			<option>Canada</option>
-					  			<option>United Kingdom</option>
-					  			<option>United States</option>
-							</select>
-						</div>
-	         				<form id="detail comments" method="post" action="#">
-	          				<input id ="half-detail" type="text" name="phone" placeholder="000-000-0000" class="cleardefault">
-	          				</form>
-	      				</div>
-	    			</div>
-	  
-	  				<div class ="payment">
-	  					<h4 class= "detail-header">Payment Information</h4>
-		    			
-		    			<div class ="drop-down-details  drop-down-card">
-		    				<select class = "detail-dropdown">
-								<option class "detail-opt" value="country">Card Type</option>	
-		  						<option value="name">Mastercard</option>
-		  						<option>Visa</option>
-							</select>
-						</div>
-
-        				<div class ="detail-line">
-        					<div class="input-box">
-								<p class = "input-label">Name on Card</P>
-        						<form id="detail comments" method="post" action="#">
-         						<input id ="input-detail" type="text" name="PC" placeholder="" class="cleardefault">
-          						</form>
-							</div>
-
-							<div class="input-box">
-								<p class = "input-label">Card Number</P>
-								<form id="detail comments" method="post" action="#">
-								<input id ="input-detail" type="text" name="PC" placeholder="" class="cleardefault">
-								</form>
-							</div>
-      					</div>
- 
-      					<div class ="detail-line">
-							<div class="input-box">
-								<p class = "medium-input-label input-label">Expiry Date</P>
-								<p class = "small-input-label input-label">Security Code</P>
-								<form id="detail comments" method="post" action="#">
-								<input id ="medium-detail" type="text" name="city" placeholder="MM/DD" class="cleardefault">
-								</form>
-
-								<form id="detail comments" method="post" action="#">
-								<input id ="small-detail" type="text" name="PC" placeholder="###" class="cleardefault">
-								</form>
-							</div>
-     					 </div>
-						<a href ="#" class="purchase-btn button load"> Purchase</a>
-					</div>
-				</div>
-		</section>
-	<section class ="review">
+<section class ="review">
 			<div class= "cart-all">
 				<div class= "cart">
 					<div class="item-wrapper">
@@ -149,16 +52,147 @@
 							<p class="cart-label">Price</p>
 							<p>11.95</p>
 						</div>
+
+						<div class="shipping-total">
+							<p class="cart-label total">+Shipping: $4.95</p>
+							<p class="cart-label total">+Tax: $1.95</p>
+						</div>
+
+						<div class="grand-total">
+							<p class="cart-label total">Grand Total: $18.85</p>
+
+						</div>
+
 					</div>
 				</div>		
 			</div>
 		</section>
+		
+
+		<section class="information">
+			<h3 class= "information-header item-header">Product Review</h3>
+			<div class ="information-input">
+			
+				<div class = "checkout-information">
+					<div class="shipping">
+						<h4 class= "detail-header">Shipping Information</h4>
+				
+					<div class="input-box">
+						<p class = "input-label">Name</P>
+						<form id="detail-name" method="post" action="#">
+		          		<input class="input-detail" type="text" name="name" placeholder="">
+		         		</form>
+	         		</div>
+				
+				
+					<div class="input-box">
+						<p class = "input-label">Address</P>
+						<form id="detail-address" method="post" action="#">
+		          		<input class ="input-detail" type="text" name="address" placeholder="">
+		        		</form>
+		        	</div>
+	          	
+					<div class ="detail-line">
+						<div class="input-box">
+							<p class = "medium-input-label input-label">City</P>
+							<p class = "small-input-label input-label">Postal Code</P>
+							<form id="detail-city" method="post" action="#">
+							<input class="medium-detail" type="text" name="city" placeholder="">
+							</form>
+
+	         				 <form id="detail-pc" method="post" action="#">
+	          				<input class ="small-detail" type="text" name="PC" placeholder="X#X-#X#">
+	          				</form>
+	     				 </div>
+	 				 </div>
+
+	      			<div class ="detail-line">
+	      				<div class="input-box">	
+							<p class="country-input-label input-label">Country</P>
+							<p class="half-input-label input-label">Phone Number</P>
+	        			
+	        			 <div class ="drop-down-details">
+	        				 <select class="detail-dropdown">
+								<option class= "detail-opt" value="country">Choose One</option>	
+					  			<option value="name">Australia</option>
+					  			<option>Canada</option>
+					  			<option>United Kingdom</option>
+					  			<option>United States</option>
+							</select>
+						</div>
+
+	         				<form id="detail-phone" method="post" action="#">
+	          				<input class="half-detail" type="text" name="phone" placeholder="000-000-0000">
+	          				</form>
+	      				</div>
+	    			</div>
+	  
+	  				<div class ="payment">
+	  					<h4 class= "detail-header">Payment Information</h4>
+		    			
+		    			<div class ="drop-down-details  drop-down-card">
+		    				<select class = "detail-dropdown">
+								<option class="detail-opt" value="country">Card Type</option>	
+		  						<option value="name">Mastercard</option>
+		  						<option>Visa</option>
+							</select>
+						</div>
+
+        				<div class ="detail-line">
+        					<div class="input-box">
+								<p class = "input-label">Name on Card</P>
+        						<form id="detail-cardname" method="post" action="#">
+         						<input class ="input-detail" type="text" name="PC" placeholder="">
+          						</form>
+							</div>
+
+							<div class="input-box">
+								<p class = "input-label">Card Number</P>
+								<form id="detail-cardPC" method="post" action="#">
+								<input class="input-detail" type="text" name="PC" placeholder="">
+								</form>
+							</div>
+      					</div>
+ 
+      					<div class ="detail-line">
+							<div class="input-box">
+								<p class = "medium-input-label input-label">Expiry Date</P>
+								<p class = "small-input-label input-label">Security Code</P>
+								<form id="detail-expirydate" method="post" action="#">
+								<input class="medium-detail" type="text" name="city" placeholder="MM/DD">
+								</form>
+
+								<form id="detail-securitycode" method="post" action="#">
+								<input class="small-detail" type="text" name="PC" placeholder="###">
+								</form>
+							</div>
+     					 </div>
+						<a href ="#" class="purchase-btn button load"> Purchase</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+
+		<section class = "footer">
+		<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
+		  <div class = "email">
+		   <form id="comments" method="post" action="#">
+          <input class="comments" type="text" id="form-email" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+          </form>
+      </div>
+		
+		<div class ="footer-icons">
+			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
+			<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
+			<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
+		</div>
+
+		<div class = "extras">
+			<a href = "reference.html"><p class = "extra-content"> Content </p></a>
+			<a href ="styleguide.html"> <p class = "extra-content"> Style Guide </p></a>
+		</div>
+		</section>
+	
 	</body>
 	</html>
-
-	<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>

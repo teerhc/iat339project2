@@ -2,14 +2,20 @@
 <html lang="en">
 	<head>
 		<meta charset= "utf-8">
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Funko! Pop</title>
+		<title>Funko! Pop- Home</title>
 
 		<link rel="stylesheet" href="css/main.css">
+		
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+		<script src="js/load.js"></script>
 	</head>
+	
 	<body>
 		<header>
 			<div class = "logo">
@@ -21,47 +27,56 @@
 				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
 		<section class = "banner">
-			<img src="img/Index/home-banner.png" alt="Home banner image that shows Funkos">
+			<img src="img/Index/home-banner.jpg" alt="Home banner image that shows Funkos">
 		</section>
 
 		<section class = "features">
-			<h6 class= "section-header">Offers</h6>
+			<h2>Offers</h2>
 			
 			<div class = "new-additions feature-box">
-				<a href ="products.html"><img src="img/Index/new-addition.png" alt = "A picure of the new Inside Out Funkos">
-				<p class = "label"> New</p></a>
-				<p class= "new-description-header">Inside Out</p>
+				<a href ="products.html">
+				<div class="feature-box-pic">
+					<img src="img/Index/new-addition.jpg" alt = "A picure of the Big Hero 6 Funkos">
+					<h3 class = "label">Deals</h3>
+				</div></a>
+				<h3>Inside Out</h3>
 				<p class= "new-description-paragraph"> Stylized versions of Pixar’s designs from the film — are capturing our emotions</p>
 			</div>
 
-			<div class = "sales feature-box">
-				<a href = "products.html"><img src="img/Index/sales.png" alt = "A picure of the Big Hero 6 Funkos">
-				<p class = "label">Deals</p></a>
-				<p class= "new-description-header">Before It's Too Late</p>
+			<div class = "feature-box">
+				<a href = "products.html">
+					<div class="feature-box-pic">
+						<img src="img/Index/sales.jpg" alt = "A picure of the Big Hero 6 Funkos">
+						<h3 class = "label">Sales</h3>
+					</div></a>
+				<h3>Before It's Too Late</h3>
 				<p class= "new-description-paragraph"> Sales on the six characters that were all created for the Big Hero Six team </p>
 			</div>
 		</section>
 
 		<section class = "events">
-			<h6 class= "section-header">Upcoming Events</h6>
+			<h2>Upcoming Events</h2>
 			<div class= "events-all">
 				<div class="events-grid  events-grid-first">
-					<a href = "events1.html"><img src="img/Index/events-comiccon.png" height ="170" width ="238" alt = "A picture of San Diego Comic Con's logo"></a>
-					<p class= "events-label"> San Diego Comic Con</p>
+					<a href = "events1.html"><img src="img/Index/events-comiccon.jpg" height ="170" width ="238" alt = "A picture of San Diego Comic Con's logo"></a>
+					<h5 class= "events-label"> San Diego Comic Con</h5>
 				</div>
 				
 				<div class="events-grid  events-grid-mid">
-					<a href = "events1.html"><img src="img/Index/events-fanexpo.png" height ="170" width ="238" alt = "A picure of Vancouver Fan Expo's logo on top a picutre with a big crowd"></a>
-					<p class= "events-label"> Vancouver Fan Expo</p>
+					<a href = "events1.html"><img src="img/Index/events-fanexpo.jpg" height ="170" width ="238" alt = "A picure of Vancouver Fan Expo's logo on top a picutre with a big crowd"></a>
+					<h5 class= "events-label"> Vancouver Fan Expo</h5>
 				</div>
 				
 				<div class="events-grid events-grid-last">
-					<a href = "events1.html"><img src="img/Index/events-toyfair.png" height ="170" width ="238" alt = "A display set up at New York Toy Fair"></a>
-					<p class= "events-label"> New York Toy Fair
+					<a href = "events1.html"><img src="img/Index/events-toyfair.jpg" height ="170" width ="238" alt = "A display set up at New York Toy Fair"></a>
+					<h5 class= "events-label"> New York Toy Fair</h5>
 				</div>
 			</div>
 		</section>
@@ -76,25 +91,15 @@
 		
 		<div class ="footer-icons">
 			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-			<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+			<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 			<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 		</div>
 
 		<div class = "extras">
-			<p class = "extra-content"> Content </p>
-			<p class = "extra-content"> Style Guide </p>
+			<a href = "reference.html"><p class = "extra-content"> Content </p></a>
+			<a href ="styleguide.html"> <p class = "extra-content"> Style Guide </p></a>
+		</div>
 		</section>
 
 	</body>
 </html>
-
-
-
-
-	<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>

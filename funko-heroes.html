@@ -3,12 +3,15 @@
 	<head>
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop</title>
+		<title>Funko! Pop - Pop! Heroes</title>
 
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/product.css">
 		
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+		<script src="js/load.js"></script>
 	</head>	
 
 	<body>
@@ -17,10 +20,13 @@
 				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
-				<a class ="head-nav current" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "products.html"> Products </a>
 				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
@@ -47,12 +53,12 @@
 				<p class = "bc-break"> // </p>
 				<a href = "#" class = "bc-products bc-current">Products</a>
 			</nav>
-			<img class="category-banner" src = "img/Products/Funko/hero-product-banner.png" alt"Funko banner with some of the pop hero figures">
+			<img class="category-banner" src = "img/Products/Funko/hero-product-banner.png" alt="Funko banner with some of the pop hero figures">
 			<p class = "over-banner-label"> Pop! Heroes</p>
 			<div class = "refine">
 				<div class ="drop-down">
 					<select>
-						<option class "dd-opt" value="volvo">Sort By</option>	
+						<option class="dd-opt" value="volvo">Sort By</option>	
 			  			<option value="name">Alphabetical</option>
 			  			<option>Newly Released</option>
 			  			<option>Price: Higher</option>
@@ -63,7 +69,7 @@
  				<form id="search-bar" method="post" action="#">
           		<input class="search comments" type="text" id="form-name" placeholder="Search">
           		</form>
-          		<a href="#"><img class = "search-button" src = "img/search.png"></a>
+          		<a href="#"><img class = "search-button" src = "img/Products/search.png" alt="search button"></a>
           		</div>
           	</div>
 
@@ -85,7 +91,7 @@
 	       	</div>
 
 			<div class = "item-box">
-				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/disgust.png" alt"Disgust Funko with box"></a>
+				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/disgust.png" alt="Disgust Funko with box"></a>
 					<p class ="offer-label"> New!</p>
 					<p class ="item-name">Pop! Disney: Disgust</p>
 	       			<p class ="item-number">Item: #2503</p>
@@ -105,13 +111,13 @@
 	       	</div>
 
 	       	<div class = "item-box">
-				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/batman.png" alt"Batman Funko with box"></a>
+				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/batman.png" alt="Batman Funko with box"></a>
 					<p class ="item-name">Pop! Heroes: Batman</p>
 	       			<p class ="item-number">Item: #2503</p>
 	       	</div>
 
 			<div class = "item-box">
-				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/spiderman.png" alt"spiderman funko with box"></a>
+				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/spiderman.png" alt="spiderman funko with box"></a>
 					<p class ="item-name">Pop! Heroes: Spiderman</p>
 	       			<p class ="item-number">Item: #2504</p>
 	       	</div>
@@ -130,32 +136,44 @@
 	       	</div>
 
 	       	<div class = "item-box">
-				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/honeylemon.png" alt"HoneyLemon Funko with box"></a>
+				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/honeylemon.png" alt="HoneyLemon Funko with box"></a>
 					<p class ="offer-label sale"> Sale!</p>
 					<p class ="item-name">Pop! Disney: Honey Lemon</p>
 	       			<p class ="item-number">Item: #2206</p>
 	       	</div>
 
 			<div class = "item-box">
-				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/fredflinstone.png" alt"Fred flinstone with box"></a>
+				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/fredflinstone.png" alt="Fred flinstone with box"></a>
 					<p class ="item-name">Pop! Animation: Fred Flinstone</p>
 	       			<p class ="item-number">Item: #2201</p>
 	       	</div>
 
 			<div class = "item-box item-box-last">
-				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/stewie.png" alt"stewie funko with box"></a>
+				<a href ="view-item.html"><img class="multi-item" src = "img/Products/Funko/stewie.png" alt="stewie funko with box"></a>
 					<p class ="item-name">Pop! Animation: Stewie</p>
 	       			<p class ="item-number">Item: #2201</p>
 	       	</div>
 		</section>
+	</div>
+
+		<section class = "footer">
+		<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
+		  <div class = "email">
+		   <form id="comments" method="post" action="#">
+          <input class="comments" type="text" id="form-email" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+          </form>
+      </div>
+		
+		<div class ="footer-icons">
+			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
+			<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
+			<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
+		</div>
+
+		<div class = "extras">
+			<a href = "reference.html"><p class = "extra-content"> Content </p></a>
+			<a href ="styleguide.html"> <p class = "extra-content"> Style Guide </p></a>
+		</div>
+		</section>	
 	</body>
 </html>
-
-
-
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>

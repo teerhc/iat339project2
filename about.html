@@ -4,7 +4,7 @@
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Funko! Pop </title>
+		<title>Funko! Pop - About </title>
 
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
@@ -13,6 +13,9 @@
 		<link rel="stylesheet" href="css/company.css">
 		<link rel="stylesheet" href="css/product.css">
 
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+		<script src="js/load.js"></script>
 	</head>
 	
 	<body>
@@ -22,24 +25,27 @@
 			</div>
 			<nav>
 				<a class ="head-nav" href = "products.html"> Products </a>
-				<a class ="head-nav current" href = "about.html"> About </a>
+				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
 		<section class = "banner">
-			<img src="img/About/about-banner.png" alt="A banner image that shows a picture of the Funko mascot in the head office">
+			<img src="img/About/about-banner.jpg" alt="A banner image that shows a picture of the Funko mascot in the head office">
 			<div class = "banner-header">
-				<p class = "banner-title"> About Us</p>
-				<p class = "banner-question"> Who Are We?</p>
+				<h1> About Us</h1>
+				<h4> Who Are We?</h4>
 			</div>
 		</section>
 	
 <!--ABOUT COMPANY-->
 		<section class ="about">	
 			<div class="grid">
-				<h6 class= "section-header">Our Company</h6>
+				<h2>Our Company</h2>
 				<div class="grid-col-half">
 			
 					<p class="history-text">Founded in 1998 by Mike Becker, the company was originally conceived by Becker as a small project to bring back various low-tech, nostalgia-themed toys in the high-tech world of today. Funko's first manufactured bobblehead was of the restaurant advertising icon Big Boy. Sold in 2005, Funko LLC is now headed by Brian Mariotti as president. Since 2005, the company has increased the scope of unique toy lines, and has signed licensing deals with WWE, Lucasfilm, Marvel, Hasbro, Elvis Presley, CBS, FOX, Warner Bros, Disney, Microsoft, HBO, etc. </p>
@@ -55,50 +61,51 @@
 		</section>
 
 <!--STAFF INTRO-->
-		<section class = "staff">
+		<section class="staff">
 			<div>
-			<h6 class= "section-header">Meet the Team</h6>
+			<h2>Meet the Team</h2>
 			</div>
 
 		<section class="meet-the-team">
 			<div class="grid">
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-1.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Melissa</p><p class= "staff-name staff-description">Production Corrdinator </p>
-					<p class="staff-text" id="staff-intro"> As the production corrdinator, Melissa ensures the scheduling and co-ordinating the communications and daily workings of the whole team. She maintains the purchase order log, makes sure the paperwork is completed and filed, and ensure that nothing is overlooked. </p>
+					<p class="staff-text staff-intro"> As the production corrdinator, Melissa ensures the scheduling and co-ordinating the communications and daily workings of the whole team. She maintains the purchase order log, makes sure the paperwork is completed and filed, and ensure that nothing is overlooked. </p>
 				</div>
 				
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-2.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Wendy</p><p class= "staff-name staff-description">Quality Assurance </p>
-					<p class="staff-text" id="staff-intro"> Each Funko is made with love. Wendy is the one that makes sure that all of our funkos are 100% perfect for our customers. If there is the slightest detail that is off, she will be the one to catch it. Just remember, all the Funkos you buy will have Wendy's 100% Quality approval. </p>
+					<p class="staff-text staff-intro"> Each Funko is made with love. Wendy is the one that makes sure that all of our funkos are 100% perfect for our customers. If there is the slightest detail that is off, she will be the one to catch it. Just remember, all the Funkos you buy will have Wendy's 100% Quality approval. </p>
 				</div>
 
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-3.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Sean</p><p class= "staff-name staff-description">Creative Director </p>
-					<p class="staff-text" id="staff-intro"> Sean is charged with determining the best ways for us to visually represent our company’s identity online which involves a development of high-level concepts for design projects. If you see anything inconsisten with the visual representation of our store, blame Sean. </p>
+					<p class="staff-text staff-intro"> Sean is charged with determining the best ways for us to visually represent our company’s identity online which involves a development of high-level concepts for design projects. If you see anything inconsisten with the visual representation of our store, blame Sean. </p>
 				</div>
 				
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-4.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Somaly</p><p class= "staff-name staff-description">Events Coordinator </p>
-					<p class="staff-text" id="staff-intro"> Ever wonder who decides how to set up our booth at Events? Well wonder no more, Somaly is the one who coordinates all of our events.  She Manages event processes, coordinating meetings, preparing, monitoring and distributing event budgets. </p>
+					<p class="staff-text staff-intro"> Ever wonder who decides how to set up our booth at Events? Well wonder no more, Somaly is the one who coordinates all of our events.  She Manages event processes, coordinating meetings, preparing, monitoring and distributing event budgets. </p>
 				</div>
 				
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-5.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Jim</p><p class= "staff-name staff-description">Designer </p>
-					<p class="staff-text" id="staff-intro"> Jim has the funnest job out of all of us. He gets to decide how these funkos look and how the packaging will fit these Funkos. From detail to consistency, he is our guy to ensure that all of our products look the same and nothing looks out of place. </p>
+					<p class="staff-text staff-intro"> Jim has the funnest job out of all of us. He gets to decide how these funkos look and how the packaging will fit these Funkos. From detail to consistency, he is our guy to ensure that all of our products look the same and nothing looks out of place. </p>
 				</div>
 
-				<div class="grid-col-three" id="staff-grid">
+				<div class="grid-col-three">
 					<img src="img/About/Staff/staff-6.png"  alt="Photo of a team member">
 					<p class="sub-heading staff-name"> Allison</p><p class= "staff-name staff-description">Social Media Coordinator </p>
-					<p class="staff-text" id="staff-intro"> Allison is the one who you all of a special conection with on our social media pages. She keeps everyone up to date about everything that is happening with our growing company. Got a quesiton you need answered, ask on our profiles and she will answer you right away! </p>
+					<p class="staff-text staff-intro"> Allison is the one who you all of a special conection with on our social media pages. She keeps everyone up to date about everything that is happening with our growing company. Got a quesiton you need answered, ask on our profiles and she will answer you right away! </p>
 				</div>
 			</div>
 		</section>
+	</section>
 <!--END OF STAFF INTRO-->
 
 <!--FOOTER-->
@@ -112,7 +119,7 @@
 		
 			<div class ="footer-icons">
 				<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-				<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+				<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 				<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 			</div>
 
@@ -125,4 +132,3 @@
 	
 	</body>
 </html>
-

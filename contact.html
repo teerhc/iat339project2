@@ -4,7 +4,7 @@
 		<meta charset= "utf-8">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop Contact</title>
+		<title>Funko! Pop - Contact</title>
 
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
@@ -13,50 +13,65 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/company.css">
 
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+		<script src="js/load.js"></script>
 	</head>
 
 
 	<body>
 		<header>
 			<div class = "logo">
-				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
+				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
 				<a class ="head-nav" href = "products.html"> Products </a>
 				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
 		<section class = "banner">
-			<img src="img/Contact/contact-banner.png" alt="contact banner image that shows a bunch of funko boxes">
+			<img src="img/Contact/contact-banner.jpg" alt="contact banner image that shows a bunch of funko boxes">
 			<div class = "banner-header">
-				<p class = "banner-title"> Contact</p>
-				<p class = "banner-question"> Where to Find?</p>
+				<h1 class="banner-title"> Contact</h1>
+				<h4 class="banner-question"> Where to Find Us?</h4>
 			</div>
 		</section>
-
 <!--MAP/INFO-->
 		<section class = "contact-details">
 			<!--MAP-->
 			<div class="contact">
-				<h6 class= "section-header">Funko Pop!</h6>
-				<div class="grid-col-one">
+				<h2>Funko Pop!</h2>
+				<div class="grid-col-one break">		
+					
+						<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.7138011639545!2d-123.14061979999994!3d49.20598860000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548674eaf81abf35%3A0x80101531f3f8010e!2s123+Granville+St%2C+Vancouver%2C+BC+V6P!5e0!3m2!1sen!2sca!4v1435783101846"></iframe>
 
-					<img class="store-picture" src="img/Contact/store.png" alt="map">
+					<div class = "store-info">	
+					<div class ="store-details">
+					<p><a class = "bold-color">Location:</a>
+					<br>123 Granville Street, <br>Vancouver, BC <br>V6P 5A4</p>
+					</div>
+
+					<div class ="store-details">
+					<p><a class = "bold-color">Email</a> vancouver@funkopop.com</p>
 				</div>
+				<div class ="store-details">
+					<p>
+					<a class = "bold-color">Phone Number</a>
+					+1 604 123 4466</p>
+					</div>
+					</div>
+
+				</div>
+
 			
 				<!--STORE INFO-->
-
-					<div class ="store-details">
-					<p class=" store-details store-text"><a class = "bold-color store-text">Location:</a> Vancouver Convention Center
-					<br>1055 Canada Place, <br>Vancouver, BC <br>V6C 0C3</p>
-					</div>
-
-					<div class ="store-details">
-					<p class=" store-details store-text"><a class = "bold-color history-text">General:</a> vancouverstore@funkopop.com</p><p>604 123 4466</p>
-					</div>
+			
 				</div>
 		</section>
 			
@@ -67,14 +82,15 @@
 				<h6 class="small-header"> Got a Question? Ask Us! </h6>
 				
 					<form method="post" action="#">
-					<input class="con-comments" type="text" id="form-name" placeholder="Name">
+					<input class="con-comments" type="text" id="com-name" placeholder="Name">
+					</form>
 				
 
 					<form method="post" action="#">
 					<input class="con-comments" type="text" id="form-mail" placeholder="Email">
+					</form>
 
 					<textarea class="con-comments" id="con-comment" placeholder="Message:"></textarea>
-					</form>
 				
 					<a href ="#" class="nav-button">Submit</a>
 			</div>
@@ -85,19 +101,19 @@
 			<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
 			<div class = "email">
 				<form id="comments" method="post" action="#">
-				<input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
-				</form>
+	          	<input class="comments" type="text" id="form-name" placeholder="Enter your email"> <a href ="#" class = "email-button">Submit</a>
+	          </form>
 	      	</div>
-			
+		
 			<div class ="footer-icons">
 				<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-				<img src="img/Footer/twitter.png" height ="30" width="30"alt="Twitter logo">
+				<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
 				<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
 			</div>
 
 			<div class = "extras">
-				<p class = "extra-content"> Content </p>
-				<p class = "extra-content"> Style Guide </p>
+				<a href = "reference.html"><p class = "extra-content"> Content </p></a>
+				<a href ="styleguide.html"> <p class = "extra-content"> Style Guide </p></a>
 			</div>
 		</section>
 <!--end of footer-->
@@ -105,11 +121,3 @@
 			
 	</body>
 </html>
-
-	<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>
