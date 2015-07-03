@@ -27,3 +27,34 @@ jQuery(document).ready(function($){
          
         }        
     });
+
+jQuery(document).ready(function($){
+        // When site loaded, load the Popupbox First
+         unloadPopupBox();
+
+     $('#purchase').click( function() {            
+            loadPopupBox();
+        });
+
+    
+        $('#popupBoxClose').click( function() {            
+            unloadPopupBox();
+        });
+        
+        $('#container').click( function() {
+            unloadPopupBox();
+        });
+
+        function unloadPopupBox() {    // TO Unload the Popupbox
+            $('#popup_box_thankyou').fadeOut("fast"); 
+        }    
+        
+        function loadPopupBox() {    // To Load the Popupbox
+            $('#popup_box_thankyou').css({
+                "opacity":"1"
+            });
+            $('#popup_box_thankyou').fadeIn("slow");
+         
+        }        
+    });
+

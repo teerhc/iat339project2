@@ -9,14 +9,28 @@
 
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/product.css">
+		<link rel="stylesheet" href="css/popup.css">
 	
 
 		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/pop-up.js"></script>
 		<script src="js/mobile-menu.js"></script>
 		<script src="js/load.js"></script>
 
 	</head>
 	<body>
+			<div id="popup_box_thankyou" class="thank-you">    
+			<a id="popupBoxClose">X</a>    
+	 		<div class = "popup-item">
+	 			<div class ="pop-up-header pop-up-thankyou">
+	 			<p class = "popup-added">Thank you for your purchase!</p>
+	 			<p>Your order number <a class="order-number">1235.</a>Please check your email for confirmation.</p> 
+	 			</div>   
+	 		</div>
+	 		<div class = "popup-nav">
+				<a class="popup-checkout" href ="index.html">Home</a>
+			</div>
+			</div>
 		<header>
 			<div class = "logo">
 				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
@@ -171,7 +185,7 @@
 								</form>
 							</div>
      					 </div>
-						<a href ="#" class="purchase-btn button load"> Purchase</a>
+						<a href ="#" id="purchase" class="purchase-btn button load"> Purchase</a>
 					</div>
 				</div>
 			</div>
@@ -187,17 +201,18 @@
           </form>
       </div>
 		
-		<div class ="footer-icons">
-			<img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo">
-			<img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo">
-			<img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo">
-		</div>
+			<div class ="footer-icons">
+				<a href = "index.html"><img src="img/Footer/facebook.png" height ="30" width="30" alt="Facebook logo"></a>
+				<a href = "index.html"><img src="img/Footer/twitter.png" height ="30" width="30" alt="Twitter logo"></a>
+				<a href = "index.html"><img src="img/Footer/instagram.png" height ="30" width="30" alt="Instagram logo"></a>
+			</div>
 
 		<div class = "extras">
 			<a href = "reference.html"><p class = "extra-content"> Content </p></a>
 			<a href ="styleguide.html"> <p class = "extra-content"> Style Guide </p></a>
+			<a href ="https://github.com/teerhc/iat339project2"> <p class = "extra-content"> Repository </p></a>
 		</div>
-		</section>
+	</section>
 	
 	</body>
 	</html>
