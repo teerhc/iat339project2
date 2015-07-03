@@ -67,10 +67,9 @@ section code {
 }
 
 .sg-button{
-text-decoration: none;
+  text-decoration: none;
   list-style: none;
   border: 1px solid #00ADEF;
-  width: 15%;
   padding: 0.5em 2rem;
   text-align: center;
   font-family: PT Sans;
@@ -80,10 +79,10 @@ text-decoration: none;
   font-size: 12px;
   background-color: #00ADEF;
   transition: 0.3s;
-  margin: 0 1%;
-  position: relative;
   display: inline-block;
-  float: left;
+  float: none;
+  margin: 0.5em auto;
+  margin-right: 1em;
 }
 
 .sg-button:hover{
@@ -782,72 +781,7 @@ text-decoration: none;
       padding:1em 0;
       min-height: 5em;
     }
-  /*End of Staff*/
-
-  /*Events Grid Transitions*/
-    .events-grid{
-      display: inline-block;
-      width: 33.3333%;
-      /* height: 10em; */
-      float: left;
-      text-align: center;
-    }
-
-    .events-grid img:hover{
-      color:white;
-      opacity: 0.5;
-      transition:0.5s;
-    }
-
-    .events-grid-first img {
-      width:90%;
-      margin-right:10%;
-      height:auto;
-    }
-
-    .events-grid-mid img {
-      width:90%;
-      margin-right:5%;
-      margin-left:5%;
-      height:auto;
-      -webkit-backface-visibility: hidden;  
-    }
-
-    .events-grid-mid p {
-      width:90%;
-      margin-right:5%;
-      margin-left:5%;
-    }
-
-    .events-grid-last img {
-      width:90%;
-      margin-right:10%;
-      float:right;
-      margin-right:0;
-      height:auto;
-    }
-
-    .events-grid-last p {
-      width:90%;
-      margin-right:10%;
-      float:right;
-      margin-right:0;
-    }
-
-    .events-last {
-    float:right;
-    }
-
-    .events-label{
-      font-family: PT Sans;
-      font-size: 0.75em;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      margin: 1em 0;
-      width: 85%;
-      margin-bottom: 0;
-    }
-/*End of events transitions */   
+  /*End of Staff*/    
 
   /*Review Item*/
   .cart-all{
@@ -1095,7 +1029,7 @@ text-decoration: none;
 
   .sg-button{
     width:80%;
-    margin:1rem 1%;
+    margin:0.5rem 1%;
   }
 
   header {
@@ -1201,7 +1135,7 @@ text-decoration: none;
 
   /*END OF FEATURES*/
 
-  /*ABOUT*/
+/*ABOUT*/
     #staff-intro {
       min-height:0;   
     }
@@ -1232,9 +1166,8 @@ text-decoration: none;
     height:auto;
       max-width: 18em;
   }
-  /*ABOUT*/
 
-  /*PURCHASE PRODUCT SECTION*/
+      /*PURCHASE PRODUCT SECTION*/
   .information{
     width:100%;
     position:inherit;
@@ -1274,9 +1207,70 @@ text-decoration: none;
   }
   /*PURCHASE PRODUCT SECTION*/
 
-  /*Events*/
-  .events-grid{
-    width:100%;
-  }
-  /*Events*/
 }
+
+
+
+/*Events Grid Transitions*/
+    .events-grid{
+      display: inline-block;
+      width: 33.3333%;
+      /* height: 10em; */
+      float: left;
+      text-align: center;
+    }
+
+    .events-grid img:hover{
+      color:white;
+      opacity: 0.5;
+      transition:0.5s;
+    }
+
+    .events-grid-first img {
+      width:90%;
+      margin-right:10%;
+      height:auto;
+    }
+
+    .events-grid-mid img {
+      width:90%;
+      margin-right:5%;
+      margin-left:5%;
+      height:auto;
+      -webkit-backface-visibility: hidden;  
+    }
+
+    .events-grid-mid p {
+      width:90%;
+      margin-right:5%;
+      margin-left:5%;
+    }
+
+    .events-grid-last img {
+      width:90%;
+      margin-right:10%;
+      float:right;
+      margin-right:0;
+      height:auto;
+    }
+
+    .events-grid-last p {
+      width:90%;
+      margin-right:10%;
+      float:right;
+      margin-right:0;
+    }
+
+    .events-last {
+    float:right;
+    }
+
+    .events-label{
+      font-family: PT Sans;
+      font-size: 0.75em;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin: 1em 0;
+      width: 85%;
+      margin-bottom: 0;
+    }
