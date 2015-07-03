@@ -441,15 +441,31 @@ input:focus {
 
 	#mobile-menu {
 		display: block;
-		position:absolute;
-		float:right;
-		width:2em;
-		height:2em;
-		right:1em;
-		top:1em;
-		background: yellow;
-		z-index:999999;
+		position: absolute;
+		float: right;
+		height: 2.5em;
+		right: 1em;
+		top: 1em;
+		background: #00ADEF;
+		color: white;
+		z-index: 999999;
+		width: 5em;
+		padding-top: 0.75em;
+		text-align: center;
+		font-family: PT Sans;
+		font-weight: 700;
+		font-size: 12px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		cursor: pointer;
+		box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+		transition:0.3s;
 }
+
+	.clicked {
+		opacity:0.6;
+		transition:0.3s;
+	}
 
 	header nav {
 		position:relative;
