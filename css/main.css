@@ -145,9 +145,39 @@ body{
 
 /*BANNER SECTION*/
 .banner{
-	margin-top: 2em;
-	position: relative;
+  margin-top: 2em;
+  position: relative;
+  height: 22em;
+  width: 100%;
+  background-size: cover;
+  /* height: 100%; */
+  background-position: center;
+  overflow:hidden;
 }
+
+.home-banner{
+	background-image: url(css-img/home-banner.jpg);
+}
+
+.about-banner{
+	background-image: url(css-img/about-banner.png);
+	background-position: right;
+}
+
+.contact-banner{
+	background-image: url(css-img/contact-banner.png);
+}
+
+.event-banner{
+	background-image: url(css-img/event-banner.png);
+}
+
+.events1-banner{
+	background-image: url(css-img/events1-banner.png);
+	background-position: left
+}
+
+
 
 .banner img{
 	width: 100%;
@@ -194,6 +224,7 @@ body{
 
 .feature-box img {
 	width: 100%;
+	float:left;
 }
 
 .label {
@@ -208,7 +239,7 @@ body{
   opacity: 0;
   margin: 0;
   transition: 0.3s;
-  height: 98.3%;
+  height: 100%;
 }
 
 .feature-box:hover .label {
@@ -395,6 +426,17 @@ input:focus {
 		width: 100%;
 		padding:0 10%;
 	}
+
+	.banner {
+		height:18em;
+		/*text-align:center;*/
+	}
+		.banner img{
+	height: 100%;
+	position: absolute;
+	width:auto;
+	margin:auto;
+}	
 }
 
 /*MOBILE*/
