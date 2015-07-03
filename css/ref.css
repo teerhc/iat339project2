@@ -17,7 +17,7 @@ body{
 	font-family: PT Sans;
 	font-weight: 700;
 	font-size: 1.25rem;
-	margin: 0 1em 1em 1em;
+	margin: 0 1em;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
@@ -32,33 +32,12 @@ body{
 	text-align: center;
 	width: 100%;
 	color: #00AEDF;
-	position: relative;
 }
 
 h6{
 	font-family: PT Sans;
 }
 
-<<<<<<< HEAD
-.reference{
-	position: relative;
-	display: inline-block;
-	float: left;
-	height: auto;
-	margin-top: 2em;
-}
-
-.index{
-	position: relative;
-	display: inline-block;
-	height: auto;
-	float: left;
-  	margin: 2em 3em;
-  	padding-bottom: 3rem;
-  	border-bottom: 1px solid #ccc;
-  	float: left;
-  	
-=======
 .ref-index{
   margin: 1.5rem;
   padding-bottom: 3rem;
@@ -66,12 +45,9 @@ h6{
   float: left;
   width: 100%;
   float: left;
->>>>>>> CodeCleanup2
  }
 
 .elements{
-	display: inline-block;
-	float: left;
 	font-family: PT Sans;
 	font-size: 1rem;
 	text-transform: uppercase;
@@ -79,14 +55,9 @@ h6{
 	padding: 0.5em 3.5em;
 	color: #00AEDF;
 	letter-spacing: 0.1em;
-<<<<<<< HEAD
-	width: 100%;
-=======
 	word-break: break-word;
 
->>>>>>> CodeCleanup2
 }
-
 
 #sub-elements{
 	font-weight: 600;
@@ -102,8 +73,7 @@ h6{
 
 .hero-link{
 	text-decoration: none;
-	padding-left: 3em;
-	margin-left: 2em;
+	padding-left: 5em;
 }
 
 
@@ -118,7 +88,7 @@ a:hover{
 }
 
 #last-section{
-	border-bottom: none;
+	border-top: none;
 }
 
 /*END OF REF BODY*/
