@@ -4,7 +4,7 @@
   display: inline-block;
   float: left;
   position: relative;
-  margin-top: 4em;
+  margin-top: 5em;
 }
 
 body{
@@ -32,6 +32,7 @@ body{
 	text-align: center;
 	width: 100%;
 	color: #00AEDF;
+	margin: 0;
 }
 
 h6{
@@ -47,6 +48,13 @@ h6{
   float: left;
  }
 
+  .index{
+ 	 border-bottom: 1px solid #ccc;
+ 	 margin: 1.5rem;
+ 	 padding-bottom: 3rem;
+ 
+ }
+
 .elements{
 	font-family: PT Sans;
 	font-size: 1rem;
@@ -56,7 +64,6 @@ h6{
 	color: #00AEDF;
 	letter-spacing: 0.1em;
 	word-break: break-word;
-
 }
 
 #sub-elements{
@@ -88,7 +95,7 @@ a:hover{
 }
 
 #last-section{
-	border-top: none;
+	border-bottom: none;
 }
 
 /*END OF REF BODY*/
