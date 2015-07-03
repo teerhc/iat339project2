@@ -4,13 +4,25 @@
 		<meta charset= "utf-8">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop Contact</title>
+		<title>Funko! Pop - References</title>
 
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="css/ref.css">
 		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/mobile-menu.js"></script>
+
+		<script>
+			window.addEventListener('load', function load() {
+			window.removeEventListener('load', load, false);
+			document.body.classList.remove('load');
+			}, false);
+		</script>
+
 
 	</head>
 
@@ -18,8 +30,9 @@
 	<body>
 		<header>
 			<div class = "logo">
-				<a href="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo">
+				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
+			
 			<nav>
 				<a class ="head-nav" href = "products.html"> Products </a>
 				<a class ="head-nav" href = "about.html"> About </a>
@@ -30,9 +43,9 @@
 
 
 		
-		<section>
+		<section class="reference">
 			<h6 class= "section-header">Reference</h6>
-				<div class="index">
+				<div class="ref-index">
 						
 					<p class="small-header">Index</p>
 					<p class="elements">Home Banner:  
@@ -56,7 +69,6 @@
 						<a class="link" href="http://globaltoynews.typepad.com/.a/6a0133ec87bd6d970b0168e88a7b7d970c-800wi" target="_blank">http://globaltoynews.typepad.com/.a/6a0133ec87bd6d970b0168e88a7b7d970c-800wi</a></p>
 
 				</div>
-		</section>
 
 		<section>
 		<div class="index">
@@ -66,7 +78,7 @@
 				<a class="link" href="http://x.annihil.us/u/prod/marvel/i/mg/9/90/4dc971b92be35.jpg" target="_blank">http://x.annihil.us/u/prod/marvel/i/mg/9/90/4dc971b92be35.jpg</a></p>
 				
 				<p class="elements" id="sub-elements">Funkos:</p>
-			<div class="ref-heroes-30">
+			<div id="ref-heroes-30">
 				<p> <a class="elements hero-link" href="http://funko.com/products/pop-heroes-batman" target="_blank">Batman </p></a>
 
 				<p> <a class="elements hero-link" href="http://funko.com/products/pop-marvel-spiderman" target="_blank">Spiderman </p></a>
@@ -75,7 +87,7 @@
 
 				<p> <a class="elements hero-link" href="http://www.amazon.com/FunKo-POP-Disney-Pixar-Inside/dp/B00SU87X9U" target="_blank">Joy </p></a>
 			</div>
-		<div class="ref-heroes-30">
+		<div id="ref-heroes-30" id="middle-col">
 
 			<p> <a class="elements hero-link" href="http://www.amazon.com/gp/product/B00SU9MWKE/ref=pd_lpo_sbs_dp_ss_2?pf_rd_p=1944687642&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=B00SU87X9U&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=179EN4DKXTNT9CEPVW9Q" target="_blank">Sadness</p></a>
 
@@ -86,7 +98,7 @@
 			<p> <a class="elements hero-link" href="http://www.amazon.com/FunKo-POP-Disney-Pixar-Disgust/dp/B00SUABTYI/ref=pd_sim_21_1?ie=UTF8&refRID=1DJZJ451HY1JNX6V7TBN" target="_blank">Disgust </p></a>
 
 		</div>
-		<div class="ref-heroes-30">
+		<div id="ref-heroes-30">
 			<p> <a class="elements hero-link" href="http://www.amazon.com/Funko-POP-Disney-Tomago-Action/dp/B00MYUFCK2/ref=sr_1_1?s=toys-and-games&ie=UTF8&qid=1434941970&sr=1-1&keywords=gogo+funko" target="_blank">Gogo </p></a>
 
 			<p> <a class="elements hero-link" href="http://www.amazon.com/Funko-POP-Disney-6-Honey-Action/dp/B00MYUFCDE/ref=pd_sim_21_1?ie=UTF8&refRID=0ARHMRD8J83NM0N93NA2" target="_blank">Honey Lemon </p></a>
@@ -113,21 +125,21 @@
 
 				<p class="elements" id="sub-elements">Staff:</p>
 			
-			<div class="ref-heroes-30">
+			<div id="ref-heroes-30">
 				<p> <a class="elements hero-link" href="https://instagram.com/p/xSBWa7mKjr/" target="_blank">Melissa </p></a>
 
 				<p> <a class="elements hero-link" href="https://instagram.com/p/xSQa4BGKsL/" target="_blank">Somaly</p></a>
 				
 			</div>
 
-			<div class="ref-heroes-30">
+			<div id="ref-heroes-30">
 				
 				<p> <a class="elements hero-link" href="https://instagram.com/p/xPb-lxGKp6/" target="_blank">Wendy </p></a>
 
 				<p> <a class="elements hero-link" href="https://instagram.com/p/xSk5T5mKl_/" target="_blank">Jim</p></a>
 			</div>
 
-			<div class="ref-heroes-30">
+			<div id="ref-heroes-30">
 				<p> <a class="elements hero-link" href="https://instagram.com/p/xSJEm6GKod/" target="_blank">Sean</p></a>
 
 				<p> <a class="elements hero-link" href="https://instagram.com/p/xR3szAmKpO/" target="_blank">Allison</p></a>
@@ -147,7 +159,7 @@
 	</section>
 
 	<section>
-		<div class="index">
+		<div class="index" id="last-section">
 						
 			<p class="small-header">Events</p>
 				<p class="elements">Event Banner: <a class="link" href=" http://blog.disneystore.com/.a/6a013481198b41970c0153901f16a8970b-pi" target="_blank">http://blog.disneystore.com/.a/6a013481198b41970c0153901f16a8970b-pi.jpg</a></p>
@@ -164,9 +176,10 @@
 
 		</div>
 	</section>
+</section>
 
 		<!--FOOTER-->
-		<section class = "footer" id="last-section">
+		<section class = "footer">
 			<img class="footer-img" src="img/funko.png" height="50" width="100" alt="funko logo">
 			<div class = "email">
 				<form id="comments" method="post" action="#">
@@ -181,10 +194,12 @@
 			</div>
 
 			<div class = "extras">
-			<a href = "reference.html"><p class = "extra-content"> Content </p></a>
-			<a href ="styleguide.html"> <p class = "extra-content"> Style Guide </p></a>
+				<a href = "reference.html"><p class = "extra-content"> Content </p></a>
+				<a href ="styleguide.html"> <p class = "extra-content"> Style Guide </p></a>
 			</div>
-		</section>
+		</div>
+	</section>
+
 <!--end of footer-->
 
 			
@@ -198,4 +213,3 @@
     document.body.classList.remove('load');
   }, false);
 </script>
->>>>>>> reference
