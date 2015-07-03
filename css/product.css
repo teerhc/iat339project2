@@ -850,7 +850,7 @@ input {
 	float:left;
 	display: block;
 	position: relative;
-	margin-top:3em;
+	margin-top:5.5em;
 }
 
 .review-item{
@@ -866,6 +866,43 @@ input {
 .review-item img{
 	width:100%
 }
+
+.grand-total{
+	width:100%;
+	position: relative;
+	float:left;
+	text-align: center;
+	font-family: PT Sans;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin: 0;
+	height:auto;
+	margin-top: 1em;
+}
+
+.total{
+	margin:0;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	color: #00AEDF
+
+}
+.shipping-total{
+	float:right;
+	margin-right: 1em;
+	margin-top: 2em;
+	font-size: 1em;
+	display: block;
+	text-align: right;
+
+}	
+
+.shipping-total p{
+margin-bottom: 1em;
+color: black;
+
+
+}	
 
 
 /*END OF REVIEW SECTION*/
@@ -1011,6 +1048,7 @@ input {
 		height:auto;
 		text-align:left;
 	}
+
 }
 
 

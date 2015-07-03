@@ -3,7 +3,9 @@
 	<head>
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop</title>
+		<title>Funko! Pop - Purchase</title>
+
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/product.css">
@@ -11,15 +13,7 @@
 
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/mobile-menu.js"></script>
-		
-<script>
-    window.addEventListener('load', function load() {
-    window.removeEventListener('load', load, false);
-    document.body.classList.remove('load');
-  }, false);
-</script>
-
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+		<script src="js/load.js"></script>
 
 	</head>
 	<body>
@@ -28,10 +22,13 @@
 				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
-				<a class ="head-nav current" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "products.html"> Products </a>
 				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
@@ -55,6 +52,17 @@
 							<p class="cart-label">Price</p>
 							<p>11.95</p>
 						</div>
+
+						<div class="shipping-total">
+							<p class="cart-label total">+Shipping: $4.95</p>
+							<p class="cart-label total">+Tax: $1.95</p>
+						</div>
+
+						<div class="grand-total">
+							<p class="cart-label total">Grand Total: $18.85</p>
+
+						</div>
+
 					</div>
 				</div>		
 			</div>
@@ -62,7 +70,7 @@
 		
 
 		<section class="information">
-			<h3 class= "information-header item-header">Checkout</h3>
+			<h3 class= "information-header item-header">Product Review</h3>
 			<div class ="information-input">
 			
 				<div class = "checkout-information">
@@ -89,11 +97,11 @@
 							<p class = "medium-input-label input-label">City</P>
 							<p class = "small-input-label input-label">Postal Code</P>
 							<form id="detail-city" method="post" action="#">
-							<input class="medium-detail cleardefault" type="text" name="city" placeholder="">
+							<input class="medium-detail" type="text" name="city" placeholder="">
 							</form>
 
 	         				 <form id="detail-pc" method="post" action="#">
-	          				<input class ="small-detail cleardefault" type="text" name="PC" placeholder="X#X-#X#">
+	          				<input class ="small-detail" type="text" name="PC" placeholder="X#X-#X#">
 	          				</form>
 	     				 </div>
 	 				 </div>
@@ -114,7 +122,7 @@
 						</div>
 
 	         				<form id="detail-phone" method="post" action="#">
-	          				<input class="half-detail cleardefault" type="text" name="phone" placeholder="000-000-0000">
+	          				<input class="half-detail" type="text" name="phone" placeholder="000-000-0000">
 	          				</form>
 	      				</div>
 	    			</div>
@@ -134,14 +142,14 @@
         					<div class="input-box">
 								<p class = "input-label">Name on Card</P>
         						<form id="detail-cardname" method="post" action="#">
-         						<input class ="input-detail cleardefault" type="text" name="PC" placeholder="">
+         						<input class ="input-detail" type="text" name="PC" placeholder="">
           						</form>
 							</div>
 
 							<div class="input-box">
 								<p class = "input-label">Card Number</P>
 								<form id="detail-cardPC" method="post" action="#">
-								<input class="input-detail cleardefault" type="text" name="PC" placeholder="">
+								<input class="input-detail" type="text" name="PC" placeholder="">
 								</form>
 							</div>
       					</div>
@@ -151,11 +159,11 @@
 								<p class = "medium-input-label input-label">Expiry Date</P>
 								<p class = "small-input-label input-label">Security Code</P>
 								<form id="detail-expirydate" method="post" action="#">
-								<input class="medium-detail cleardefault" type="text" name="city" placeholder="MM/DD">
+								<input class="medium-detail" type="text" name="city" placeholder="MM/DD">
 								</form>
 
 								<form id="detail-securitycode" method="post" action="#">
-								<input class="small-detail cleardefault" type="text" name="PC" placeholder="###">
+								<input class="small-detail" type="text" name="PC" placeholder="###">
 								</form>
 							</div>
      					 </div>
