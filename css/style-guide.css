@@ -1,0 +1,1139 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/ 
+
+.sg-h1{
+  font-family: PT Sans;
+  letter-spacing: 0.2em;
+
+}
+
+.sg-h2{
+  color: #00ADEF;
+  font-family: PT Sans;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+}
+
+.sg-css{
+  margin: 0.5em 0;
+}
+
+h1{
+  font-family: PT Sans;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+
+}
+
+h4{
+  font-size: 2rem;
+}
+
+body {
+  font-family: PT Sans;
+  padding: 1rem;
+
+}
+
+section:not([id]) {
+  margin: 0.75em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #ccc;
+  display: inline-block;
+  width:100%;
+}
+
+.sg-h3 {
+  margin: 1rem 0;
+  font-family: PT Sans;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
+
+
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  margin-top:0.5rem;
+  display: block;
+}
+
+.sg-button{
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #00ADEF;
+  width: 15%;
+  padding: 0.5em;
+  text-align: center;
+  font-family: PT Sans;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 12px;
+  background-color: #00ADEF;
+  transition: 0.3s;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.sg-button:hover{
+  background-color: #E6E7E8;
+  border:1px solid #E6E7E8;
+  color: #000000;
+  transition:0.3s;
+
+} 
+
+.all-sg a{
+  text-decoration: none;
+  color: white;
+}
+
+.all-sg{
+  display: inline;
+  width:100%;
+}
+
+/*This is just in here to avoid loading issue with the buttons*/
+.load * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+  /* Button: Add to Cart/ Purchase */
+    .button{
+      text-decoration: none;
+      list-style: none;
+      border: 1px solid #000000;
+      width: 35%;
+      padding: 0.5em 3em;
+      text-align: center;
+      margin: 0.5em 0;
+      font-family: PT Sans;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      font-size: 12px;
+      background-color: black;
+      color: white;
+      transition:0.3s;
+    }
+
+    .button:hover{
+      background-color: #00ADEF;
+      border:1px solid #00ADEF;
+      transition:0.3s;
+    } 
+  /*End of Button: Add to Cart/ Purchase*/
+
+
+  /* Button: Pop Category & Submit */
+    .nav-button{
+      text-decoration: none;
+      list-style: none;
+      border: 1px solid #E6E7E8;
+      width: 20%;
+      padding: 0.5em 1em;
+      text-align: center;
+      margin: 0.5em 0;
+      font-family: PT Sans;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      font-size: 12px;
+      background-color:  #E6E7E8;
+      color: white;
+      transition:0.3s;
+      color:black;
+        box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    }
+
+    .nav-button:hover{
+      background-color: #00ADEF;
+      border:1px solid #00ADEF;
+      transition:0.3s;
+      color: white;
+    }
+  /* End of Button: Pop Category & Submit */
+
+  /* Styling for the text input field */
+    .input-box{
+      display: block;
+      width:50%;
+    }
+
+    .input-detail{
+      width:100%;
+      margin-top: 0em;
+      float:left;
+      font-family: PT Sans;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      height: 1rem;
+      padding: 0.75rem;
+      color: black; 
+    }
+
+    .input-label{
+      font-family: PT Sans;
+      font-size: 0.75em;
+      text-transform: uppercase;
+      color:#00ADEF;
+
+      letter-spacing: 0.1em;
+      display: block;
+      float:left;
+      width: 100%;
+      margin: 0;
+    }
+
+    /* removes the blue box outline in the text input field */
+    input:focus {
+      outline:none;
+    }
+  /* End of Styling for the text input field */ 
+
+
+  /*Drop Down Menu*/
+    .drop-down{
+      position: relative; 
+      border-radius: 0;
+      width: 40%;
+      height: 2.5rem;
+      line-height: 2.5rem;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      padding: 0 1rem;
+      margin: 0;
+      margin-right:1em;
+      display: inline-block;
+      float:left;
+    }
+
+    select{
+      font-family: PT Sans;
+      text-transform: uppercase;
+      font-size: 0.75em;
+      letter-spacing: 3px;
+      text-align: center;
+      border:0;
+      border-radius: 0;
+      margin: 0.5em;
+      transition: 0.5s;
+      width:100%;
+      background-color: white;
+    }
+
+    select:focus {
+      outline:none;
+    }
+  /*End of Drop Down Menu*/
+
+  /* Search Bar*/
+    #search-bar{
+      display: inline-block;
+      float:left;
+      width:85%;
+    }
+
+    .search{
+      padding:1em;
+      padding-right: 5%;
+      width: 100%;
+      float:left;
+      font-family: PT Sans;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;  
+    }
+
+    .search-button{
+      display: inline-block;
+      float: left;
+      padding-top: 0.5em;
+      right: 4%;
+    }
+
+    .search-line{
+      display: inline-block;
+      width:40%;
+    }
+  /*End of Drop Down Menu*/    
+
+  /*breadcrumbs*/  
+  .breadcrumbs{
+    display: inline;
+    float:left;
+    margin-bottom: 0;
+  }
+
+  .breadcrumbs a{
+    margin: 0;
+    padding:0;
+    font-size: 0.7rem;
+    text-decoration: none;
+    display: inline-block;
+    float:left;
+  }
+
+  .bc-home {
+    font-family: PT Sans;
+    text-transform: uppercase;
+    display: inline;
+    font-weight: 400;
+    margin-right: 2em;
+    color: #919191;
+    text-decoration: none;
+  }
+
+  .bc-home:hover {
+    color: #00ADEF;
+    transition:0.5s;
+    text-decoration: none;
+  }
+
+  .bc-break{
+    font-family: PT Sans;
+    text-transform: uppercase;
+    display: inline;
+    font-weight: 400;
+    margin: 0 1em;
+    color: #919191;
+    float:left;
+    line-height: 1em;
+    font-size:0.75em;
+  }
+
+  .bc-current{
+    font-family: PT Sans;
+    text-transform: uppercase;
+    display: inline;
+    font-weight: 400;
+    margin: 0 0.5em;
+    color: #00ADEF;
+    text-decoration: none;
+  }
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+  /*H2: Section Title*/
+    h2{
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin:0;
+    float:none;
+    width:100%;
+    color: #00AEDF;
+    }
+  /*End of H2: Section Title*/ 
+
+  /*H6: Recommendations & Questions*/
+  h6{
+    font-family: PT Sans;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin: 0; 
+  }
+  /*End of H6: Recommendations & Questions*/
+
+  /*Paragraph Description*/ 
+    .history-text {
+      font-family: PT Sans;
+      font-size: 0.8rem;
+      margin: 0;
+      text-align: left;
+      width: 60%;
+      letter-spacing: 0.05em;
+      line-height: 1.5em;
+    }
+  /*End of Paragraph Description*/
+
+  /*Location Details  */ 
+  .bold-color{
+    font-size:1rem;
+    font-weight: 700;
+    color: #00AEDF;
+    margin:0;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .store-details{
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: left;
+  }
+
+  .store-details p {
+    padding:0;
+    font-family: PT Sans;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: left;
+    font-size:  0.8em;
+    margin:0;
+  }
+  /*End of Location Details  */ 
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+  /*Banner with H1 and H4*/  
+    .banner{
+      margin-top: 2em;
+      position: relative;
+    }
+
+    .banner img{
+      width: 100%;
+      position: relative;
+    }
+
+    .banner-header{
+      background-color: rgba(255,255,255,0.7);
+      width: 40%;
+      padding: 1rem;
+      text-align: center;
+      position: absolute;
+      top: 35%;
+      margin: 0px 30%;
+    }
+
+    h1{
+      font-family: PT Sans;
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      margin:0;
+    }
+
+    h4{
+      font-family: PT Sans;
+      font-size: 1rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.7em;
+      margin:0;
+      border-top: 1px solid black;
+      padding-top: 0.5em;
+      width: 100%;
+    }
+
+    #mobile-menu {
+      display: none;
+    }
+  /*End of Banner with H1 and H4*/ 
+
+  /*Offers Image Transitions & H3*/
+    .feature-box{
+      width: 45%;
+      margin: 1.5em auto;
+      float: left;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .feature-box img {
+      width: 100%;
+    }
+
+    .label {
+      position: absolute;
+      top: 0;
+      width:100%;
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 173, 239, 0.75);
+      vertical-align: middle;
+      padding: 22% 0;
+      opacity: 0;
+      margin:0;
+      font-family: PT Sans;
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      transition:0.3s;
+    }
+
+    .feature-box:hover .label {
+      opacity:1;
+      transition:0.3s;
+    }
+
+    .new-additions {
+      margin-right:10%;
+    }
+
+    .new-description-header{
+      font-family: PT Sans;
+      font-weight: 700;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin:0;
+      margin-top: 0.5em;
+      float:none;
+      font-size: 1.5em;
+    }
+
+    .new-description-paragraph{
+      font-family: PT Sans;
+      font-size: 0.8em;
+      /*text-transform: uppercase;*/
+      letter-spacing: 0.1em;
+      margin:0;
+      padding: 0 6em;
+    }
+
+    h3{
+      font-family: PT Sans;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin:0;
+      margin-top: 0.5em;
+      float:none;
+      font-size: 1.25em;
+    }
+  /*End of Offers Image Transitions & H3*/
+
+  /*Header Navigation*/
+    header{
+      width:100%;
+      z-index: 10;
+      background-color: white;
+      height:4em;
+      box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
+      float:left;
+}
+
+      header nav {
+        display: block;
+        float: right;
+        width: 100%;
+        text-align: right;
+        height: 4em;
+        right: 0;
+      }
+
+      .head-nav {
+        font-family: PT Sans;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1em;
+        letter-spacing: 2px;
+        color: black;
+        margin: auto 2%;
+        display: inline-block;
+        text-decoration: none;
+        /* margin-left: 5%; */
+        margin-top: 1.4em;
+        transition:0.25s;
+      }
+
+      .head-nav:hover{
+        color: #00ADEF;
+        transition:0.25s;
+      }
+
+      .current{
+        color:#00ADEF;
+      }
+
+      .logo{
+        width: auto;
+        float: left;
+        position:absolute;
+        margin-top: 0.25em;
+        margin-left: 3.5em;
+        z-index:99999;
+      }
+
+      #mobile-menu {
+        display: none;
+      }
+  /*End of Header Navigation*/     
+
+  /*Item Listing*/
+    .item-name{
+      font-family: PT Sans;
+      font-size: 1rem; 
+      display: inline-block;
+      text-align: center;
+      margin:0;
+      width:100%;
+      height:auto;
+    }
+
+    .item-number{
+      font-family: PT Sans;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 0.25rem;
+    }
+
+    .item-box{
+      display: inline-block;
+      margin-right: 3.5%;
+      text-align:center;
+      width:10em;
+      vertical-align: top;
+      position: relative;
+    }
+
+    .item-box img {
+      width:100%;
+    }
+
+    .offer-label{
+      font-family: PT Sans;
+      text-transform: uppercase;
+      font-size: 0.75em;
+      background-color: rgba(0,174,223,0.5);
+      color:white;
+      letter-spacing: 0.3em;
+      width:100%;
+      display: inline-block;
+      margin: 0;
+      padding: 0.25em 0;
+      position: absolute;
+      top:2.75em;
+    }
+
+    .multi-item{
+      float:left;
+      margin-top: 2rem;
+      display: block;
+      margin-bottom: 0.25rem;
+      box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
+    }
+
+    .multi-item:hover{
+      background-color: white;
+      opacity: 0.5;
+      transition:0.3s;
+    }
+  /*End of Item Listing*/
+
+  /*Footer*/
+    .footer{
+      width: 100%;
+      height: auto;
+      font-size: 14px;
+      /* background-color: yellow; */
+      z-index: 1;
+      position: relative;
+      box-shadow: 0 -2px 9px 0 rgba(0,0,0,0.1);
+      display: inline-block;
+      text-align: center;
+      margin-top: 1em;
+      background-color: white;
+    }
+
+    .footer-icons{
+      text-align: center;
+      float: none;
+      display: block;
+      margin: 1em 1.5em;
+    }
+
+    .footer-img{
+      text-align: center;
+      float: none;
+      margin: 0.5em 0;
+    }
+
+
+    .comments{
+      font-family: PT Sans;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      width: 12rem;
+      height: 1rem;
+      margin-top: 0em;
+      /*  line-height: 1em;*/
+      padding: 0.3rem;
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+
+    .email-button{
+      text-decoration: none;
+      list-style: none;
+      border: none;
+      width: 5em;
+      padding: 0.75em 1em;
+      text-align: center;
+      font-family: PT Sans;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      font-size: 0.8em;
+      background-color:  #E6E7E8;
+      color: white;
+      transition:0.5s;
+      color:black;
+      display: inline-block;
+      box-sizing: content-box;
+    }
+
+    .email-button:hover{
+      background-color: #00ADEF;
+      border:none;
+      color:white;
+      transition:0.5s;
+    }
+  /* End of Footer */
+
+  /*Staff*/
+    .grid-col-three {
+      width: 33%;
+      margin-top: 2rem;
+      margin-bottom: 0; 
+    }
+
+    .grid-col-three img {
+      width:50%;
+      height:auto;
+    }
+
+    .staff-name{
+        font-size: 1rem;
+        font-weight: 700;
+        padding-top: 0.5rem;
+        margin: 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: PT Sans;
+        font-size:1rem;
+    }
+
+    .staff-description{
+        color: #00AEDF;
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: PT Sans;
+        font-size:0.75rem;
+    }
+
+    .staff-text {
+      font-family: PT Sans;
+      font-size: 0.8rem;
+      margin:0;
+      padding: 0.25rem 2rem;
+      margin-left: 2em;
+      text-align: left;
+      width: 95%;
+      letter-spacing:0.05em;
+      line-height: 1.5em;
+    }
+
+    .staff-intro{
+      width: 100%;    
+      text-align: left;
+      margin:auto;
+      padding:1em 0;
+      min-height: 5em;
+    }
+  /*End of Staff*/    
+
+  /*Review Item*/
+  .cart-all{
+  display: inline-block;
+  float: left;
+  width: 30%;
+  margin-left: 1em;
+}
+
+.cart{
+  float: right;
+  width: 100%;
+  display: block;
+  padding: 5%;
+  min-height: 22em;
+  box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.item-wrapper{
+/*  padding-bottom: 3em;*/
+  border-bottom: 1px solid black;
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-color: white
+}
+
+.cart-details{
+  margin:1em auto;
+  display: inline;
+  float:left;
+  width: 100%;
+}
+
+.cart-item{
+  font-family: PT Sans;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  width: 32%;
+  height: 4em;
+  float:left;
+}
+
+.cart-label {
+  font-size: 0.75em;
+  opacity:0.8;
+  font-weight: 400;
+}
+
+.cart-number {
+  text-align: right;
+}
+
+.cart-button {
+  position:absolute;
+  display:block;
+}
+
+.review-item{
+  float: left;
+  margin: auto;
+  margin-top: 2rem;
+  display: block;
+  margin-bottom: 0.25rem;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.review-item img{
+  width:100%
+}
+
+
+/*Popup*/
+
+#popup_box {
+  opacity: 1;
+  /*height: 50%;*/
+  width: 24em;
+  height:11em;
+  /* float: left; */
+/*  background: rgb(0,173,279);*/
+  background-color: white;
+  vertical-align: middle;
+  text-align: center;
+  z-index: 9999;
+  top: 110px;
+  margin: 4em 25%;
+  margin: 0;
+  right: 35%;
+  top: 4em;
+  /*border: 1px solid lightgrey;*/
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+.popup-added {
+  font-family:PT Sans;
+  font-size: 1.5em;
+  color:#00ADEF;
+  display:inline-block;
+  float: left;
+  margin-left: 1em;
+  margin:0;
+}
+
+.checkmark{
+  margin-top: 0.5em;
+}
+
+#popupBoxClose {
+  font-size:20px;  
+  line-height:15px;  
+  /*    right:5px;  
+  top:5px;  */
+  position: relative;
+  bottom:0.75;  
+  /*color:#6fa5e2;  */
+  color:#00ADEF;
+  font-weight:500;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-right: 5em;
+  text-decoration: none;
+  font-weight: 500;  
+  float:right;  
+}
+
+#popupBoxClose:hover{
+  border-bottom: 1px solid white;
+}
+
+#popup_box a {
+  font-family: PT Sans;
+  font-size: 0.75em;
+  font-weight: 700;
+  margin-right: 1em;
+  margin-top: 1em;
+}
+
+.popup-item{
+  width:100%;
+  display: inline-block;
+  float:left;
+}
+
+.popup-item img{
+  display: inline-block;
+  float:left;
+  margin-left:0.5em;
+}
+
+.popup-nav{
+  width:100%;
+  text-align:center;
+  display:inline-block;
+}
+
+.pop-up-header{
+  width:11em;
+  display: inline-block;
+  float:left;
+  margin-top: 2em;
+  /*margin-left: 1em;*/
+  position:absolute;
+  left:9em;
+}
+
+.popup-checkout{
+  padding: 0.75em 1.5em;
+  font-size: 0.75em;
+  color:black;
+  background-color: #ccc;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  float:none;
+  margin-bottom: 0.5em;
+}
+
+.popup-checkout:hover{
+    background-color: #00AEDF;
+    color:white;
+  }
+
+@media (max-width: 50em){
+
+  #popup_box {
+    width:100%;  
+    margin:auto;
+    left:0;
+    z-index:1;
+
+  }
+
+  .pop-up-header {
+    width: 11em;
+    display: inline-block;
+    float: none;
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+    bottom: 2em;
+    left: 0;
+  }
+
+  .popup-item img {
+    display: inline-block;
+    float: none;
+    margin-left: 0.5em;
+  }
+
+  .popup-added {
+    font-family: PT Sans;
+    font-size: 1.5em;
+    color: #00ADEF;
+    display: inline-block;
+    float: none;
+    margin-left: 1em;
+    margin: 0;
+  }
+
+  .popup-item {
+    padding:0;
+  }
+}
+
+
+@media (max-width: 40em){
+  #popup_box{
+      top: 3em;
+  }
+}
+
+
+@media (max-width: 40em){
+
+  header {
+    text-align: center;
+    height: auto;
+    position:relative;
+  }
+
+  #mobile-menu {
+    display: block;
+    float: right;
+    height: 2.5em;
+    right: 1em;
+    top: 1em;
+    background: #00ADEF;
+    color: white;
+    z-index: 999999;
+    width: 5em;
+    padding-top: 0.75em;
+    text-align: center;
+    font-family: PT Sans;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
+    transition:0.3s;
+    position:absolute;
+  }
+
+  .clicked {
+    opacity:0.6;
+    transition:0.3s;
+  }
+
+  .logo {
+      width: auto;
+    float: left;
+    position: relative;
+    margin-top: 0.25em;
+    margin-left:0;
+    z-index: 99999;
+    width: 100%;
+  }
+
+  header nav {
+    position: relative;
+    display: none;
+    right: initial;
+    text-align:center;
+  }
+
+  .head-nav {
+    width:46%;
+    float:left;
+  }
+}
+
+
+
+/*Events Grid Transitions*/
+    .events-grid{
+      display: inline-block;
+      width: 33.3333%;
+      /* height: 10em; */
+      float: left;
+      text-align: center;
+    }
+
+    .events-grid img:hover{
+      color:white;
+      opacity: 0.5;
+      transition:0.5s;
+    }
+
+    .events-grid-first img {
+      width:90%;
+      margin-right:10%;
+      height:auto;
+    }
+
+    .events-grid-mid img {
+      width:90%;
+      margin-right:5%;
+      margin-left:5%;
+      height:auto;
+      -webkit-backface-visibility: hidden;  
+    }
+
+    .events-grid-mid p {
+      width:90%;
+      margin-right:5%;
+      margin-left:5%;
+    }
+
+    .events-grid-last img {
+      width:90%;
+      margin-right:10%;
+      float:right;
+      margin-right:0;
+      height:auto;
+    }
+
+    .events-grid-last p {
+      width:90%;
+      margin-right:10%;
+      float:right;
+      margin-right:0;
+    }
+
+    .events-last {
+    float:right;
+    }
+
+    .events-label{
+      font-family: PT Sans;
+      font-size: 0.75em;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin: 1em 0;
+      width: 85%;
+      margin-bottom: 0;
+    }
