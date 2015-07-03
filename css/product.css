@@ -505,7 +505,8 @@ font-family: Crimson Text;
 	padding-top: 2em;
 	display: block;
 	float: left;
-	width:100%;
+	width:80%;
+	margin:auto 10%;
 	margin-bottom: 5em;
 }
 
