@@ -114,6 +114,14 @@ header nav {
 	transition:0.25s;
 }
 
+.cart-img{
+	display: inline-block;
+	margin-right: 1em;
+	margin-left: 1em;
+	float: right;
+	margin-top: 1em;
+}
+
 .current{
 	color:#00ADEF;
 }
@@ -160,20 +168,20 @@ body{
 }
 
 .about-banner{
-	background-image: url(css-img/about-banner.png);
+	background-image: url(css-img/about-banner.jpg);
 	background-position: right;
 }
 
 .contact-banner{
-	background-image: url(css-img/contact-banner.png);
+	background-image: url(css-img/contact-banner.jpg);
 }
 
 .event-banner{
-	background-image: url(css-img/event-banner.png);
+	background-image: url(css-img/event-banner.jpg);
 }
 
 .events1-banner{
-	background-image: url(css-img/events1-banner.png);
+	background-image: url(css-img/events1-banner.jpg);
 	background-position: left
 }
 
@@ -461,7 +469,7 @@ input:focus {
 		margin: 0.5em auto;
 	}
 
-		.logo img {
+	.logo img {
 		clear: both;
 		float:none;
 	}
@@ -472,6 +480,11 @@ input:focus {
 		float: none;
 		margin: 0;
 		position:relative;
+	}
+
+	.cart-img{
+		width:100%;
+		margin:0;
 	}
 
 	/*New Header*/
