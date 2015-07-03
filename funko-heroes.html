@@ -3,7 +3,7 @@
 	<head>
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop</title>
+		<title>Funko! Pop - Pop! Heroes</title>
 
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/product.css">
@@ -11,14 +11,7 @@
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/mobile-menu.js"></script>
-
-		<script>
-		    window.addEventListener('load', function load() {
-		    window.removeEventListener('load', load, false);
-		    document.body.classList.remove('load');
-		  }, false);
-		</script>
-		
+		<script src="js/load.js"></script>
 	</head>	
 
 	<body>
@@ -27,10 +20,13 @@
 				<a href ="index.html"><img src = "img/funko.png" height="50" width = "100" alt = "funko logo"></a>
 			</div>
 			<nav>
-				<a class ="head-nav current" href = "products.html"> Products </a>
+				<a class ="head-nav" href = "products.html"> Products </a>
 				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 

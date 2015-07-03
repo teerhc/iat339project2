@@ -3,7 +3,7 @@
 	<head>
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop Events</title>
+		<title>Funko! Pop - Events</title>
 
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 
@@ -13,17 +13,7 @@
 
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/mobile-menu.js"></script>
-
-
-			<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-		<script>
-		    window.addEventListener('load', function load() {
-		    window.removeEventListener('load', load, false);
-		    document.body.classList.remove('load');
-		  }, false);
-		</script>
-
-
+		<script src="js/load.js"></script>
 	</head>
 
 
@@ -37,11 +27,14 @@
 				<a class ="head-nav" href = "about.html"> About </a>
 				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
 		<section class = "banner">
-			<img src="img/Events/event-banner.png" alt="banner image">
+			<img src="img/Events/event-banner.jpg" alt="banner image">
 			<div class = "banner-header">
 				<h1> Events</h1>
 				<h4> Where are We Going?</h4>

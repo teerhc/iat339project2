@@ -4,7 +4,7 @@
 		<meta charset= "utf-8">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Funko! Pop Contact</title>
+		<title>Funko! Pop - Contact</title>
 
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
@@ -15,15 +15,7 @@
 
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/mobile-menu.js"></script>
-
-	<!-- This is just in here to avoid loading and weird button expansion when refreshing the page -->
-		<script>
-		    window.addEventListener('load', function load() {
-		    window.removeEventListener('load', load, false);
-		    document.body.classList.remove('load');
-		  }, false);
-		</script>
-
+		<script src="js/load.js"></script>
 	</head>
 
 
@@ -35,13 +27,16 @@
 			<nav>
 				<a class ="head-nav" href = "products.html"> Products </a>
 				<a class ="head-nav" href = "about.html"> About </a>
-				<a class ="head-nav current" href = "contact.html"> Contact </a>
+				<a class ="head-nav" href = "contact.html"> Contact </a>
 				<a class ="head-nav" href = "events.html"> Events </a> 
+				<div class = cart-img>
+					<a  href = "purchase-item.html"><img src="img/Index/cart.png" width="25" height ="25" alt="picture of a cart"></a>
+				</div> 
 			</nav>
 		</header>
 
 		<section class = "banner">
-			<img src="img/Contact/contact-banner.png" alt="contact banner image that shows a bunch of funko boxes">
+			<img src="img/Contact/contact-banner.jpg" alt="contact banner image that shows a bunch of funko boxes">
 			<div class = "banner-header">
 				<h1 class="banner-title"> Contact</h1>
 				<h4 class="banner-question"> Where to Find Us?</h4>
