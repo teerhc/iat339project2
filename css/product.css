@@ -422,13 +422,11 @@ width: 30%;
   padding-bottom: 0.25em;
   letter-spacing: 5px;
   display: block;
-  margin-top: 1em 0;
   width:100%;
 }
 
 .item-subheader{
   font-family: PT Sans;
-  text-decoration: uppercase;
   text-transform: uppercase;
   display: block;
   margin: 0;
@@ -722,7 +720,6 @@ select:focus {
 	height:0.5em;
 	float:left;
 	display: inline;
-	margin: 0.25;
 	margin-left:0;
 }
 
@@ -757,21 +754,21 @@ input {
 	color: black;
 }
 
-::-webkit-input-value {
-   color: black;
+/*-webkit-input-value {
+   color: red;
 }
 
-:-moz-value { / Firefox 18- /
+-moz-value { / Firefox 18- /
    color: black;  
 }
 
-::-moz-value {  / Firefox 19+ /
+-moz-value {  / Firefox 19+ /
    color: black;  
 }
 
-:-ms-input-value {  
+ms-input-value {  
    color: black;  
-}
+}*/
 /*END OF INFORMATION SECTION*/
 
 /*REVIEW SECTION*/

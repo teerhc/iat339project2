@@ -16,6 +16,7 @@
 	margin-top: 2rem;
 	margin-bottom: 0;	
 }
+
 .grid-col-three img {
 	width:50%;
 	height:auto;
@@ -116,10 +117,6 @@
 .grid {
 	width: 80%;
 	margin: 1em 10%;
-}
-
-.meet-the-team .grid {
-	width
 }
 
 @media (max-width: 50em) {

@@ -63,10 +63,10 @@ h6{
 	padding: 0.5em 3.5em;
 	color: #00AEDF;
 	letter-spacing: 0.1em;
-	word-break: break-word;
+	word-break: break-all;
 }
 
-#sub-elements{
+.sub-elements{
 	font-weight: 600;
 	padding-top: 1em;
 }
@@ -81,6 +81,15 @@ h6{
 .hero-link{
 	text-decoration: none;
 	padding-left: 5em;
+}
+
+.ref-heroes-30{
+	width: 33.3%;
+	margin: 0;
+	display: inline-block;
+	float: left;
+	position: relative;
+	vertical-align: top;
 }
 
 
@@ -194,9 +203,23 @@ input:focus {
 
 /*END OF FOOTER SECTION*/
 
+@media (max-width: 50em){
+	.ref-heroes-30{
+	width: 50%;
+	float: left;
+	display: block;
+	}
+}
+
 
 /*MOBILE*/
 @media (max-width: 40em){
+	.ref-heroes-30{
+	width: 100%;
+	float: none;
+	display: block;
+
+}
 
 	/*HEADER*/
 	header{
