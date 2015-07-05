@@ -895,11 +895,6 @@ section code {
 #popupBoxClose {
   font-size:20px;  
   line-height:15px;  
-  /*    right:5px;  
-  top:5px;  */
-  position: relative;
-  bottom:0.75;  
-  /*color:#6fa5e2;  */
   color:#00ADEF;
   font-weight:500;
   text-transform: uppercase;
