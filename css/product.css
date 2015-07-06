@@ -637,7 +637,7 @@ select:focus {
 	font-family: PT Sans;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	height: 1rem;
+	height: 2.5rem;
   	padding: 0.75rem;
 	color: black; 
 }
@@ -652,7 +652,7 @@ select:focus {
 	font-family: PT Sans;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	height: 1rem;
+	height: 2.5rem;
 	padding: 0.8rem;
 }
 
@@ -666,7 +666,7 @@ select:focus {
 	font-family: PT Sans;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	height: 1rem;
+	height: 2.5rem;
 	padding: 0.8rem;
 }
 
@@ -680,7 +680,7 @@ select:focus {
 	font-family: PT Sans;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	height: 1rem;
+	height: 2.5rem;
 	padding: 0.8rem;
 }
 
@@ -694,7 +694,7 @@ select:focus {
 	font-family: PT Sans;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	height: 1rem;
+	height: 2.5rem;
 	padding: 0.30rem;
 }
 
@@ -717,7 +717,7 @@ select:focus {
 /*	margin-left: 6em;*/
 	transition: 0.5s;
 	width:100%;
-	height:0.5em;
+	height:2.1em;
 	float:left;
 	display: inline;
 	margin-left:0;
@@ -848,7 +848,7 @@ ms-input-value {
 	float:left;
 	display: block;
 	position: relative;
-	margin-top:5.5em;
+	margin-top:1.5em;
 }
 
 .review-item{
@@ -1004,7 +1004,7 @@ color: black;
 		width: 80%;
 		top: 3em;
 		margin: auto 10%;
-		height:45em;
+		height:50em;
 	}
 
 	.information-header{
@@ -1303,7 +1303,7 @@ color: black;
 	}
 
 	.information-input{
-		height:40em;
+		height:45em;
 	}
 
 	.review{
